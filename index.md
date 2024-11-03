@@ -13,7 +13,7 @@ Created a system that provides real-time audio descriptions of visual content fo
 ### 3. [Emotion Recognition System for HCI](Emotion_Recognition.md)
 Built a multimodal emotion recognition system that detects facial expressions and voice emotions in real-time, improving human-computer interaction quality. The system uses computer vision and audio processing for enhanced user experience.
 
-### 4. Machine Learning and Reinforcement Learning Projects
+#### Machine Learning and Reinforcement Learning Projects
 
 ### 5. [Fungal Habitat Prediction Using Taxonomy Data](Fungal_Habitat_Prediction.md)
 Applied machine learning to predict fungal habitat types based on taxonomy and observation data, aiding ecological research and conservation efforts.
@@ -30,9 +30,6 @@ Implemented SARSA, Q-Learning, Monte Carlo, and TD(0) methods in a grid world en
 ### 9. [Simple Bandit Learning Algorithms](Simple_Bandit_Algorithms.md)
 Conducted experiments with bandit algorithms, including epsilon-greedy and optimistic initialization, to study exploration-exploitation trade-offs in reinforcement learning.
 
-### 10. [Undergraduate Projects](Undergrad_Projects.md)
+####. [Undergraduate Projects](Undergrad_Projects.md)
 A collection of projects completed during my undergraduate studies, covering various AI topics like expert systems, natural language processing, and neural networks. Each project highlights foundational skills that set the stage for my advanced studies.
 
----
-
-This revised structure presents each project clearly and gives visitors an overview before diving into individual project details. Make sure each `.md` file mentioned is present in your repository and linked correctly. Let me know if there’s anything else you’d like to adjust!
