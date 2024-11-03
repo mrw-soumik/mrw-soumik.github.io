@@ -13,23 +13,23 @@ Created a system that provides real-time audio descriptions of visual content fo
 ### 3. [Emotion Recognition System for HCI](Emotion_Recognition.md)
 Built a multimodal emotion recognition system that detects facial expressions and voice emotions in real-time, improving human-computer interaction quality. The system uses computer vision and audio processing for enhanced user experience.
 
-#### Machine Learning and Reinforcement Learning Projects
+## Machine Learning and Reinforcement Learning Projects
 
-### 5. [Fungal Habitat Prediction Using Taxonomy Data](Fungal_Habitat_Prediction.md)
+### 1. [Fungal Habitat Prediction Using Taxonomy Data](Fungal_Habitat_Prediction.md)
 Applied machine learning to predict fungal habitat types based on taxonomy and observation data, aiding ecological research and conservation efforts.
 
-### 6. [Biological Sequence Classification via Data Encoding](Biological_Sequence_Classification.md)
+### 2. [Biological Sequence Classification via Data Encoding](Biological_Sequence_Classification.md)
 Explored different data encoding methods for biological sequence classification, identifying k-mer encoding as the most effective approach for genomics applications.
 
-### 7.  [Industrial Machine Vision - Facemask Detection System](Facemask_Detection.md)
+### 3.  [Industrial Machine Vision - Facemask Detection System](Facemask_Detection.md)
 Developed a facemask detection system using MATLAB's image processing tools, contributing to workplace safety by identifying mask compliance in real-time.
 
-### 8. [Experiment with Learning Policies on Simple Reinforcement Policies](Reinforcement_Policies.md)
+### 4. [Experiment with Learning Policies on Simple Reinforcement Policies](Reinforcement_Policies.md)
 Implemented SARSA, Q-Learning, Monte Carlo, and TD(0) methods in a grid world environment, analyzing their effectiveness in policy learning and value estimation.
 
-### 9. [Simple Bandit Learning Algorithms](Simple_Bandit_Algorithms.md)
+### 5. [Simple Bandit Learning Algorithms](Simple_Bandit_Algorithms.md)
 Conducted experiments with bandit algorithms, including epsilon-greedy and optimistic initialization, to study exploration-exploitation trade-offs in reinforcement learning.
 
-####. [Undergraduate Projects](Undergrad_Projects.md)
+##. [Undergraduate Projects](Undergrad_Projects.md)
 A collection of projects completed during my undergraduate studies, covering various AI topics like expert systems, natural language processing, and neural networks. Each project highlights foundational skills that set the stage for my advanced studies.
 
