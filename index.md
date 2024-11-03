@@ -1,5 +1,3 @@
-# Mostafa Rafiur Wasib - AI & Machine Learning Professional
-
 Welcome to my portfolio! I’m an AI professional with extensive experience in machine learning, data science, and reinforcement learning. Explore my projects, each showcasing the application of advanced algorithms and tools to solve real-world challenges.
 
 ---
@@ -21,6 +19,14 @@ Created a system that converts visual content into real-time audio descriptions,
 ### 3. [Emotion Recognition System for HCI](Emotion_Recognition.md)
 ![Emotion Recognition Project](https://source.unsplash.com/400x300/?emotion,ai)
 Built a real-time system to detect emotions through facial expressions and voice, enhancing human-computer interactions using **computer vision** and **audio processing**.
+
+---
+
+### 4. [Face, Gender, and Emotion Detection System for Retail Store](Retail_Face_Gender_Emotion_Detection.md)
+![Retail Store Detection Project](https://source.unsplash.com/400x300/?retail,ai)
+Designed and developed a real-time detection system for retail settings to analyze customer demographics and emotional responses. This project combines **facial detection**, **gender classification**, and **emotion analysis** to provide valuable insights for customer engagement.
+- **Technologies Used**: Python, OpenCV, and pre-trained models for emotion recognition.
+- **Outcome**: A functional prototype that provides demographic and emotional insights, enhancing customer engagement strategies in retail environments.
 
 ---
 
