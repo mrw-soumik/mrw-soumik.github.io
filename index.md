@@ -1,5 +1,3 @@
-# Mostafa Rafiur Wasib's AI and Machine Learning Portfolio
-
 Welcome to my portfolio! I am an AI professional with a background in machine learning, data science, and reinforcement learning. Below, you’ll find an overview of my key projects and contributions.
 
 ## Featured Projects
