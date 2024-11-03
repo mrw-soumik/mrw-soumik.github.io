@@ -6,47 +6,26 @@ Welcome to my portfolio! I’m an AI professional with extensive experience in m
 
 ## Featured Projects
 
-<div class="container">
-  <div class="row">
-    
 ### 1. [CO2 Emissions Prediction & Anomaly Detection](CO2_Emissions.md)
-<div class="col-md-4">
-<img src="co2_emissions.jpg" alt="CO2 Emissions Project" class="img-fluid rounded shadow-sm">
-</div>
-<div class="col-md-8">
+![CO2 Emissions Project](https://source.unsplash.com/400x300/?environment,technology)
 Developed an ensemble model to predict CO2 emissions and optimized an LSTM-based anomaly detection system on AWS. Skills highlighted include **time-series analysis**, **model optimization**, and **cloud deployment**.
-</div>
 
 ---
 
 ### 2. [Real-Time Visual to Audio Conversion for Accessibility](Visual_to_Audio.md)
-<div class="col-md-4">
-<img src="visual_to_audio.jpg" alt="Visual to Audio Project" class="img-fluid rounded shadow-sm">
-</div>
-<div class="col-md-8">
+![Visual to Audio Project](https://source.unsplash.com/400x300/?accessibility,technology)
 Created a system that converts visual content into real-time audio descriptions, enhancing accessibility for visually impaired users. Combines **image captioning** and **text-to-speech** technologies.
-</div>
 
 ---
 
 ### 3. [Emotion Recognition System for HCI](Emotion_Recognition.md)
-<div class="col-md-4">
-<img src="emotion_recognition.jpg" alt="Emotion Recognition Project" class="img-fluid rounded shadow-sm">
-</div>
-<div class="col-md-8">
+![Emotion Recognition Project](https://source.unsplash.com/400x300/?emotion,ai)
 Built a real-time system to detect emotions through facial expressions and voice, enhancing human-computer interactions using **computer vision** and **audio processing**.
-</div>
-
-  </div>
-</div>
 
 ---
 
 ## Machine Learning & Reinforcement Learning Projects
 
-<div class="container">
-  <div class="row">
-    
 - **[Fungal Habitat Prediction Using Taxonomy Data](Fungal_Habitat_Prediction.md)**  
   Leveraged machine learning to predict fungal habitats based on taxonomy data, supporting ecological research.
 
@@ -62,18 +41,12 @@ Built a real-time system to detect emotions through facial expressions and voice
 - **[Bandit Algorithms for Exploration-Exploitation Trade-offs](Simple_Bandit_Algorithms.md)**  
   Experimented with algorithms like epsilon-greedy to optimize exploration-exploitation strategies.
 
-  </div>
-</div>
-
 ---
 
 ## Undergraduate Projects
 
 My Bachelor's in Computer Science (AI) laid a strong foundation for advanced AI work. Here are some highlighted undergraduate projects:
 
-<div class="container">
-  <div class="row">
-  
 - **[Expert System for Medical Diagnosis](Medical_Expert_System.md)**  
   Built a Prolog-based expert system to suggest diagnoses based on user symptoms.
 
@@ -104,13 +77,10 @@ My Bachelor's in Computer Science (AI) laid a strong foundation for advanced AI 
 - **[Ice Hockey Game with AI Opponents](Ice_Hockey_Game.md)**  
   Developed a Unity-based ice hockey game with C#, featuring AI-driven opponents.
 
-  </div>
-</div>
-
 ---
 
 **Explore more:** [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/) | [Contact Me](mailto:mostafa.soumik73@gmail.com)
 
-<footer class="text-center mt-5">
-  &copy; 2024 Mostafa Rafiur Wasib. All Rights Reserved.
-</footer>
+---
+
+&copy; 2024 Mostafa Rafiur Wasib. All Rights Reserved.
