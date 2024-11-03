@@ -24,9 +24,7 @@ Built a real-time system to detect emotions through facial expressions and voice
 
 ### 4. [Face, Gender, and Emotion Detection System for Retail Store](Retail_Face_Gender_Emotion_Detection.md)
 ![Retail Store Detection Project](https://source.unsplash.com/400x300/?retail,ai)
-Designed and developed a real-time detection system for retail settings to analyze customer demographics and emotional responses. This project combines **facial detection**, **gender classification**, and **emotion analysis** to provide valuable insights for customer engagement.
-- **Technologies Used**: Python, OpenCV, and pre-trained models for emotion recognition.
-- **Outcome**: A functional prototype that provides demographic and emotional insights, enhancing customer engagement strategies in retail environments.
+Designed a real-time system for detecting customer faces, genders, and emotions in retail environments to provide insights for customer engagement. This project highlights **facial detection**, **gender classification**, and **emotion analysis**.
 
 ---
 
