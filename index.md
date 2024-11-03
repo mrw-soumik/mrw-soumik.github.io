@@ -1,6 +1,9 @@
-# Mostafa Rafiur Wasib's AI and Machine Learning Portfolio
+title: "Mostafa Rafiur Wasib's AI and Machine Learning Portfolio"
+description: 
 
-Welcome to my portfolio! I am an AI professional with a background in machine learning, data science, and reinforcement learning. Below, you’ll find an overview of my key projects and contributions.
+"Welcome to my portfolio! I am an AI professional with a background in machine learning, data science, and reinforcement learning. Below, you’ll find an overview of my key projects and contributions."
+
+header: false
 
 ## Featured Projects
 - [CO2 Emissions Prediction & Anomaly Detection](CO2_Emissions.md)
