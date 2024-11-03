@@ -28,6 +28,6 @@ Implemented SARSA, Q-Learning, Monte Carlo, and TD(0) methods in a grid world en
 ### 5. [Simple Bandit Learning Algorithms](Simple_Bandit_Algorithms.md)
 Conducted experiments with bandit algorithms, including epsilon-greedy and optimistic initialization, to study exploration-exploitation trade-offs in reinforcement learning.
 
-##. [Undergraduate Projects](Undergrad_Projects.md)
+## [Undergraduate Projects](Undergrad_Projects.md)
 A collection of projects completed during my undergraduate studies, covering various AI topics like expert systems, natural language processing, and neural networks. Each project highlights foundational skills that set the stage for my advanced studies.
 
