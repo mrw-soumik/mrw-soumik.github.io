@@ -29,7 +29,7 @@ Built a real-time system to detect emotions through facial expressions and voice
 ### 4. [Face, Gender, and Emotion Detection System for Retail Store](Retail_Face_Gender_Emotion_Detection.md)
 Designed a real-time system for detecting customer faces, genders, and emotions in retail environments to provide insights for customer engagement. This project highlights **facial detection**, **gender classification**, and **emotion analysis**.
 
-*_This was my undergraduate final year project_*
+*This was my undergraduate final year project*
 
 ---
 
