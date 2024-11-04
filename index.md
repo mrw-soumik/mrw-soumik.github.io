@@ -5,14 +5,18 @@ Welcome to my portfolio! I’m an AI professional with extensive experience in m
 ## Featured Projects
 
 ### 1. [CO2 Emissions Prediction & Anomaly Detection](CO2_Emissions.md)
-![CO2 Emissions Project](https://source.unsplash.com/400x300/?environment,technology)
+![CO2 Emissions Project]([https://source.unsplash.com/400x300/?environment,technology](https://unsplash.com/photos/shallow-focus-photo-of-person-holding-signage-PLhxx6NubAE))
 Developed an ensemble model to predict CO2 emissions and optimized an LSTM-based anomaly detection system on AWS. Skills highlighted include **time-series analysis**, **model optimization**, and **cloud deployment**.
+
+*Note: I'm currently working on this project with Nditive via Genesis. Due to proprietary data, the code isn't available on GitHub, but you can click the project title for details on the technologies and methods I'm using.*
 
 ---
 
 ### 2. [Real-Time Visual to Audio Conversion for Accessibility](Visual_to_Audio.md)
-![Visual to Audio Project](https://source.unsplash.com/400x300/?accessibility,technology)
+![Visual to Audio Project]([https://source.unsplash.com/400x300/?accessibility,technology](https://unsplash.com/photos/a-man-holding-a-black-umbrella-in-his-hand-5-24WAlQzSc))
 Created a system that converts visual content into real-time audio descriptions, enhancing accessibility for visually impaired users. Combines **image captioning** and **text-to-speech** technologies.
+
+*This project is an ongoing capstone project. Click the project title to learn more.*
 
 ---
 
@@ -20,10 +24,13 @@ Created a system that converts visual content into real-time audio descriptions,
 ![Emotion Recognition Project](https://source.unsplash.com/400x300/?emotion,ai)
 Built a real-time system to detect emotions through facial expressions and voice, enhancing human-computer interactions using **computer vision** and **audio processing**.
 
+*This project is ongoing. Click the project title to learn more.*
+
+
 ---
 
 ### 4. [Face, Gender, and Emotion Detection System for Retail Store](Retail_Face_Gender_Emotion_Detection.md)
-![Retail Store Detection Project](https://source.unsplash.com/400x300/?retail,ai)
+![Retail Store Detection Project]([https://source.unsplash.com/400x300/?retail,ai](https://unsplash.com/photos/customer-satisfaction-survey-with-face-icon-emoticon-button-on-violet-background-great-feedback-on-customer-products-and-services-3d-render-illustration-SBnLJjMyH0g))
 Designed a real-time system for detecting customer faces, genders, and emotions in retail environments to provide insights for customer engagement. This project highlights **facial detection**, **gender classification**, and **emotion analysis**.
 
 ---
