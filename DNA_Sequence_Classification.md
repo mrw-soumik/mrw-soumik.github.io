@@ -1,28 +1,24 @@
-# DNA Sequence Classification via Data Encoding
-
+### DNA Sequence Classification via Data Encoding
 **Technologies:** Python, scikit-learn, Gradient Boosting
 
-## Objective
-To explore and determine the most effective data encoding method for classifying DNA sequences, aiming to enhance understanding and classification techniques in genomics research.
+#### Objective
+Explored different data encoding methods to classify DNA sequences, aiming to enhance understanding in genomics research.
 
-## Project Tasks and Contributions
+#### Project Contributions
+This project was completed as part of a two-person team, focusing on testing various encoding methods for DNA sequence classification.
 
-This project was completed as a group of two, with tasks divided to efficiently explore various encoding techniques and evaluate their performance on DNA sequence classification.
+- **My Contributions:**
+  - Conducted **data preprocessing** and analyzed DNA sequences for model evaluation.
+  - Focused on implementing and optimizing **k-mer encoding** for sequence data to ensure accuracy.
+  - Applied **Gradient Boosting Classifier** on k-mer encoded data to evaluate classification performance.
+  - Documented the impact of k-mer encoding, identifying it as the most effective method.
 
-### My Contributions:
-- Conducted **data preprocessing and analysis** to prepare DNA sequences for model evaluation.
-- Focused on **implementing and optimizing k-mer encoding** for sequence data, ensuring accuracy and efficiency.
-- Applied **Gradient Boosting Classifier** on k-mer encoded data to assess classification performance.
-- Analyzed and documented the **impact of k-mer encoding** on classification accuracy and precision, identifying it as the most effective feature extraction method for this project.
+- **Partner's Contributions:**
+  - Implemented **alternative encoding methods** (binary and TF-IDF) for comparison.
+  - Configured and ran the classifier on datasets with different encodings.
+  - Conducted comparative analysis on model performance and assisted in documentation.
 
-### Partner's Contributions:
-- Worked on implementing **alternative encoding methods** (e.g., binary and TF-IDF encoding) for comparative analysis.
-- Configured and ran the **Gradient Boosting Classifier** on datasets with alternative encodings.
-- Performed **comparative analysis** on model performance across different encoding techniques, focusing on precision and accuracy.
-- Contributed to **documentation and presentation** of findings, highlighting key insights from the comparative results.
+#### Outcome
+**k-mer encoding** proved to be the most effective, achieving a mean average precision of **0.522** and an F1-score of **0.383**. These results demonstrate the potential of k-mer encoding for DNA sequence classification, providing valuable insights for further genomics research.
 
-## Outcome
-The analysis determined that **k-mer encoding** was the most effective approach, achieving a mean average precision of **0.522** and an F1-score of **0.383**. This finding underscored the potential of k-mer encoding as an effective feature extraction method for DNA sequence classification, providing a foundation for further research in genomics applications.
-
-## Repository Link
 [GitHub Repository for DNA Sequence Classification via Data Encoding](https://github.com/mrw-soumik/DNA_Sequence_Classification_Encoding)
