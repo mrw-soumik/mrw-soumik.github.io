@@ -33,7 +33,7 @@ Designed a real-time system for detecting customer faces, genders, and emotions 
 - **[Fungal Habitat Prediction Using Taxonomy Data](Fungal_Habitat_Prediction.md)**  
   Leveraged machine learning to predict fungal habitats based on taxonomy data, supporting ecological research.
 
-- **[Biological Sequence Classification with Data Encoding](Biological_Sequence_Classification.md)**  
+- **[DNA Sequence Classification with Data Encoding](DNA_Sequence_Classification.md)**  
   Tested various encoding methods for genomics, finding **k-mer encoding** most effective for sequence classification.
 
 - **[Industrial Machine Vision - Facemask Detection System](Facemask_Detection.md)**  
