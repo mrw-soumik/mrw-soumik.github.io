@@ -13,4 +13,4 @@ To predict fungal habitat types based on taxonomic classification and observatio
 ## Outcome
 Achieved moderate accuracy scores with **Random Forest** at 56.41% and **LightGBM** at 57.96%, demonstrating the models' utility in predicting habitat types such as 'coniferous woods' and 'other.' This project serves as a foundation for future studies in ecological data and conservation.
 
-[GitHub Repository](https://github.com/mrw-soumik/Fungal-Habitat-Prediction-Using-Taxonomy-Data)
+[GitHub Repository for Fungal Habitat Prediction Using Taxonomic Classification and Observation Data](https://github.com/mrw-soumik/Fungal-Habitat-Prediction-Using-Taxonomy-Data)
