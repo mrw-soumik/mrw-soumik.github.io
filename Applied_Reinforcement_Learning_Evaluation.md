@@ -26,3 +26,5 @@ This project applies reinforcement learning algorithms to two classic problems: 
 - **Gradient Monte Carlo**: Smooth and accurate value estimates between terminal states.
 - **TD(0)**: Faster but introduced slight bias, especially near negative terminal states.
 
+
+[GitHub Repository for Reinforcement Learning: An Applied Evaluation through Grid World and Random Walk Scenarios](https://github.com/mrw-soumik/Reinforcement-Learning-An-Applied-Evaluation-through-Grid-World-and-Random-Walk-Scenarios)
