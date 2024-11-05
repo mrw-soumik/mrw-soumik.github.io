@@ -17,3 +17,5 @@ My role in this project included:
 
 ## Final Outcomes or Results
 The system achieved an accuracy of **50.66%**, primarily limited by the traditional methods' sensitivity to variations in lighting and angles. The project highlighted the limitations of traditional image processing for this task, indicating a potential need for machine learning to improve accuracy and robustness. The project served as a foundational exploration of mask detection and pointed to the benefits of machine learning for future enhancements.
+
+[GitHub Repository for Automated-Facemask-Detection-in-public-spaces](https://github.com/mrw-soumik/Automated-Facemask-Detection-in-public-spaces)
