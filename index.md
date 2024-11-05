@@ -52,6 +52,9 @@ This project involves a real-time system that detects faces, predicts gender, es
 - **[Bandit Algorithms for Exploration-Exploitation Trade-offs](Simple_Bandit_Algorithms.md)**  
   Experimented with algorithms like epsilon-greedy to optimize exploration-exploitation strategies.
 
+- **[Reinforcement Learning: An Applied Evaluation through Grid World and Random Walk Scenarios](Applied_Reinforcement_Learning_Evaluation.md)**  
+  Implemented SARSA, Q-Learning, Gradient Monte Carlo, and TD(0) to analyze learning paths and value estimations in grid-based environments.
+
 ---
 
 ## Undergraduate Projects
