@@ -23,3 +23,5 @@ The project successfully delivered a prototype with the following features:
 
 ## Key Takeaways
 This project enhanced my skills in computer vision and real-time data processing, particularly in integrating multiple pre-trained models into a cohesive system. It deepened my understanding of how AI solutions can be applied in practical settings to gather actionable insights from real-time data streams.
+
+[GitHub Repository for Real-Time-Face-Age-Gender-and-Emotion-Detection-System](https://github.com/mrw-soumik/Real-Time-Face-Age-Gender-and-Emotion-Detection-System)
