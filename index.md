@@ -42,7 +42,7 @@ This project involves a real-time system that detects faces, predicts gender, es
   Explored different encoding techniques, such as **k-mer, binary, and TF-IDF**, for DNA sequence classification in genomics. Achieved optimal results with **k-mer encoding**, highlighting its effectiveness for feature extraction in biological data.
 
 
-- **[Industrial Machine Vision - Automated Facemask Detection in Public Spaces](Facemask_Detection.md)**  
+- **[Industrial Machine Vision - Automated Facemask Detection in Public Spaces](Automated_Facemask_Detection_in_Public_Spaces.md)**  
   A project focused on detecting face masks in public spaces using traditional image processing techniques to enhance public health safety.
 
 
