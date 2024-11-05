@@ -93,7 +93,7 @@ My Bachelor's in Computer Science (AI) laid a strong foundation for advanced AI 
 
 ---
 
-**Explore more:** [LinkedIn](https://www.linkedin.com/in/mostafa-rafiur-wasib) | [GitHub](https://github.com/mrw-soumik) | [Contact Me](mailto:mostafa.soumik73@gmail.com)
+**Explore more:** [LinkedIn](https://www.linkedin.com/in/mostafa-wasib/) | [GitHub](https://github.com/mrw-soumik) | [Contact Me](mailto:mostafa.soumik73@gmail.com)
 
 ---
 
