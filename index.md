@@ -27,7 +27,7 @@ Built a real-time system to detect emotions through facial expressions and voice
 ---
 
 ### 4. [Real-time Face, Gender, and Emotion Detection System](Real-time_Face_Age_Gender_Emotion_Detection.md)
-This project, completed as my undergraduate final year project, involves a real-time system that detects faces, predicts gender, estimates age, and analyzes emotions in video feeds. Utilizing OpenCV for computer vision and pre-trained deep learning models, the system provides insights into demographics and emotional responses, making it applicable for retail, market analysis, and user experience research.
+This project involves a real-time system that detects faces, predicts gender, estimates age, and analyzes emotions in video feeds. Utilizing OpenCV for computer vision and pre-trained deep learning models, the system provides insights into demographics and emotional responses, making it applicable for retail, market analysis, and user experience research.
 
 *This was my undergraduate final year project*
 
