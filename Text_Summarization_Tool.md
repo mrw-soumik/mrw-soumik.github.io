@@ -16,3 +16,6 @@ I designed and implemented the entire text summarization tool, focusing on sever
 
 ## Final Outcomes
 The summarization tool effectively generates diverse and relevant summaries for various document types, including articles and reports. It has been tested on news articles and lengthy reports, demonstrating its ability to provide concise, informative summaries. This tool highlights the potential of NLP in making large volumes of information easier to access and understand.
+
+## GitHub Repository
+For more information, access the project on GitHub: [Text Summarization Tool](https://github.com/mrw-soumik/Text-Summarization-Tool)
