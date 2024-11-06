@@ -90,16 +90,6 @@ I’m an AI professional with extensive experience in machine learning, data sci
 
 ## Undergraduate Projects
 
-- **[Expert System for Medical Diagnosis](Medical_Expert_System.md)**  
-  - **Objective**: Create a system to provide medical diagnosis suggestions.
-  - **Technologies Used**: Prolog.
-  - **Role and Contributions**: Developed rules and inference for medical diagnosis.
-  - **Outcome**: Successfully implemented a rule-based system for symptom analysis.
-
-  *GitHub: [Medical Expert System](https://github.com/mrw-soumik/Medical_Expert_System)*
-
----
-
 - **[Text Summarization Tool](Text_Summarization_Tool.md)**  
   - **Objective**: Summarize lengthy documents for easier information retrieval.
   - **Technologies Used**: Python, NLTK, Sentence-Transformers.
@@ -117,6 +107,16 @@ I’m an AI professional with extensive experience in machine learning, data sci
   - **Outcome**: Accurately classified social media and review texts.
 
   *GitHub: [Sentiment Analysis Tool](https://github.com/mrw-soumik/Sentiment-Analysis-Tool)*
+
+---
+
+- **[Image Classification with Neural Networks](Image_Classification.md)**  
+  - **Objective**: Classify handwritten digits using a neural network.
+  - **Technologies Used**: Python, Keras, TensorFlow.
+  - **Role and Contributions**: Built a simple neural network for MNIST digit classification, including data preprocessing and model tuning.
+  - **Outcome**: Achieved over 90% accuracy on the MNIST dataset.
+
+  *GitHub: [Image Classification with Neural Networks](https://github.com/mrw-soumik/Neural-Network-for-Image-Classification-using-MNIST-Dataset/tree/main)*
 
 ---
 
