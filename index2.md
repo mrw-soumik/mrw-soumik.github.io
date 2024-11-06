@@ -120,7 +120,7 @@ I’m an AI professional with extensive experience in machine learning, data sci
 
 ---
 
-- **[Image Processing: Edge Detection and Filtering in MATLAB](Image_Processing_Edge_Detection.md)**  
+- **[Image Processing: Edge Detection and Filtering in MATLAB](Edge_Detection_and_Filtering.md)**  
   - **Objective**: Enhance image quality using various edge detection and filtering techniques.
   - **Technologies Used**: MATLAB, Image Processing Toolbox.
   - **Role and Contributions**: Developed MATLAB code for edge detection (Sobel, Prewitt, Canny, LoG, Roberts) and integrated Gaussian, median, and bilateral filters. Conducted analysis and documented findings.
