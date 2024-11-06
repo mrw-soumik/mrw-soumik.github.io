@@ -18,4 +18,6 @@ The goal of this project is to develop a **Sentiment Analysis Tool** that classi
 - The tool achieved **over 90% accuracy** in classifying the test dataset across various models, with SVM performing as the top model.
 - Demonstrated effective sentiment classification in text, showing the potential of machine learning and NLP for analyzing opinions in large text datasets.
 
+## GitHub Repository
+The full project code and resources are available on GitHub: [Sentiment Analysis Tool](https://github.com/mrw-soumik/Sentiment-Analysis-Tool)
 
