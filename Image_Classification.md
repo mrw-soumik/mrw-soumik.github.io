@@ -1,4 +1,4 @@
-# Neural Network for Image Classification
+# Neural Network for Image Classification using MNIST Dataset
 
 **Technologies:** Python, Keras  
 
