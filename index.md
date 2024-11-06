@@ -64,7 +64,7 @@ My Bachelor's in Computer Science (AI) laid a strong foundation for advanced AI 
 - **[Expert System for Medical Diagnosis](Medical_Expert_System.md)**  
   Built a Prolog-based expert system to suggest diagnoses based on user symptoms.
 
-- **[Text Summarization Using NLP](Text_Summarization.md)**  
+- **[Text Summarization Using NLP](Text_Summarization_Tool.md)**  
   Developed a tool to summarize documents, leveraging NLTK for **text processing**.
 
 - **[Image Classification with Neural Networks](Image_Classification.md)**  
