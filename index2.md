@@ -12,11 +12,19 @@ I’m an AI professional with extensive experience in machine learning, data sci
 - **Role and Contributions**: Built and optimized time-series models for CO2 prediction, deployed anomaly detection models on AWS, and performed model tuning for real-time applications.
 - **Outcome**: Achieved accurate emissions forecasting and robust anomaly detection for time-series data.
   
-  *GitHub link unavailable due to proprietary data*
+    *Note: GitHub link is not provided due to confidentiality agreements and proprietary company data.*
+
+### 2. [Intelligent Customer Retention and Engagement Platform](Customer_Retention_Platform_Maxis.md)
+- **Objective**: Predict potential customer loss and develop strategies to improve customer engagement.
+- **Technologies Used**: Python, TensorFlow, Scikit-learn, SQL, Power BI.
+- **Role and Contributions**: Assisted data collection, feature engineering, and model training. Created Power BI dashboards to visualize results and provide strategic insights.
+- **Outcome**: Enabled identification of high-risk customers, supporting targeted retention campaigns and improving customer engagement.
+
+   *Note: GitHub link is not provided due to confidentiality agreements and proprietary company data.*
 
 ---
 
-### 2. [Real-Time Visual to Audio Conversion for Accessibility](Visual_to_Audio.md)
+### 3. [Real-Time Visual to Audio Conversion for Accessibility](Visual_to_Audio.md)
 - **Objective**: Enhance accessibility for visually impaired users by converting visual content into real-time audio descriptions.
 - **Technologies Used**: Python, TensorFlow, OpenCV, Speech Synthesis.
 - **Role and Contributions**: Integrated image captioning with text-to-speech technologies for seamless, real-time conversions.
@@ -26,7 +34,7 @@ I’m an AI professional with extensive experience in machine learning, data sci
 
 ---
 
-### 3. [Emotion Recognition System for HCI](Emotion_Recognition.md)
+### 4. [Emotion Recognition System for HCI](Emotion_Recognition.md)
 - **Objective**: Build a system to recognize emotions through facial expressions and voice, aimed at improving human-computer interaction.
 - **Technologies Used**: Python, OpenCV, TensorFlow, audio processing libraries.
 - **Role and Contributions**: Developed models to capture and analyze facial and vocal cues in real-time.
@@ -36,7 +44,7 @@ I’m an AI professional with extensive experience in machine learning, data sci
 
 ---
 
-### 4. [Real-Time Face, Gender, and Emotion Detection System](Real-time_Face_Age_Gender_Emotion_Detection.md)
+### 5. [Real-Time Face, Gender, and Emotion Detection System](Real-time_Face_Age_Gender_Emotion_Detection.md)
 - **Objective**: Detect faces, predict gender, estimate age, and analyze emotions in video feeds.
 - **Technologies Used**: Python, OpenCV, TensorFlow.
 - **Role and Contributions**: Developed a system for demographic and emotional analysis, with applications in market analysis and UX research.
