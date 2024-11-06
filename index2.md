@@ -120,7 +120,14 @@ I’m an AI professional with extensive experience in machine learning, data sci
 
 ---
 
-**Explore more**: [LinkedIn](https://www.linkedin.com/in/mostafa-wasib/) | [GitHub](https://github.com/mrw-soumik) | [Contact Me](mailto:mostafa.soumik73@gmail.com)
+- **[Image Processing: Edge Detection and Filtering in MATLAB](Image_Processing_Edge_Detection.md)**  
+  - **Objective**: Enhance image quality using various edge detection and filtering techniques.
+  - **Technologies Used**: MATLAB, Image Processing Toolbox.
+  - **Role and Contributions**: Developed MATLAB code for edge detection (Sobel, Prewitt, Canny, LoG, Roberts) and integrated Gaussian, median, and bilateral filters. Conducted analysis and documented findings.
+  - **Outcome**: Demonstrated the impact of different techniques with visual comparisons.
+
+  *GitHub: [Image Processing Edge Detection and Filtering](https://github.com/mrw-soumik/Image-Processing-Edge-Detection-and-Filtering-in-MATLAB/tree/main)*
+
 
 ---
 
