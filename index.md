@@ -73,8 +73,8 @@ My Bachelor's in Computer Science (AI) laid a strong foundation for advanced AI 
 - **[Scheduling System with Logic Programming](Scheduling_System.md)**  
   Created an optimal scheduling system in Prolog based on user-defined constraints.
 
-- **[Sentiment Analysis for Opinion Mining](Sentiment_Analysis.md)**  
-  Built a tool using **Naive Bayes** to classify text as positive, neutral, or negative.
+- **[Sentiment Analysis Tool](Sentiment_Analysis.md)**  
+  Developed a sentiment classification tool using **Python, NLTK, and Scikit-learn** to categorize text as positive, neutral, or negative.
 
 - **[Root Finding with Numerical Methods](Root_Finding_Algorithms.md)**  
   Implemented algorithms like Newton-Raphson for foundational **numerical methods**.
