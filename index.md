@@ -48,23 +48,23 @@ I am an AI professional with a strong background in machine learning and data sc
 
 ---
 
-## Machine Learning Projects
+## Machine Learning Projects (Memorial University of Newfoundland)
 
-### **Fungal Habitat Prediction** (COMP 6915 - Machine Learning) - MUN
+### **Fungal Habitat Prediction** (COMP 6915 - Machine Learning)
 - **Objective**: Predict fungal habitats using taxonomy data.
 - **Technologies Used**: Python, Scikit-learn.
 - **Outcome**: Supported ecological research with accurate habitat predictions.
 
   *GitHub: [Project Link](https://github.com/mrw-soumik/Fungal_Habitat_Prediction)*
 
-### **DNA Sequence Classification** (COMP 6915 - Machine Learning) - MUN
+### **DNA Sequence Classification** (COMP 6915 - Machine Learning)
 - **Objective**: Implement classification of DNA sequences using various encoding methods.
 - **Technologies Used**: Python, Scikit-learn.
 - **Outcome**: Improved classification accuracy in bioinformatics research.
 
   *GitHub: [Project Link](https://github.com/mrw-soumik/DNA_Sequence_Classification)*
 
-### **Automated Facemask Detection** (ENGI-9804-001 Industrial Machine Vision) - MUN
+### **Automated Facemask Detection** (ENGI-9804-001 Industrial Machine Vision)
 - **Objective**: Develop a real-time mask detection system.
 - **Technologies Used**: Python, OpenCV.
 - **Outcome**: Assisted in public health compliance monitoring.
