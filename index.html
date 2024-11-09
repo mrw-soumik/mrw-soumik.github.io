@@ -8,52 +8,56 @@
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background-color: #eaf2f8; /* Soft blue background */
-            color: #2c3e50; /* Dark blue-gray for readability */
+            background-color: #f4f8fc; /* Soft background for a professional look */
+            color: #2c3e50; /* Dark color for text */
         }
         header, footer {
             padding: 2rem;
-            background-color: #3498db; /* Bright blue */
+            background-color: #2980b9; /* Deep blue */
             color: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
         .project-section {
             margin-bottom: 2rem;
             padding: 1.5rem;
             border-radius: 12px;
-            background: linear-gradient(135deg, #ffffff, #d1e8ff); /* Gradient for modern look */
-            box-shadow: 0 6px 15px rgba(44, 62, 80, 0.1); /* Deep shadow */
+            background: #ffffff;
+            box-shadow: 0 6px 15px rgba(44, 62, 80, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
         .project-section:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(44, 62, 80, 0.2); /* Enhanced hover shadow */
+            box-shadow: 0 10px 20px rgba(44, 62, 80, 0.2);
         }
         .project-title {
             font-size: 1.8rem;
-            font-weight: 700;
-            color: #2980b9; /* Deep blue */
+            font-weight: bold;
+            color: #2980b9;
         }
         .project-details {
             margin-top: 1rem;
             color: #2c3e50;
         }
         .github-link {
-            color: #e74c3c; /* Red for emphasis */
+            color: #e74c3c;
             text-decoration: none;
             font-weight: bold;
         }
         .github-link:hover {
             text-decoration: underline;
         }
+        .confidential {
+            color: #e67e22;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <div class="container my-5">
         <header class="text-center mb-5">
-            <h1>Welcome to My Portfolio!</h1>
-            <p class="lead">I'm an AI professional passionate about machine learning, data science, and building impactful solutions. Check out my key projects below.</p>
+            <h1>Welcome to My Professional Portfolio!</h1>
+            <p class="lead">I am an AI professional specializing in machine learning, data science, and building impactful solutions. Explore my projects below to see my work in action.</p>
         </header>
 
         <section id="key-projects">
@@ -64,39 +68,52 @@
                 <div class="project-details">
                     <p><strong>Objective:</strong> Develop an ML model for predicting CO2 emissions.</p>
                     <p><strong>Technologies Used:</strong> Python, LSTM, XGBoost, AWS (S3, SageMaker, Athena), Grafana.</p>
-                    <p><strong>Role and Contributions:</strong> Led design and development of the forecasting model, feature engineering, and integrated algorithms. Built dynamic Grafana dashboards for visualization.</p>
+                    <p><strong>Role and Contributions:</strong> Led the design and development of the forecasting model, performed feature engineering, and integrated advanced algorithms. Built dynamic Grafana dashboards for visualization.</p>
                     <p><strong>Outcome:</strong> Delivered a reliable CO2 emissions forecasting model with visual dashboards, supporting enhanced analysis.</p>
+                    <p class="confidential">* Proprietary data and code. Cannot be shared.</p>
                 </div>
             </div>
 
             <div class="project-section">
                 <h3 class="project-title">Anomaly Detection in Sensor Data</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Create an anomaly detection framework for sensor data.</p>
+                    <p><strong>Objective:</strong> Create an effective anomaly detection framework for sensor data.</p>
                     <p><strong>Technologies Used:</strong> Python, PyTorch (LSTM Autoencoder), GitLab.</p>
-                    <p><strong>Role and Contributions:</strong> Developed and trained the LSTM Autoencoder, implemented various thresholding methods (MAD, IQR), and evaluated model performance.</p>
+                    <p><strong>Role and Contributions:</strong> Studied and evaluated the existing LSTM Autoencoder model, tested various thresholding methods (MAD, IQR), and assessed model performance using precision, recall, F1-score, and specificity.</p>
                     <p><strong>Outcome:</strong> Successfully deployed a reliable anomaly detection system for real-time monitoring.</p>
+                    <p class="confidential">* Proprietary data and code. Cannot be shared.</p>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h3 class="project-title">Customer Retention and Engagement Platform (Maxis Berhad)</h3>
+                <div class="project-details">
+                    <p><strong>Objective:</strong> Enhance customer retention strategies through predictive analytics.</p>
+                    <p><strong>Technologies Used:</strong> Python, Power BI, TensorFlow.</p>
+                    <p><strong>Role and Contributions:</strong> Worked with cross-functional teams to build ML pipelines, designed dashboards for actionable insights, and presented findings to senior stakeholders.</p>
+                    <p><strong>Outcome:</strong> Improved decision-making and customer engagement strategies, boosting retention rates.</p>
+                    <p class="confidential">* Confidential project; data and code cannot be shared.</p>
                 </div>
             </div>
 
             <div class="project-section">
                 <h3 class="project-title">Real-Time Visual-to-Audio Accessibility Tool</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Build a tool converting visual content to audio for accessibility.</p>
+                    <p><strong>Objective:</strong> Develop a tool to convert visual content into audio for the visually impaired.</p>
                     <p><strong>Technologies Used:</strong> Python, TensorFlow, OpenCV.</p>
-                    <p><strong>Role and Contributions:</strong> Integrated image captioning with text-to-speech and managed real-time system architecture.</p>
+                    <p><strong>Role and Contributions:</strong> Integrated image captioning with text-to-speech processing and optimized system architecture for real-time performance.</p>
                     <p><strong>Outcome:</strong> Enhanced accessibility through real-time visual-to-audio conversion.</p>
                     <p><em>Ongoing project; GitHub link unavailable.</em></p>
                 </div>
             </div>
 
-                        <div class="project-section">
-                <h3 class="project-title">Emotion Recognition for Human-Computer Interaction</h3>
+            <div class="project-section">
+                <h3 class="project-title">Emotion Recognition for HCI</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Detect emotions from facial and vocal cues in real-time.</p>
+                    <p><strong>Objective:</strong> Develop a system to detect emotions from facial and vocal cues in real time.</p>
                     <p><strong>Technologies Used:</strong> Python, OpenCV, TensorFlow.</p>
-                    <p><strong>Role and Contributions:</strong> Developed a multimodal emotion recognition model and optimized algorithms for seamless integration with interactive interfaces.</p>
-                    <p><strong>Outcome:</strong> Demonstrated potential for enhancing HCI through emotion-based responses.</p>
+                    <p><strong>Role and Contributions:</strong> Built and tested a multimodal emotion recognition model, enhanced algorithms for seamless integration with interactive interfaces.</p>
+                    <p><strong>Outcome:</strong> Demonstrated potential for improving human-computer interaction.</p>
                     <p><em>Ongoing project; GitHub link unavailable.</em></p>
                 </div>
             </div>
@@ -104,10 +121,10 @@
             <div class="project-section">
                 <h3 class="project-title">Real-Time Face, Gender, and Emotion Detection</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Develop a video analysis tool for detecting face, gender, and emotions.</p>
+                    <p><strong>Objective:</strong> Create a video analysis tool for detecting face, gender, and emotions.</p>
                     <p><strong>Technologies Used:</strong> Python, OpenCV, TensorFlow.</p>
-                    <p><strong>Role and Contributions:</strong> Created a data pipeline, designed the model architecture, and implemented real-time analysis features.</p>
-                    <p><strong>Outcome:</strong> Provided actionable insights for market research and user experience studies.</p>
+                    <p><strong>Role and Contributions:</strong> Developed the data pipeline, designed the model architecture, and implemented real-time analytics.</p>
+                    <p><strong>Outcome:</strong> Provided valuable insights for market research and user experience analysis.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Real-Time-Face-Age-Gender-and-Emotion-Detection-System">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -119,8 +136,8 @@
                 <div class="project-details">
                     <p><strong>Objective:</strong> Predict fungal habitats using taxonomy data.</p>
                     <p><strong>Technologies Used:</strong> Python, Scikit-learn.</p>
-                    <p><strong>Role and Contributions:</strong> Performed data preprocessing, built predictive models, and fine-tuned parameters for optimal performance.</p>
-                    <p><strong>Outcome:</strong> Supported ecological research through accurate habitat predictions.</p>
+                    <p><strong>Role and Contributions:</strong> Conducted data preprocessing, implemented various predictive models, and fine-tuned parameters for optimal performance.</p>
+                    <p><strong>Outcome:</strong> Supported ecological research with accurate habitat predictions.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Fungal_Habitat_Prediction">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -128,21 +145,20 @@
             <div class="project-section">
                 <h3 class="project-title">DNA Sequence Classification</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Implement DNA sequence classification with various encoding techniques.</p>
+                    <p><strong>Objective:</strong> Implement DNA sequence classification using various encoding methods.</p>
                     <p><strong>Technologies Used:</strong> Python, Scikit-learn.</p>
-                    <p><strong>Role and Contributions:</strong> Designed feature extraction pipelines and implemented classifiers to enhance sequence classification accuracy.</p>
-                    <p><strong>Outcome:</strong> Contributed to bioinformatics research with improved classification models.</p>
+                    <p><strong>Role and Contributions:</strong> Designed feature extraction pipelines and developed classification models to improve sequence classification accuracy.</p>
+                    <p><strong>Outcome:</strong> Enhanced bioinformatics research with improved classification results.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/DNA_Sequence_Classification">GitHub: Project Link</a></p>
                 </div>
             </div>
-
-            <div class="project-section">
+                        <div class="project-section">
                 <h3 class="project-title">Automated Facemask Detection</h3>
                 <div class="project-details">
                     <p><strong>Objective:</strong> Develop a real-time mask detection system for public safety.</p>
                     <p><strong>Technologies Used:</strong> Python, OpenCV.</p>
-                    <p><strong>Role and Contributions:</strong> Created the detection algorithm, implemented training and testing processes, and optimized system performance for real-time use.</p>
-                    <p><strong>Outcome:</strong> Demonstrated real-world applications of machine vision for public safety.</p>
+                    <p><strong>Role and Contributions:</strong> Designed a robust detection algorithm, implemented training and testing processes, and optimized the system for real-time application.</p>
+                    <p><strong>Outcome:</strong> Demonstrated effective application of machine vision for public safety scenarios.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Automated-Facemask-Detection-in-public-spaces">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -150,22 +166,23 @@
             <div class="project-section">
                 <h3 class="project-title">Reinforcement Learning Exploration</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Explore policy-learning algorithms through hands-on implementation.</p>
+                    <p><strong>Objective:</strong> Explore reinforcement learning algorithms and their application.</p>
                     <p><strong>Technologies Used:</strong> Python.</p>
-                    <p><strong>Role and Contributions:</strong> Implemented various reinforcement learning algorithms and analyzed performance in simulated environments.</p>
-                    <p><strong>Outcome:</strong> Showed strong learning and adaptability in AI systems.</p>
+                    <p><strong>Role and Contributions:</strong> Implemented various reinforcement learning algorithms and conducted experiments to analyze learning performance in simulated environments.</p>
+                    <p><strong>Outcome:</strong> Showcased strong learning adaptability and algorithm efficiency.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies">GitHub: Project Link</a></p>
                 </div>
             </div>
-                        <h2 class="mt-5 mb-4 text-center">Undergraduate Projects (University of Malaya)</h2>
+
+            <h2 class="mt-5 mb-4 text-center">Undergraduate Projects (University of Malaya)</h2>
 
             <div class="project-section">
                 <h3 class="project-title">Text Summarization Tool</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Develop an extractive text summarization tool.</p>
+                    <p><strong>Objective:</strong> Create an extractive text summarization tool for documents.</p>
                     <p><strong>Technologies Used:</strong> Python, NLTK.</p>
-                    <p><strong>Role and Contributions:</strong> Built an algorithm for sentence extraction and ranking, and conducted performance analysis.</p>
-                    <p><strong>Outcome:</strong> Facilitated efficient document summarization.</p>
+                    <p><strong>Role and Contributions:</strong> Developed an algorithm for sentence extraction and ranking, and conducted performance analysis.</p>
+                    <p><strong>Outcome:</strong> Enabled efficient document summarization.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Text-Summarization-Tool">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -173,10 +190,10 @@
             <div class="project-section">
                 <h3 class="project-title">Sentiment Analysis Tool</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Create a sentiment analysis tool for text classification.</p>
+                    <p><strong>Objective:</strong> Build a tool for classifying text sentiment.</p>
                     <p><strong>Technologies Used:</strong> Python, Scikit-learn.</p>
-                    <p><strong>Role and Contributions:</strong> Developed preprocessing scripts and sentiment classification models, optimized for accuracy.</p>
-                    <p><strong>Outcome:</strong> Achieved accurate text sentiment classification for real-world applications.</p>
+                    <p><strong>Role and Contributions:</strong> Implemented preprocessing scripts and trained models for sentiment classification, optimizing for performance.</p>
+                    <p><strong>Outcome:</strong> Achieved reliable and accurate sentiment classification.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Sentiment-Analysis-Tool">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -184,10 +201,10 @@
             <div class="project-section">
                 <h3 class="project-title">Image Classification with Neural Networks</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Implement neural networks for image classification tasks.</p>
+                    <p><strong>Objective:</strong> Develop and train neural networks for image classification.</p>
                     <p><strong>Technologies Used:</strong> Python, TensorFlow.</p>
-                    <p><strong>Role and Contributions:</strong> Designed and developed the model, applied data augmentation, and optimized training parameters.</p>
-                    <p><strong>Outcome:</strong> Attained high accuracy on the MNIST dataset, demonstrating the model's effectiveness.</p>
+                    <p><strong>Role and Contributions:</strong> Designed model architecture, handled data augmentation, and fine-tuned training parameters for better performance.</p>
+                    <p><strong>Outcome:</strong> Achieved high accuracy on the MNIST dataset, validating model efficiency.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Neural-Network-for-Image-Classification-using-MNIST-Dataset/tree/main">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -195,10 +212,10 @@
             <div class="project-section">
                 <h3 class="project-title">MATLAB Image Processing</h3>
                 <div class="project-details">
-                    <p><strong>Objective:</strong> Implement image processing techniques like edge detection and filtering.</p>
+                    <p><strong>Objective:</strong> Implement image processing techniques such as edge detection and filtering.</p>
                     <p><strong>Technologies Used:</strong> MATLAB.</p>
-                    <p><strong>Role and Contributions:</strong> Applied image processing algorithms and visualized their effects for academic analysis.</p>
-                    <p><strong>Outcome:</strong> Demonstrated effective image processing techniques for practical learning.</p>
+                    <p><strong>Role and Contributions:</strong> Applied key image processing algorithms and visualized their effects for academic analysis.</p>
+                    <p><strong>Outcome:</strong> Demonstrated effective image processing capabilities for educational purposes.</p>
                     <p><a class="github-link" href="https://github.com/mrw-soumik/Image-Processing-Edge-Detection-and-Filtering-in-MATLAB/tree/main">GitHub: Project Link</a></p>
                 </div>
             </div>
@@ -213,5 +230,3 @@
 </body>
 </html>
 
-
-            
