@@ -2,7 +2,9 @@
 
 Snapshot date: June 14, 2026.
 
-This plan is based on the public `mrw-soumik` GitHub profile and the 42 public repositories visible to visitors through GitHub. If your logged-in GitHub dashboard shows 66 repositories, the remaining repositories are likely private, owned through another context, or otherwise not visible to recruiters. Optimize the public 42 first.
+This plan was originally based on the public `mrw-soumik` GitHub profile and was updated after authenticated access confirmed the full account inventory. After creating the profile README repository, the account has 67 repositories: 43 public and 24 private.
+
+Status update: the `mrw-soumik` profile README repository now exists, the public profile bio/company/location/portfolio link have been updated, and every repository now has a GitHub description and at least one topic.
 
 Correction note: `governance_demo` was built as a demo for another PPT/presentation, so it should not be treated as one of the top recruiter-facing pinned projects.
 
@@ -15,16 +17,16 @@ The professional strategy is:
 1. Make 6 repositories excellent enough to pin.
 2. Make 8-10 supporting repositories presentable.
 3. Archive, unpin, or leave quiet older learning repos and forks.
-4. Add a profile README so recruiters understand what to look at.
-5. Add descriptions and topics to the important repos from GitHub settings.
+4. Keep the profile README current so recruiters understand what to look at.
+5. Continue improving README content, screenshots, metrics, and contribution notes.
 
 This keeps your GitHub credible without spending weeks cleaning old coursework and tutorial experiments.
 
 ## Public Profile Positioning
 
-Suggested GitHub bio:
+Current GitHub bio:
 
-`Machine Learning Engineer | LLM/RAG, Evidence Extraction, Tabular ML & MLOps | AI Engineer at Genesis AI Garage`
+`AI/ML Engineer building RAG systems, evidence extraction workflows, recommender systems, computer vision tools, and production-ready data products.`
 
 Suggested profile links:
 
@@ -32,26 +34,28 @@ Suggested profile links:
 - LinkedIn: `https://www.linkedin.com/in/mostafa-wasib/`
 - Email: `mostafa.soumik73@gmail.com`
 
-Suggested profile README headline:
+Note: GitHub still shows the older public profile email because `mostafa.soumik73@gmail.com` must be added and verified in GitHub account settings before it can be selected as the public profile email.
 
-`I build applied AI systems across LLM/RAG workflows, evidence extraction, tabular ML, computer vision, and production-ready data tools.`
+Profile README headline:
 
-## Create A Profile README
+`AI/ML Engineer focused on practical RAG systems, evidence extraction workflows, recommendation engines, computer vision, tabular ML, and production-ready data products.`
 
-Create a new public repository named exactly:
+## Profile README
+
+Created:
 
 `mrw-soumik`
 
-Then add a `README.md`. GitHub will display it on the profile overview page.
+GitHub displays this repository's `README.md` on the profile overview page. Do not pin this repository; it appears automatically.
 
-Recommended README sections:
+Current README sections:
 
-- Short headline for AI/ML engineering roles.
-- Current role: AI Engineer at Genesis Group Inc. / Genesis AI Garage.
-- Best work: portfolio, gas sensor ML, multimodal emotion recognition, bio/ecology ML, DNA sequence classification, NLP tools, and accessibility/product AI work.
-- Tech stack: Python, SQL, FastAPI, Docker, AWS, Azure, GCP, LangGraph, LangChain, OpenAI, Claude, Bedrock, PostgreSQL/pgvector, Grafana.
-- Public project note: recent client work is summarized in the portfolio without private data or production code.
-- Contact links: portfolio, LinkedIn, email.
+- Professional headline.
+- Current focus areas.
+- Selected public work.
+- Private/client work note.
+- Core stack.
+- Portfolio, LinkedIn, and email links.
 
 ## Recommended Pinned Repositories
 
@@ -76,11 +80,10 @@ Alternative pins by target role:
 
 High-impact tasks:
 
-1. Add GitHub descriptions and topics to the top 12 repositories.
-2. Add `My contribution`, `Results`, `How to run`, and `Limitations` sections to the top 6 READMEs.
-3. Add screenshots, architecture diagrams, or result plots where available.
-4. Add license files to important source repos that do not have one.
-5. Archive old tutorial forks and duplicate portfolio experiments only if they distract from the professional profile.
+1. Add `My contribution`, `Results`, `How to run`, and `Limitations` sections to the top 6 READMEs.
+2. Add screenshots, architecture diagrams, or result plots where available.
+3. Add license files to important source repos that do not have one.
+4. Archive old tutorial forks and duplicate portfolio experiments only if they distract from the professional profile.
 
 Do not spend time rewriting old code unless the repo is pinned or linked from the portfolio.
 
@@ -96,7 +99,7 @@ Action meanings:
 
 | Repository | Type | Action | Recommendation |
 | --- | --- | --- | --- |
-| `mrw-soumik.github.io` | Portfolio | Pin | Keep as the main hub. Add GitHub description and topics: `portfolio`, `machine-learning`, `artificial-intelligence`, `llm`, `rag`, `mlops`, `data-science`, `aws`. |
+| `mrw-soumik.github.io` | Portfolio | Pin | Keep as the main hub. GitHub description, homepage, and topics have been added. |
 | `governance_demo` | FastAPI / presentation demo | Keep quiet | Useful as a presentation-support demo, but not a top AI/ML proof repo. Keep public if it helps explain process/governance work; add a README note that it was created for a presentation demo. Do not pin by default. |
 | `Gas-Sensor-Data-Classification-and-Anomaly-Detection` | ML / anomaly detection | Pin | Add model comparison table, anomaly detection explanation, metrics, dataset note, notebook order, and result plots. |
 | `Multimodal-Emotion-Recognition-System` | Computer vision / audio ML | Pin | Add architecture diagram, demo screenshots, contribution split, training/inference flow, and ethical limitations. |
@@ -139,49 +142,15 @@ Action meanings:
 | `SAM` | Unknown / old | Archive/private | Very old and unclear. Archive/private unless it has a specific story. |
 | `Reinforcement-Learning-Experiment-With-Simple-Bandit-Learning-Algorithms` | Fork / RL | Clarify fork | Add contribution note if important; otherwise keep unpinned. |
 
-## Suggested Repository Descriptions
+## Repository Metadata Status
 
-Use these in GitHub repository settings for the important repos.
+Completed:
 
-`mrw-soumik.github.io`
-
-`Portfolio for AI/ML engineering, LLM systems, RAG, evidence extraction, tabular ML, and MLOps work.`
-
-`governance_demo`
-
-`FastAPI presentation demo showing startup engineering governance, ownership controls, pull request checks, and lightweight service structure.`
-
-`Gas-Sensor-Data-Classification-and-Anomaly-Detection`
-
-`Machine learning workflows for gas sensor activity classification, anomaly detection, model evaluation, and operational monitoring.`
-
-`Multimodal-Emotion-Recognition-System`
-
-`Real-time multimodal emotion recognition using facial and audio signals with model fusion and inference workflows.`
-
-`Fungal-Habitat-Prediction-Using-Taxonomy-Data`
-
-`Tabular machine learning project for predicting fungal habitats from taxonomy and observation data.`
-
-`Real-Time-Face-Age-Gender-and-Emotion-Detection-System`
-
-`Real-time computer vision system for face, age, gender, and emotion detection with OpenCV and deep learning models.`
-
-`AI-Accessibility-Extension-For-Visually-Impaired-Users`
-
-`Accessibility AI prototype for visual-to-audio support using image captioning and assistive browser workflows.`
-
-`DNA-Sequence-Classification-with-Data-Encoding`
-
-`Bioinformatics ML project comparing DNA sequence encoding methods for classification.`
-
-`Text-Summarization-Tool`
-
-`NLP project for extractive text summarization using preprocessing, sentence scoring, embeddings, and redundancy control.`
-
-`Sentiment-Analysis-Tool`
-
-`NLP classification project for sentiment analysis with text preprocessing, TF-IDF features, and machine learning models.`
+- All 67 repositories now have descriptions.
+- All 67 repositories now have at least one topic.
+- The current portfolio repo has its homepage set to `https://mrw-soumik.github.io/`.
+- `governance_demo` is labeled as a presentation demo rather than a default pin.
+- Archive/private candidates are labeled so they no longer appear as unexplained mystery repos.
 
 ## Suggested Topics
 
@@ -248,16 +217,22 @@ What the project does not yet solve and what could be improved.
 
 ## Weekly Cleanup Plan
 
-Week 1:
+Week 1 - completed:
 
-- Create the `mrw-soumik` profile README repository.
-- Update GitHub bio, location, company, portfolio link, and LinkedIn link.
-- Set the 6 pinned repositories.
+- Created the `mrw-soumik` profile README repository.
+- Updated GitHub bio, location, company, and portfolio link.
+- Added descriptions and topics to every repository.
+- Replaced concrete-looking environment values with placeholders in the private `Test` README.
+
+Week 1 - remaining:
+
+- Add and verify `mostafa.soumik73@gmail.com` in GitHub account settings, then select it as the public profile email.
+- Manually set the 6 pinned repositories in the GitHub profile UI.
 
 Week 2:
 
 - Polish `mrw-soumik.github.io`, `Gas-Sensor-Data-Classification-and-Anomaly-Detection`, and `DNA-Sequence-Classification-with-Data-Encoding`.
-- Add descriptions and topics to the top 12 repos.
+- Add screenshots/result tables where possible.
 
 Week 3:
 
