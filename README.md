@@ -22,7 +22,7 @@ The site is intended to deploy directly from this repository through GitHub Page
 
 ## Confidentiality
 
-Some projects are proprietary client work. They are described only as sanitized case studies without private data, production code, credentials, or client-specific implementation details.
+Some projects are proprietary client work. They are described only as professional public case studies without private data, production code, credentials, or client-specific implementation details.
 
 ## Suggested Repository Metadata
 
