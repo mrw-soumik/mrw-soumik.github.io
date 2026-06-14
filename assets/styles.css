@@ -391,7 +391,8 @@ a:focus {
 .case-study-grid,
 .project-grid,
 .credential-grid,
-.role-fit-grid {
+.role-fit-grid,
+.github-grid {
     display: grid;
     gap: 1rem;
 }
@@ -408,6 +409,10 @@ a:focus {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.github-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .credential-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -421,7 +426,8 @@ a:focus {
 .project-card,
 .credential-card,
 .timeline-item,
-.fit-card {
+.fit-card,
+.github-card {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 0.5rem;
@@ -458,7 +464,8 @@ a:focus {
 .project-card h3,
 .credential-card h3,
 .timeline-body h3,
-.fit-card h3 {
+.fit-card h3,
+.github-card h3 {
     margin: 0;
     color: var(--text);
     font-size: 1.08rem;
@@ -493,6 +500,58 @@ a:focus {
     margin: 0.7rem 0 0;
     color: var(--muted);
     font-size: 0.93rem;
+}
+
+.github-card {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    padding: 1.2rem;
+    border-top: 4px solid var(--accent);
+}
+
+.github-card.primary {
+    background: linear-gradient(180deg, #ffffff 0%, #f6f9ff 100%);
+}
+
+.github-card:nth-child(2) {
+    border-top-color: var(--accent-2);
+}
+
+.github-card:nth-child(3) {
+    border-top-color: var(--accent-5);
+}
+
+.github-card:nth-child(4) {
+    border-top-color: var(--accent-4);
+}
+
+.github-card:nth-child(5) {
+    border-top-color: var(--accent-3);
+}
+
+.github-card:nth-child(6) {
+    border-top-color: var(--accent-dark);
+}
+
+.repo-label {
+    margin: 0 0 0.45rem;
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 850;
+    text-transform: uppercase;
+}
+
+.github-card p:not(.repo-label) {
+    margin: 0.7rem 0 0;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
+.github-card > a {
+    display: inline-flex;
+    margin: 1rem 0 0 0;
+    font-size: 0.92rem;
 }
 
 .case-card {
@@ -626,9 +685,16 @@ a:focus {
     font-size: 0.94rem;
 }
 
-.project-card a {
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.project-card a,
+.project-links a {
     display: inline-flex;
-    margin: 0.75rem 0.75rem 0 0;
     font-size: 0.92rem;
 }
 
@@ -696,7 +762,8 @@ a:focus {
     .skill-grid,
     .case-study-grid,
     .project-grid,
-    .role-fit-grid {
+    .role-fit-grid,
+    .github-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -741,7 +808,8 @@ a:focus {
     .project-grid,
     .credential-grid,
     .contact-grid,
-    .role-fit-grid {
+    .role-fit-grid,
+    .github-grid {
         grid-template-columns: 1fr;
     }
 

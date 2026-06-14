@@ -14,6 +14,8 @@ Then visit `http://localhost:8000`.
 
 The general AI/ML CV source is `resume.html`, with print styles in `assets/resume.css`. The downloadable PDF lives at `assets/Mostafa_Rafiur_Wasib_AI_ML_CV.pdf`.
 
+GitHub profile cleanup recommendations are documented in `GITHUB_PROFILE_RECOMMENDATIONS.md`.
+
 ## GitHub Pages Deployment
 
 The site is intended to deploy directly from this repository through GitHub Pages. No React, Next.js, package manager, or build step is required.
