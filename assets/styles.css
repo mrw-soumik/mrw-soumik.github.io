@@ -6,6 +6,10 @@
     --border: #d9e2ef;
     --accent: #1d4f8f;
     --accent-dark: #12366a;
+    --accent-2: #0f766e;
+    --accent-2-soft: #e5f6f3;
+    --accent-3: #a16207;
+    --accent-3-soft: #fff7df;
     --accent-soft: #e8f1ff;
     --card: #ffffff;
     --shadow: 0 18px 45px rgba(23, 32, 51, 0.08);
@@ -21,7 +25,7 @@ html {
 
 body {
     margin: 0;
-    background: var(--bg);
+    background: #fbfcfe;
     color: var(--text);
     font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
@@ -55,7 +59,7 @@ a:focus {
 }
 
 .site-nav {
-    background: rgba(255, 255, 255, 0.96);
+    background: rgba(255, 255, 255, 0.97);
     border-bottom: 1px solid var(--border);
     backdrop-filter: blur(12px);
 }
@@ -83,7 +87,7 @@ a:focus {
 .hero {
     padding: 9rem 0 5rem;
     background:
-        linear-gradient(135deg, rgba(232, 241, 255, 0.9) 0%, rgba(255, 255, 255, 0.96) 45%, rgba(244, 247, 251, 0.95) 100%);
+        linear-gradient(135deg, rgba(232, 241, 255, 0.92) 0%, rgba(255, 255, 255, 0.98) 42%, rgba(229, 246, 243, 0.88) 100%);
     border-bottom: 1px solid var(--border);
 }
 
@@ -121,6 +125,17 @@ a:focus {
     font-size: 1.1rem;
 }
 
+.hero-meta {
+    margin: 1rem 0 0;
+    color: #34445d;
+    font-size: 0.98rem;
+    font-weight: 750;
+}
+
+.hero-meta a {
+    color: var(--accent-dark);
+}
+
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
@@ -143,6 +158,19 @@ a:focus {
 .btn-primary:focus {
     background: var(--accent-dark);
     border-color: var(--accent-dark);
+}
+
+.btn-secondary {
+    background: var(--accent-2);
+    border-color: var(--accent-2);
+    color: #ffffff;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background: #0b5e58;
+    border-color: #0b5e58;
+    color: #ffffff;
 }
 
 .btn-outline-primary {
@@ -175,6 +203,47 @@ a:focus {
     color: #34445d;
     font-size: 0.86rem;
     font-weight: 700;
+}
+
+.impact-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin-top: 2rem;
+}
+
+.impact-item {
+    min-height: 6.2rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: var(--shadow);
+}
+
+.impact-item strong {
+    display: block;
+    color: var(--accent-dark);
+    font-size: 1.45rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.impact-item:nth-child(2) strong,
+.impact-item:nth-child(4) strong {
+    color: var(--accent-2);
+}
+
+.impact-item:nth-child(3) strong {
+    color: var(--accent-3);
+}
+
+.impact-item span {
+    display: block;
+    margin-top: 0.45rem;
+    color: var(--muted);
+    font-size: 0.86rem;
+    font-weight: 750;
 }
 
 .section-block {
@@ -213,7 +282,8 @@ a:focus {
 .skill-grid,
 .case-study-grid,
 .project-grid,
-.credential-grid {
+.credential-grid,
+.role-fit-grid {
     display: grid;
     gap: 1rem;
 }
@@ -234,11 +304,16 @@ a:focus {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.role-fit-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .skill-card,
 .case-card,
 .project-card,
 .credential-card,
-.timeline-item {
+.timeline-item,
+.fit-card {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 0.5rem;
@@ -253,7 +328,8 @@ a:focus {
 .case-card h3,
 .project-card h3,
 .credential-card h3,
-.timeline-body h3 {
+.timeline-body h3,
+.fit-card h3 {
     margin: 0;
     color: var(--text);
     font-size: 1.08rem;
@@ -270,11 +346,40 @@ a:focus {
     list-style: none;
 }
 
+.fit-card {
+    padding: 1.15rem;
+    border-top: 3px solid var(--accent-2);
+}
+
+.fit-card:nth-child(2),
+.fit-card:nth-child(5) {
+    border-top-color: var(--accent);
+}
+
+.fit-card:nth-child(3) {
+    border-top-color: var(--accent-3);
+}
+
+.fit-card p {
+    margin: 0.7rem 0 0;
+    color: var(--muted);
+    font-size: 0.93rem;
+}
+
 .case-card {
     display: flex;
     min-height: 100%;
     flex-direction: column;
     padding: 1.25rem;
+    border-top: 3px solid var(--accent);
+}
+
+.case-card:nth-child(3n + 2) {
+    border-top-color: var(--accent-2);
+}
+
+.case-card:nth-child(3n) {
+    border-top-color: var(--accent-3);
 }
 
 .case-label {
@@ -314,6 +419,16 @@ a:focus {
     background: var(--accent-soft);
     color: var(--accent-dark);
     font-size: 0.78rem;
+}
+
+.case-card:nth-child(3n + 2) .compact-tags li {
+    background: var(--accent-2-soft);
+    color: #0b5e58;
+}
+
+.case-card:nth-child(3n) .compact-tags li {
+    background: var(--accent-3-soft);
+    color: #7c4a03;
 }
 
 .confidential-note {
@@ -372,8 +487,22 @@ a:focus {
     font-size: 0.92rem;
 }
 
+.credential-card.featured {
+    border-top: 3px solid var(--accent-2);
+}
+
+.credential-card.featured:first-child {
+    border-top-color: var(--accent);
+}
+
+.credential-id {
+    color: #68778c;
+    font-size: 0.84rem;
+    overflow-wrap: anywhere;
+}
+
 .contact-band {
-    background: var(--accent-dark);
+    background: linear-gradient(135deg, #0f1d35 0%, #12366a 60%, #0f766e 100%);
     color: #ffffff;
 }
 
@@ -385,7 +514,7 @@ a:focus {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0.85rem;
 }
 
@@ -421,7 +550,9 @@ a:focus {
 @media (max-width: 1199px) {
     .skill-grid,
     .case-study-grid,
-    .project-grid {
+    .project-grid,
+    .role-fit-grid,
+    .impact-strip {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -461,7 +592,9 @@ a:focus {
     .case-study-grid,
     .project-grid,
     .credential-grid,
-    .contact-grid {
+    .contact-grid,
+    .role-fit-grid,
+    .impact-strip {
         grid-template-columns: 1fr;
     }
 

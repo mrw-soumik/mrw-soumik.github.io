@@ -1,0 +1,134 @@
+:root {
+    --text: #172033;
+    --muted: #526176;
+    --accent: #12366a;
+    --line: #d9e2ef;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eef3f8;
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9.05pt;
+    line-height: 1.22;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.resume-page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.34in 0.45in;
+    background: #ffffff;
+}
+
+.resume-header {
+    padding-bottom: 0.14in;
+    border-bottom: 2px solid var(--accent);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: var(--text);
+    font-size: 20.5pt;
+    letter-spacing: 0.3px;
+    line-height: 1.05;
+    text-transform: uppercase;
+}
+
+.resume-title {
+    margin: 0.045in 0 0;
+    color: var(--accent);
+    font-size: 10.5pt;
+    font-weight: 700;
+}
+
+.resume-contact {
+    margin: 0.03in 0 0;
+    color: var(--muted);
+    font-size: 8.45pt;
+}
+
+section {
+    margin-top: 0.105in;
+}
+
+h2 {
+    margin: 0 0 0.045in;
+    color: var(--accent);
+    font-size: 10.25pt;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 0;
+    color: var(--text);
+    font-size: 9.35pt;
+}
+
+p {
+    margin: 0.025in 0;
+}
+
+ul {
+    margin: 0.025in 0 0;
+    padding-left: 0.15in;
+}
+
+li {
+    margin: 0.012in 0;
+}
+
+.role {
+    margin-top: 0.055in;
+    break-inside: avoid;
+}
+
+.date {
+    margin: 0.01in 0 0;
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.skill-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.14in;
+    row-gap: 0.02in;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 0.92fr 1.08fr;
+    gap: 0.16in;
+    break-inside: avoid;
+}
+
+@page {
+    size: Letter;
+    margin: 0;
+}
+
+@media print {
+    body {
+        background: #ffffff;
+    }
+
+    .resume-page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        box-shadow: none;
+    }
+}

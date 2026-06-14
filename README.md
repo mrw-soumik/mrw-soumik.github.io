@@ -12,6 +12,8 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+The general AI/ML CV source is `resume.html`, with print styles in `assets/resume.css`. The downloadable PDF lives at `assets/Mostafa_Rafiur_Wasib_AI_ML_CV.pdf`.
+
 ## GitHub Pages Deployment
 
 The site is intended to deploy directly from this repository through GitHub Pages. No React, Next.js, package manager, or build step is required.
