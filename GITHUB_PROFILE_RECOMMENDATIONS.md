@@ -4,6 +4,8 @@ Snapshot date: June 14, 2026.
 
 This plan is based on the public `mrw-soumik` GitHub profile and the 42 public repositories visible to visitors through GitHub. If your logged-in GitHub dashboard shows 66 repositories, the remaining repositories are likely private, owned through another context, or otherwise not visible to recruiters. Optimize the public 42 first.
 
+Correction note: `governance_demo` was built as a demo for another PPT/presentation, so it should not be treated as one of the top recruiter-facing pinned projects.
+
 ## Executive Recommendation
 
 Do not try to polish every repository.
@@ -46,7 +48,7 @@ Recommended README sections:
 
 - Short headline for AI/ML engineering roles.
 - Current role: AI Engineer at Genesis Group Inc. / Genesis AI Garage.
-- Best work: portfolio, gas sensor ML, multimodal emotion recognition, AI governance demo, bio/ecology ML, NLP tools.
+- Best work: portfolio, gas sensor ML, multimodal emotion recognition, bio/ecology ML, DNA sequence classification, NLP tools, and accessibility/product AI work.
 - Tech stack: Python, SQL, FastAPI, Docker, AWS, Azure, GCP, LangGraph, LangChain, OpenAI, Claude, Bedrock, PostgreSQL/pgvector, Grafana.
 - Public project note: recent client work is summarized in the portfolio without private data or production code.
 - Contact links: portfolio, LinkedIn, email.
@@ -58,17 +60,17 @@ GitHub allows 6 pinned repositories. Use the pins as your recruiter-facing short
 Recommended default pins:
 
 1. `mrw-soumik.github.io`
-2. `governance_demo`
-3. `Gas-Sensor-Data-Classification-and-Anomaly-Detection`
-4. `Multimodal-Emotion-Recognition-System`
-5. `Fungal-Habitat-Prediction-Using-Taxonomy-Data`
-6. `Real-Time-Face-Age-Gender-and-Emotion-Detection-System`
+2. `Gas-Sensor-Data-Classification-and-Anomaly-Detection`
+3. `Multimodal-Emotion-Recognition-System`
+4. `Fungal-Habitat-Prediction-Using-Taxonomy-Data`
+5. `Real-Time-Face-Age-Gender-and-Emotion-Detection-System`
+6. `DNA-Sequence-Classification-with-Data-Encoding`
 
 Alternative pins by target role:
 
 - AI accessibility / multimodal role: replace `Real-Time-Face-Age-Gender-and-Emotion-Detection-System` with `AI-Accessibility-Extension-For-Visually-Impaired-Users` after adding a clear contribution note.
-- NLP/data science role: replace the real-time face repo with `Text-Summarization-Tool` or `Sentiment-Analysis-Tool`.
-- Bioinformatics/data science role: keep `DNA-Sequence-Classification-with-Data-Encoding` close to the top and link it from the portfolio.
+- NLP/data science role: replace the real-time face repo or DNA repo with `Text-Summarization-Tool` or `Sentiment-Analysis-Tool`.
+- Presentation/technical-process role: keep `governance_demo` public and polished, but do not pin it by default because it was created for a PPT/demo context.
 
 ## What To Touch First
 
@@ -95,13 +97,13 @@ Action meanings:
 | Repository | Type | Action | Recommendation |
 | --- | --- | --- | --- |
 | `mrw-soumik.github.io` | Portfolio | Pin | Keep as the main hub. Add GitHub description and topics: `portfolio`, `machine-learning`, `artificial-intelligence`, `llm`, `rag`, `mlops`, `data-science`, `aws`. |
-| `governance_demo` | FastAPI / governance | Pin | Strong recent engineering signal. Add repo description, topics, screenshots/API examples, CI badge, and a short "Why this matters for startups" section. |
+| `governance_demo` | FastAPI / presentation demo | Keep quiet | Useful as a presentation-support demo, but not a top AI/ML proof repo. Keep public if it helps explain process/governance work; add a README note that it was created for a presentation demo. Do not pin by default. |
 | `Gas-Sensor-Data-Classification-and-Anomaly-Detection` | ML / anomaly detection | Pin | Add model comparison table, anomaly detection explanation, metrics, dataset note, notebook order, and result plots. |
 | `Multimodal-Emotion-Recognition-System` | Computer vision / audio ML | Pin | Add architecture diagram, demo screenshots, contribution split, training/inference flow, and ethical limitations. |
 | `Fungal-Habitat-Prediction-Using-Taxonomy-Data` | Tabular ML / ecology | Pin | Keep because it has real metrics. Add feature list, target labels, model comparison, confusion matrix, and reproducibility steps. |
 | `Real-Time-Face-Age-Gender-and-Emotion-Detection-System` | Computer vision | Pin or polish | Add demo GIF/screenshot, model files note, setup instructions, privacy/ethics note, and sample output. |
 | `AI-Accessibility-Extension-For-Visually-Impaired-Users` | Fork / accessibility AI | Clarify fork | Good story, but because it is a fork, add `My contribution`, your role, architecture, and demo evidence before pinning. |
-| `DNA-Sequence-Classification-with-Data-Encoding` | Bioinformatics ML | Polish | Add encoding comparison table, dataset limitations, metric summary, and run command. Good supporting project. |
+| `DNA-Sequence-Classification-with-Data-Encoding` | Bioinformatics ML | Pin or polish | Add encoding comparison table, dataset limitations, metric summary, and run command. Good default pin because it is a source repo and adds bioinformatics/data-science breadth. |
 | `Text-Summarization-Tool` | NLP | Polish | Add input/output examples, summarization method, evaluation approach, and CLI/API usage. |
 | `Sentiment-Analysis-Tool` | NLP classification | Polish | Add dataset source, model comparison, confusion matrix, sample predictions, and limitations. |
 | `Neural-Network-for-Image-Classification-using-MNIST-Dataset` | Deep learning basics | Polish lightly | Keep as foundational deep learning. Add training curve and final accuracy, but do not pin unless needed. |
@@ -147,7 +149,7 @@ Use these in GitHub repository settings for the important repos.
 
 `governance_demo`
 
-`FastAPI demo showing startup engineering governance, ownership controls, pull request checks, and lightweight service structure.`
+`FastAPI presentation demo showing startup engineering governance, ownership controls, pull request checks, and lightweight service structure.`
 
 `Gas-Sensor-Data-Classification-and-Anomaly-Detection`
 
@@ -254,7 +256,7 @@ Week 1:
 
 Week 2:
 
-- Polish `mrw-soumik.github.io`, `governance_demo`, and `Gas-Sensor-Data-Classification-and-Anomaly-Detection`.
+- Polish `mrw-soumik.github.io`, `Gas-Sensor-Data-Classification-and-Anomaly-Detection`, and `DNA-Sequence-Classification-with-Data-Encoding`.
 - Add descriptions and topics to the top 12 repos.
 
 Week 3:
