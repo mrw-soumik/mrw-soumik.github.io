@@ -4,7 +4,7 @@ Snapshot date: June 14, 2026.
 
 This plan was originally based on the public `mrw-soumik` GitHub profile and was updated after authenticated access confirmed the full account inventory. After creating the profile README repository, the account has 67 repositories: 43 public and 24 private.
 
-Status update: the `mrw-soumik` profile README repository now exists, the public profile bio/company/location/portfolio link have been updated, and every repository now has a GitHub description and at least one topic.
+Status update: the `mrw-soumik` profile README repository now exists, the public profile bio/company/location/portfolio link have been updated, every repository now has a GitHub description and at least one topic, and 28 low-signal repos have been archived.
 
 Correction note: `governance_demo` was built as a demo for another PPT/presentation, so it should not be treated as one of the top recruiter-facing pinned projects.
 
@@ -83,7 +83,7 @@ High-impact tasks:
 1. Add `My contribution`, `Results`, `How to run`, and `Limitations` sections to the top 6 READMEs.
 2. Add screenshots, architecture diagrams, or result plots where available.
 3. Add license files to important source repos that do not have one.
-4. Archive old tutorial forks and duplicate portfolio experiments only if they distract from the professional profile.
+4. Keep archived repos archived unless a specific one becomes useful again.
 
 Do not spend time rewriting old code unless the repo is pinned or linked from the portfolio.
 
@@ -94,7 +94,7 @@ Action meanings:
 - `Pin`: should be one of the 6 pinned repos after polishing.
 - `Polish`: useful for AI/ML roles; improve README, description, topics, results, and run instructions.
 - `Keep quiet`: okay to keep public, but do not pin.
-- `Archive/private`: consider archiving or making private if it is old, duplicate, empty, or tutorial-only.
+- `Archived`: already archived because it was old, duplicate, empty, forked, or tutorial-only.
 - `Clarify fork`: keep only if you add a clear `My contribution` section.
 
 | Repository | Type | Action | Recommendation |
@@ -115,32 +115,32 @@ Action meanings:
 | `Reinforcement-Learning-An-Applied-Evaluation-through-Grid-World-and-Random-Walk-Scenarios` | Reinforcement learning | Polish | Already has a clearer description. Add plots, algorithm comparison table, and setup steps. |
 | `Automated-Facemask-Detection-in-public-spaces` | MATLAB / image processing | Keep quiet | Add method and limitations if linked from portfolio. Otherwise leave unpinned. |
 | `medical-expert-system` | Prolog / expert system | Keep quiet | Interesting but niche. Add a short README note if you want to show symbolic AI background. |
-| `mostafa_rafiur_wasib.github.io` | Old portfolio | Archive/private | Duplicate of the current portfolio. Archive or make private to avoid recruiter confusion. |
-| `react-portfolio` | Fork / old portfolio | Archive/private | Old forked portfolio template. Archive or keep private unless it has unique work. |
-| `VR-Flight-Simulator` | VR project | Keep quiet or archive | No visible README from the API. Add a README and screenshots if you want to keep it public. |
-| `VR_FlightSimulator` | Fork / VR project | Clarify fork | Keep only if you contributed meaningful work. Otherwise archive or leave unpinned. |
+| `mostafa_rafiur_wasib.github.io` | Old portfolio | Archived | Duplicate of the current portfolio. Archived to avoid recruiter confusion. |
+| `react-portfolio` | Fork / old portfolio | Archived | Old forked portfolio template. Archived because it is not current professional proof. |
+| `VR-Flight-Simulator` | VR project | Archived | Empty public repo. Archived. |
+| `VR_FlightSimulator` | Fork / VR project | Archived | Forked VR project. Archived unless contribution needs to be revived later. |
 | `Covid19--Face-Mask-Detection` | Older CV project | Keep quiet | Similar to other computer vision repos. Do not pin; polish only if you need historical CV depth. |
-| `py-lists-with-maps-data-science-intro-000` | Fork / tutorial | Archive/private | Tutorial fork. Low recruiter value. |
-| `learn-co-sandbox` | Sandbox | Archive/private | Sandbox repo. Low recruiter value. |
-| `youtube-transcriber` | Fork / utility | Archive/private | Forked utility. Keep private/archive unless you made meaningful changes. |
-| `pythoncode-tutorials` | Fork / tutorials | Archive/private | Tutorial fork. Low recruiter value. |
+| `py-lists-with-maps-data-science-intro-000` | Fork / tutorial | Archived | Tutorial fork. Archived because it has low recruiter value. |
+| `learn-co-sandbox` | Sandbox | Archived | Sandbox repo. Archived because it has low recruiter value. |
+| `youtube-transcriber` | Fork / utility | Archived | Forked utility. Archived unless meaningful contribution needs to be revived. |
+| `pythoncode-tutorials` | Fork / tutorials | Archived | Tutorial fork. Archived because it has low recruiter value. |
 | `Credit-Card-Fraud-Detection-using-Autoencoders-in-Keras` | Fraud ML | Keep quiet or polish | Relevant to ML roles, but older. Add dataset, model architecture, metric summary, and limitations if you want fraud signal. |
 | `Tiny-Faces-in-Tensorflow` | Computer vision | Keep quiet | Older project. Add README polish only if it contains original work. |
 | `Twitter-Parsing` | Data parsing | Keep quiet | Old utility. Keep public if harmless, but do not highlight. |
 | `Face-Recognition-` | Computer vision | Keep quiet | Old notebook. Keep unpinned; add privacy/ethics note if you leave public. |
-| `Data-Science-Projects` | Fork / learning collection | Archive/private | Forked collection. Archive/private to reduce clutter. |
+| `Data-Science-Projects` | Fork / learning collection | Archived | Forked collection. Archived to reduce clutter. |
 | `Image-to-Text-Capture` | OCR / CV | Keep quiet | Potentially relevant, but older. Add sample input/output if keeping public. |
 | `Multi-Vehicle-Routing-Bing-Map-` | Optimization / routing | Keep quiet | Add screenshots and problem statement if you want operations research signal. Otherwise leave unpinned. |
-| `Simple-Outlier-Detection-and-Visualization-` | Outlier detection | Archive/private | No README visible from the API. Archive/private or add a minimal README if preserving. |
+| `Simple-Outlier-Detection-and-Visualization-` | Outlier detection | Archived | Empty public repo. Archived. |
 | `Multi-Vehicle-Route-Optimization-` | Optimization | Keep quiet | Useful supporting repo. Add algorithm explanation, constraints, and example result. |
-| `outlier-detection-2D-feature-space` | Fork / outlier detection | Archive/private | Forked article repo. Archive/private unless you made meaningful additions. |
-| `Face-Recognition-Model-with-Gender-Age-and-Emotions-Estimations` | Fork / CV | Archive/private | Forked capstone repo. Archive/private or clarify contribution. |
-| `Image-Recognition-using-MATLAB` | MATLAB / CV | Archive/private | No README visible from the API. Archive/private unless it supports academic history. |
-| `Rabin-Karp-Analysis-Algorithm-` | Algorithms | Archive/private | Old algorithm assignment. Low relevance for AI/ML portfolio. |
-| `Data-Structure---Friend-book-management-` | Data structures | Archive/private | Old programming assignment. Low relevance for current positioning. |
-| `Personal-Finance-System` | Java basics | Archive/private | Old basic programming project. Keep private unless needed for history. |
-| `SAM` | Unknown / old | Archive/private | Very old and unclear. Archive/private unless it has a specific story. |
-| `Reinforcement-Learning-Experiment-With-Simple-Bandit-Learning-Algorithms` | Fork / RL | Clarify fork | Add contribution note if important; otherwise keep unpinned. |
+| `outlier-detection-2D-feature-space` | Fork / outlier detection | Archived | Forked article repo. Archived. |
+| `Face-Recognition-Model-with-Gender-Age-and-Emotions-Estimations` | Fork / CV | Archived | Forked capstone repo. Archived unless contribution needs to be revived. |
+| `Image-Recognition-using-MATLAB` | MATLAB / CV | Archived | One-document older repo. Archived. |
+| `Rabin-Karp-Analysis-Algorithm-` | Algorithms | Archived | Old algorithm assignment. Archived. |
+| `Data-Structure---Friend-book-management-` | Data structures | Archived | Empty older assignment repo. Archived. |
+| `Personal-Finance-System` | Java basics | Archived | Old Java basics project. Archived. |
+| `SAM` | Unknown / old | Archived | Very old and unclear. Archived. |
+| `Reinforcement-Learning-Experiment-With-Simple-Bandit-Learning-Algorithms` | Fork / RL | Archived | Forked RL repo. Archived unless contribution needs to be clarified later. |
 
 ## Repository Metadata Status
 
@@ -148,9 +148,10 @@ Completed:
 
 - All 67 repositories now have descriptions.
 - All 67 repositories now have at least one topic.
+- 28 low-signal repositories are archived.
 - The current portfolio repo has its homepage set to `https://mrw-soumik.github.io/`.
 - `governance_demo` is labeled as a presentation demo rather than a default pin.
-- Archive/private candidates are labeled so they no longer appear as unexplained mystery repos.
+- Archived candidates are labeled so they no longer appear as unexplained mystery repos.
 
 ## Suggested Topics
 
@@ -222,6 +223,7 @@ Week 1 - completed:
 - Created the `mrw-soumik` profile README repository.
 - Updated GitHub bio, location, company, and portfolio link.
 - Added descriptions and topics to every repository.
+- Archived 28 low-signal repositories.
 - Replaced concrete-looking environment values with placeholders in the private `Test` README.
 
 Week 1 - remaining:
@@ -242,7 +244,7 @@ Week 3:
 Week 4:
 
 - Clarify forks with `My contribution` sections or archive them.
-- Archive/private duplicate portfolio repos, tutorial forks, sandboxes, and old unclear assignments.
+- Keep archived duplicate portfolio repos, tutorial forks, sandboxes, and old unclear assignments out of the active portfolio path.
 
 ## Final Rule
 
