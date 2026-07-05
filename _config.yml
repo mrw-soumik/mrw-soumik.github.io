@@ -1,1 +1,7 @@
-
+# Keep old drafts and internal notes out of the published site.
+exclude:
+  - index2.md
+  - index3.html
+  - index4.md
+  - GITHUB_PROFILE_RECOMMENDATIONS.md
+  - README.md
