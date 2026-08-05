@@ -1,6 +1,6 @@
 # Mostafa Rafiur Wasib Portfolio
 
-Personal portfolio for Mostafa Rafiur Wasib, focused on AI/ML engineering, LLM systems, RAG, evidence extraction, tabular ML, monitoring, and production AI case studies.
+Professional portfolio for Mostafa Rafiur Wasib, an AI Project Lead and AI Engineer with experience across applied AI, business systems, data analytics, machine learning, cloud technologies, and client-facing technical delivery.
 
 ## Local Preview
 
@@ -12,7 +12,7 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-The general AI/ML CV source is `resume.html`, with print styles in `assets/resume.css`. The downloadable PDF lives at `assets/Mostafa_Rafiur_Wasib_AI_ML_CV.pdf`.
+The general CV source is `resume.html`, with print styles in `assets/resume.css`. The downloadable PDF lives at `assets/Mostafa_Rafiur_Wasib_General_Technical_CV.pdf`.
 
 ## GitHub Pages Deployment
 
@@ -20,24 +20,25 @@ The site is intended to deploy directly from this repository through GitHub Page
 
 ## Confidentiality
 
-Some projects are proprietary client work. They are described only as professional public case studies without private data, production code, credentials, or client-specific implementation details.
+Some professional work involves proprietary client data and private production code. Public case studies are limited to approved high-level summaries and do not include private data, source code, credentials, or client-specific implementation details.
 
 ## Suggested Repository Metadata
 
 Suggested description:
 
-`Portfolio for AI/ML engineering, LLM systems, RAG, evidence extraction, tabular ML, and MLOps work.`
+`Portfolio for AI project leadership, applied AI, business systems, data analytics, cloud technologies, and public technical work.`
 
 Suggested topics:
 
 - `portfolio`
-- `machine-learning`
 - `artificial-intelligence`
-- `llm`
-- `rag`
-- `mlops`
-- `data-science`
-- `fastapi`
+- `machine-learning`
+- `generative-ai`
+- `business-analysis`
+- `data-analytics`
+- `power-bi`
 - `aws`
-- `langchain`
-- `langgraph`
+- `cloud`
+- `python`
+- `fastapi`
+- `project-management`
