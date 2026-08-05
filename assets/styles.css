@@ -392,6 +392,8 @@ a:focus {
 .project-grid,
 .credential-grid,
 .role-fit-grid,
+.focus-grid,
+.ba-grid,
 .github-grid {
     display: grid;
     gap: 1rem;
@@ -417,8 +419,13 @@ a:focus {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.role-fit-grid {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+.role-fit-grid,
+.focus-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ba-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .skill-card,
@@ -494,6 +501,18 @@ a:focus {
 
 .fit-card:nth-child(3) {
     border-top-color: var(--accent-3);
+}
+
+.fit-card:nth-child(4) {
+    border-top-color: var(--accent-5);
+}
+
+.fit-card:nth-child(6) {
+    border-top-color: var(--accent-4);
+}
+
+.fit-card .tag-list {
+    margin-top: 0.85rem;
 }
 
 .fit-card p {
@@ -650,6 +669,17 @@ a:focus {
     color: var(--muted);
 }
 
+.timeline-body ul {
+    margin: 0.55rem 0 0;
+    padding-left: 1.1rem;
+    color: var(--muted);
+}
+
+.timeline-body li {
+    margin: 0.28rem 0;
+    font-size: 0.96rem;
+}
+
 .org-line,
 .date-line,
 .tech-line {
@@ -785,6 +815,10 @@ a:focus {
         grid-template-columns: 1fr;
     }
 
+    .focus-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .contact-grid,
     .credential-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -823,6 +857,8 @@ a:focus {
     .credential-grid,
     .contact-grid,
     .role-fit-grid,
+    .focus-grid,
+    .ba-grid,
     .github-grid {
         grid-template-columns: 1fr;
     }
@@ -835,4 +871,93 @@ a:focus {
     .hero-actions .btn {
         width: 100%;
     }
+}
+
+/* Collapsible "view more" sections (native details/summary, no JS required) */
+.more-block {
+    margin-top: 1.5rem;
+}
+
+.more-block > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    width: fit-content;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid var(--accent);
+    border-radius: 0.45rem;
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    font-weight: 800;
+    cursor: pointer;
+    list-style: none;
+}
+
+.more-block > summary::-webkit-details-marker {
+    display: none;
+}
+
+.more-block > summary::after {
+    content: "+";
+    font-size: 1.05rem;
+    line-height: 1;
+}
+
+.more-block[open] > summary::after {
+    content: "\2013";
+}
+
+.more-block > summary:hover,
+.more-block > summary:focus-visible {
+    background: var(--accent);
+    color: #ffffff;
+}
+
+.more-block > summary:focus-visible {
+    outline: 3px solid var(--accent-5);
+    outline-offset: 2px;
+}
+
+.more-block .project-grid,
+.more-block .credential-grid {
+    margin-top: 1.25rem;
+}
+
+/* Compact supporting line under the hero identity */
+.hero-tagline {
+    margin: 0.85rem 0 0;
+    color: var(--accent-2);
+    font-size: 1.02rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+
+/* General CV download band */
+.cv-band .cv-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 1.75rem;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f6f9ff 100%);
+    box-shadow: var(--shadow);
+}
+
+.cv-band .cv-copy {
+    max-width: 40rem;
+}
+
+.cv-band .cv-copy h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 850;
+    color: var(--text);
+}
+
+.cv-band .cv-copy p {
+    margin: 0;
+    color: var(--muted);
 }
