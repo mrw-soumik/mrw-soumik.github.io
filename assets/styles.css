@@ -98,7 +98,7 @@ a:focus {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.6fr) minmax(19rem, 0.8fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
     align-items: start;
 }
