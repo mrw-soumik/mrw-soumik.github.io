@@ -575,6 +575,7 @@ a:hover { color: var(--accent-hover); }
 
 .prose { max-width: 760px; padding: 40px 0 72px; }
 .prose h2 { margin: 40px 0 12px; font-size: 1.45rem; }
+.prose > :first-child { margin-top: 0; }
 .prose h3 { margin: 28px 0 8px; }
 .prose p, .prose li { color: var(--text-muted); }
 .prose ul, .prose ol { padding-left: 1.2rem; }
@@ -614,3 +615,7 @@ a:hover { color: var(--accent-hover); }
     .section { padding: 24px 0; }
     a { color: #000; }
 }
+
+/* Architecture diagrams are standalone SVG files with their own light/dark styles. */
+.diagram-img { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; }
+.case-figure .diagram-img { background: transparent; }

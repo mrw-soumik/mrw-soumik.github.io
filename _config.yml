@@ -32,12 +32,17 @@ defaults:
       path: ""
     values:
       layout: default
+  - scope:
+      path: assets/Mostafa_Rafiur_Wasib_AI_ML_CV.pdf
+    values:
+      sitemap: false
 
 # Kept in the repository but not published.
 exclude:
   - archive
   - README.md
   - LICENSE
+  - scripts
   # Superseded by the client case study pages in work/
   - CO2_Emissions.md
   # Early coursework no longer featured on the site
