@@ -698,8 +698,6 @@ a:hover { color: var(--accent-hover); }
 .org-logo--fill { padding: 0; overflow: hidden; }
 .org-logo--sm { width: 30px; height: 30px; padding: 3px; border-radius: 8px; }
 .org-logo--sm.org-logo--fill { padding: 0; }
-.org-logo--generic { display: grid; place-items: center; background: var(--surface-2); color: var(--text-faint); }
-.org-logo--generic svg { width: 16px; height: 16px; }
 
 .timeline-side { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
 .timeline-company { font-size: 1.15rem; }
