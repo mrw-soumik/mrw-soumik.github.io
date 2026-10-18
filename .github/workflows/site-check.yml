@@ -1,0 +1,36 @@
+name: Site check
+
+# Builds the site exactly as GitHub Pages does and fails on broken internal links.
+# Runs on pull requests and feature branches; deployment from main is unchanged.
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build with the GitHub Pages Jekyll builder
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Check internal links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --root-dir ${{ github.workspace }}/_site './_site/**/*.html'
+          fail: true
+
+      - name: Upload built site for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site

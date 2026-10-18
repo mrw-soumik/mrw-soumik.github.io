@@ -1,44 +1,35 @@
-# Mostafa Rafiur Wasib Portfolio
+# mrw-soumik.github.io
 
-Professional portfolio for Mostafa Rafiur Wasib, an AI Project Lead and AI Engineer with experience across applied AI, business systems, data analytics, machine learning, cloud technologies, and client-facing technical delivery.
+Source for the portfolio of **Mostafa Rafiur Wasib**, AI Project Lead and AI Engineer in St. John's, Newfoundland and Labrador.
 
-## Local Preview
+**Live site:** https://mrw-soumik.github.io
 
-This is a static GitHub Pages site. To preview locally, open `index.html` in a browser or serve the folder with a simple static server:
+[![Portfolio preview](assets/img/og-image.png)](https://mrw-soumik.github.io)
 
-```bash
-python3 -m http.server 8000
-```
+## What is in this repository
 
-Then visit `http://localhost:8000`.
+| Path | Purpose |
+|---|---|
+| `index.html` | Homepage (plain HTML, no build step) |
+| `resume.html`, `assets/resume.css` | Printable résumé and the source of the résumé PDF |
+| `assets/*.pdf` | Résumé PDF. Two file names are kept identical so older links keep working |
+| `work/` | Client case studies: approved, NDA-safe summaries with architecture diagrams |
+| `*.md`, `_layouts/`, `_includes/` | Academic project pages, rendered by GitHub Pages (Jekyll) with the site layout |
+| `assets/styles.css`, `assets/site.js` | Shared styles (light and dark themes) and small progressive-enhancement scripts |
+| `_config.yml` | Jekyll settings, plugins (SEO tags, sitemap, redirects) and pages kept unpublished |
+| `.github/workflows/site-check.yml` | Builds the site exactly as GitHub Pages does and checks internal links on every pull request |
 
-The general CV source is `resume.html`, with print styles in `assets/resume.css`. The downloadable PDF lives at `assets/Mostafa_Rafiur_Wasib_General_Technical_CV.pdf`.
+## Preview locally
 
-## GitHub Pages Deployment
+- Homepage and résumé: run `python3 -m http.server 8000` in this folder and open http://localhost:8000.
+- Markdown and case study pages are rendered by Jekyll. Open a pull request (the Site check workflow uploads the built site as an artifact) or run `bundle exec jekyll serve` with the `github-pages` gem.
 
-The site is intended to deploy directly from this repository through GitHub Pages. No React, Next.js, package manager, or build step is required.
+## Update the résumé PDF
 
-## Confidentiality
+Edit `resume.html`, then run `scripts/build-cv.sh` (requires Google Chrome). It prints the PDF and refreshes the older file name too.
 
-Some professional work involves proprietary client data and private production code. Public case studies are limited to approved high-level summaries and do not include private data, source code, credentials, or client-specific implementation details.
+## Content and licence
 
-## Suggested Repository Metadata
+The code (HTML, CSS and JavaScript) is available under the MIT licence in `LICENSE`. Written content, images and the résumé are © Mostafa Rafiur Wasib, all rights reserved.
 
-Suggested description:
-
-`Portfolio for AI project leadership, applied AI, business systems, data analytics, cloud technologies, and public technical work.`
-
-Suggested topics:
-
-- `portfolio`
-- `artificial-intelligence`
-- `machine-learning`
-- `generative-ai`
-- `business-analysis`
-- `data-analytics`
-- `power-bi`
-- `aws`
-- `cloud`
-- `python`
-- `fastapi`
-- `project-management`
+Client case studies are high-level public summaries approved for sharing. They contain no client data, source code or credentials.

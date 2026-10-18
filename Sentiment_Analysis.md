@@ -1,23 +1,20 @@
-# Natural Language Processing - Sentiment Analysis Tool
+---
+layout: project
+title: Sentiment analysis tool
+description: A three-class sentiment classifier that compares Naive Bayes, logistic regression and SVM on TF-IDF features, with a reusable prediction function.
+summary: A three-class (positive, neutral, negative) sentiment classifier that compares Naive Bayes, logistic regression and SVM on TF-IDF features.
+category: Academic project · Natural language processing
+tech: Python, NLTK, scikit-learn, pandas
+repo: https://github.com/mrw-soumik/Sentiment-Analysis-Tool
+---
 
-## Objective
-The goal of this project is to develop a **Sentiment Analysis Tool** that classifies text into three sentiment categories: **positive**, **neutral**, and **negative**. This tool is designed for analyzing opinions in text data, making it useful for understanding customer feedback, social media comments, and other text-based sources of sentiment.
+## Approach
 
-## Technologies Used
-- **Python**: Core language for development and data processing.
-- **NLTK**: For Natural Language Processing tasks, such as tokenization and stopword removal.
-- **Scikit-learn**: Used for vectorization (TF-IDF), building machine learning models (Naive Bayes, Logistic Regression, SVM), and evaluating model performance.
-- **Pandas**: Data manipulation and handling.
+- **Data:** 300 labelled text samples across positive, neutral and negative.
+- **Preprocessing:** lowercasing, punctuation removal, tokenization and stopword removal with NLTK.
+- **Models:** TF-IDF features with Naive Bayes, logistic regression and a linear SVM, each evaluated with accuracy and a per-class classification report.
+- **Prediction:** a function that classifies new text with the best-performing model.
 
-## Role and Contributions
-- **Preprocessing and Data Cleaning**: Developed functions to clean text data by removing punctuation, converting text to lowercase, tokenizing, and removing stopwords.
-- **Model Selection and Training**: Implemented and trained three machine learning models—Naive Bayes, Logistic Regression, and SVM—on the preprocessed data, then evaluated each model to determine the best performer.
-- **Prediction Functionality**: Created a function to allow for real-time sentiment prediction on new input text based on the trained model.
+## Results
 
-## Outcomes
-- The tool achieved **over 90% accuracy** in classifying the test dataset across various models, with SVM performing as the top model.
-- Demonstrated effective sentiment classification in text, showing the potential of machine learning and NLP for analyzing opinions in large text datasets.
-
-## GitHub Repository
-The full project code and resources are available on GitHub: [Sentiment Analysis Tool](https://github.com/mrw-soumik/Sentiment-Analysis-Tool)
-
+The script prints accuracy and per-class reports for each model, and the SVM performed best. With only 300 samples, scores vary noticeably with the train and test split, so this project demonstrates a clean classification workflow rather than a production-ready model.

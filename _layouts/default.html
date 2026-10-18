@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&amp;display=swap">
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <!-- Header, footer and icons mirror index.html; keep them in sync. -->
+    {% include icons.svg %}
+
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="container nav" aria-label="Primary">
+            <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">MW</span><span>Mostafa Rafiur Wasib</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                <svg aria-hidden="true"><use href="#i-menu"/></svg><span class="visually-hidden">Menu</span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/#work">Projects</a></li>
+                <li><a href="/#client-work">Client work</a></li>
+                <li><a href="/#experience">Experience</a></li>
+                <li><a href="/#skills">Skills</a></li>
+                <li><a href="/#contact">Contact</a></li>
+                <li><a class="nav-cta" href="/resume.html">Résumé</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Mostafa Rafiur Wasib</p>
+            <ul class="footer-links">
+                <li><a href="/resume.html">Résumé</a></li>
+                <li><a href="https://github.com/mrw-soumik">GitHub</a></li>
+                <li><a href="https://github.com/mrw-soumik/mrw-soumik.github.io">Site source</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/assets/site.js" defer></script>
+</body>
+</html>

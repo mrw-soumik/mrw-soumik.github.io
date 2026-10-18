@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="t d">
+  <title id="t">MVPFlow AI pipeline</title>
+  <desc id="d">Founder notes become requirements, MVP scope, architecture, a backlog, reviewed pull requests checked by CI, an evaluation and a founder-ready summary.</desc>
+  <style>
+    .bg { fill: #f1f5f9; }
+    .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+    .box.hl { fill: #eff6ff; stroke: #1d4ed8; }
+    .t { fill: #0f172a; font: 600 34px Inter, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .s { fill: #5a6a7e; font: 500 24px Inter, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .edge { fill: none; stroke: #5a6a7e; stroke-width: 3; }
+    .head { fill: #5a6a7e; }
+    .tag { fill: #1d4ed8; font: 700 22px Inter, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: 2px; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1a2540; }
+      .box { fill: #111a2e; stroke: #33425f; }
+      .box.hl { fill: #172447; stroke: #7ab0ff; }
+      .t { fill: #e5e7eb; }
+      .s, .edge { fill: #a3b1c6; }
+      .edge { fill: none; stroke: #a3b1c6; }
+      .head { fill: #a3b1c6; }
+      .tag { fill: #7ab0ff; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="head" d="M0 0 10 5 0 10z"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1280" height="720"/>
+  <text class="tag" x="80" y="104">SPEC-DRIVEN, AI-ASSISTED MVP WORKFLOW</text>
+
+  <!-- Row 1 -->
+  <g>
+    <rect class="box" x="80" y="160" width="250" height="140" rx="18"/>
+    <text class="t" x="205" y="225" text-anchor="middle">Founder</text>
+    <text class="t" x="205" y="265" text-anchor="middle">notes</text>
+  </g>
+  <g>
+    <rect class="box hl" x="370" y="160" width="250" height="140" rx="18"/>
+    <text class="t" x="495" y="243" text-anchor="middle">Requirements</text>
+  </g>
+  <g>
+    <rect class="box hl" x="660" y="160" width="250" height="140" rx="18"/>
+    <text class="t" x="785" y="243" text-anchor="middle">MVP scope</text>
+  </g>
+  <g>
+    <rect class="box hl" x="950" y="160" width="250" height="140" rx="18"/>
+    <text class="t" x="1075" y="243" text-anchor="middle">Architecture</text>
+  </g>
+  <path class="edge" d="M330 230h32" marker-end="url(#arrow)"/>
+  <path class="edge" d="M620 230h32" marker-end="url(#arrow)"/>
+  <path class="edge" d="M910 230h32" marker-end="url(#arrow)"/>
+  <path class="edge" d="M1075 300v56H205v56" marker-end="url(#arrow)"/>
+
+  <!-- Row 2 -->
+  <g>
+    <rect class="box hl" x="80" y="420" width="250" height="140" rx="18"/>
+    <text class="t" x="205" y="503" text-anchor="middle">Backlog</text>
+  </g>
+  <g>
+    <rect class="box hl" x="370" y="420" width="250" height="140" rx="18"/>
+    <text class="t" x="495" y="485" text-anchor="middle">Reviewed PR</text>
+    <text class="s" x="495" y="525" text-anchor="middle">tests + CI</text>
+  </g>
+  <g>
+    <rect class="box hl" x="660" y="420" width="250" height="140" rx="18"/>
+    <text class="t" x="785" y="503" text-anchor="middle">Evaluation</text>
+  </g>
+  <g>
+    <rect class="box" x="950" y="420" width="250" height="140" rx="18"/>
+    <text class="t" x="1075" y="485" text-anchor="middle">Founder</text>
+    <text class="t" x="1075" y="525" text-anchor="middle">summary</text>
+  </g>
+  <path class="edge" d="M330 490h32" marker-end="url(#arrow)"/>
+  <path class="edge" d="M620 490h32" marker-end="url(#arrow)"/>
+  <path class="edge" d="M910 490h32" marker-end="url(#arrow)"/>
+
+  <text class="s" x="80" y="640">Every step produces a reviewable artifact; code lands as tested, human-reviewed pull requests.</text>
+</svg>

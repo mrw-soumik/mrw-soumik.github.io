@@ -133,3 +133,47 @@ li {
         box-shadow: none;
     }
 }
+
+/* Screen-only toolbar and small-screen layout (never printed). */
+.resume-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 14px 0.45in;
+    font-size: 10.5pt;
+}
+
+.resume-toolbar a {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.resume-toolbar .resume-download {
+    padding: 6px 14px;
+    border-radius: 6px;
+    background: var(--accent);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.resume-contact a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+@media screen and (max-width: 860px) {
+    body { font-size: 10.5pt; }
+    .resume-page { width: auto; min-height: 0; margin: 0; padding: 20px 16px 36px; }
+    .resume-toolbar { padding: 12px 16px; }
+    .skill-columns { grid-template-columns: 1fr; }
+    h1 { font-size: 17pt; }
+}
+
+@media print {
+    .resume-toolbar { display: none; }
+    .resume-contact a { text-decoration: none; }
+}

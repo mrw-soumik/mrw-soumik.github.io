@@ -1,30 +1,21 @@
-## Project Overview
-This project applies reinforcement learning algorithms to two classic problems: navigating a grid world and performing a random walk on a 7x7 grid. It provides an analysis of algorithm performance, focusing on learning efficiency, policy convergence, and value function estimation.
+---
+layout: project
+title: Reinforcement learning in grid world and random walk
+description: SARSA versus Q-learning for grid-world navigation, and Gradient Monte Carlo versus semi-gradient TD(0) for value estimation on a 7 by 7 random walk.
+summary: Two classic reinforcement learning problems used to compare on-policy and off-policy control, and Monte Carlo and temporal-difference value estimation.
+category: Academic project · Reinforcement learning
+tech: Python, NumPy, Matplotlib, Jupyter
+repo: https://github.com/mrw-soumik/Reinforcement-Learning-An-Applied-Evaluation-through-Grid-World-and-Random-Walk-Scenarios
+---
 
-## Technologies Used
-- **Python**: Primary language for algorithm implementation
-- **Jupyter Notebook**: Interactive code execution and analysis
-- **Libraries**:
-  - `numpy` for calculations
-  - `matplotlib` for visualizations
+## Grid world: SARSA and Q-learning
 
-## Contributions
-- **Algorithm Implementation**:
-  - **Grid World**: SARSA (on-policy) and Q-Learning (off-policy) algorithms for navigating the grid.
-  - **Random Walk**: Gradient Monte Carlo and Semi-Gradient TD(0) methods for value function estimation.
-- **Results and Analysis**:
-  - Compared learning paths and reward trends for SARSA and Q-Learning in Grid World.
-  - Evaluated value function estimations in Random Walk, highlighting the efficiency and biases of each method.
-- **Documentation**: Clear explanations of methods and insights on algorithm performance.
+Both algorithms learned to navigate a grid world with penalty squares. Q-learning (off-policy) converged faster to the optimal path, while SARSA (on-policy) learned safer routes that avoided penalty squares, at the cost of slower convergence.
 
-## Key Results
-### Grid World
-- **SARSA**: Learned safe paths over time, avoiding penalty squares. Rewards stabilized with training.
-- **Q-Learning**: Reached terminal states quickly and showed faster convergence to optimal paths.
+## Random walk: Monte Carlo and TD(0)
 
-### Random Walk
-- **Gradient Monte Carlo**: Smooth and accurate value estimates between terminal states.
-- **TD(0)**: Faster but introduced slight bias, especially near negative terminal states.
+On a 7 by 7 random walk with terminal rewards of -1 and +1, Gradient Monte Carlo produced smooth value estimates between the terminal states. Semi-gradient TD(0) with an affine approximation updated faster but showed more variance and some bias near the negative terminal state.
 
+## Takeaway
 
-[GitHub Repository for Reinforcement Learning: An Applied Evaluation through Grid World and Random Walk Scenarios](https://github.com/mrw-soumik/Reinforcement-Learning-An-Applied-Evaluation-through-Grid-World-and-Random-Walk-Scenarios)
+The trade-offs match the theory: off-policy learning finds the optimal policy faster but takes riskier paths while learning, and bootstrapped TD estimates learn faster than Monte Carlo at the cost of bias. Plots for each experiment are in the repository.

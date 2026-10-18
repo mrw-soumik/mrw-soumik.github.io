@@ -1,4 +1,53 @@
-# Keep archived drafts and internal notes out of the published site.
+# Site settings. GitHub Pages builds this repository with Jekyll.
+# index.html, resume.html and 404.html are plain HTML; Markdown pages use _layouts/.
+title: Mostafa Rafiur Wasib
+description: AI Project Lead and AI Engineer in St. John's, NL. Applied AI, business analysis, data and cloud delivery.
+url: https://mrw-soumik.github.io
+baseurl: ""
+lang: en_CA
+locale: en_CA
+author:
+  name: Mostafa Rafiur Wasib
+  url: https://mrw-soumik.github.io/
+image: /assets/img/og-image.png
+logo: /apple-touch-icon.png
+social:
+  name: Mostafa Rafiur Wasib
+  links:
+    - https://www.linkedin.com/in/mostafa-wasib/
+    - https://github.com/mrw-soumik
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Kept in the repository but not published.
 exclude:
   - archive
   - README.md
+  - LICENSE
+  # Superseded by the client case study pages in work/
+  - CO2_Emissions.md
+  # Early coursework no longer featured on the site
+  - Automated_Facemask_Detection_in_Public_Spaces.md
+  - Edge_Detection_and_Filtering.md
+  - Fuzzy_Logic_Weather_Prediction.md
+  - Ice_Hockey_Game.md
+  - Image_Classification.md
+  - Medical_Expert_System.md
+  - Modified_Grid_World.md
+  - Obstacle_Avoidance_Rovio.md
+  - Root_Finding_Algorithms.md
+  - Scheduling_System.md

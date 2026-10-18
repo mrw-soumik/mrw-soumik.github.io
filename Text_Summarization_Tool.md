@@ -1,21 +1,20 @@
-# Text Summarization Tool
+---
+layout: project
+title: Extractive text summarization
+description: An extractive summarizer that scores sentences by frequency, position and keywords, and uses sentence embeddings to avoid redundant picks.
+summary: A summarizer that picks the most important sentences from a document, using sentence embeddings to avoid choosing near-duplicates.
+category: Independent project · Natural language processing
+role: Designed and built the tool
+tech: Python, NLTK, Sentence-Transformers
+repo: https://github.com/mrw-soumik/Text-Summarization-Tool
+---
 
-## Objective
-The goal of this project was to create a tool that effectively condenses lengthy text documents into concise summaries, improving accessibility and information retrieval for users. The tool uses extractive summarization, which selects key sentences based on relevance, to provide an efficient overview of the original content.
+## Approach
 
-## Technologies Used
-- **Python**: For developing the core logic and preprocessing text data.
-- **NLTK**: For text preprocessing, including tokenization and stopword removal.
-- **Sentence-Transformers**: For generating sentence embeddings to assess semantic similarity and reduce redundancy in the summary.
+- **Sentence scoring:** each sentence is scored by word frequency, its position in the document and keyword relevance.
+- **Redundancy control:** sentence embeddings from Sentence-Transformers measure semantic similarity, so the summary skips sentences that repeat what has already been selected.
+- **Configurable output:** summary length and the similarity threshold can both be adjusted.
 
-## Role and Contributions
-I designed and implemented the entire text summarization tool, focusing on several key contributions:
-- Developed a sentence scoring system based on word frequency, sentence position, and keyword relevance to prioritize important content.
-- Integrated sentence embeddings to ensure that selected sentences in the summary are semantically diverse, minimizing redundancy.
-- Enabled flexibility in summary length and similarity threshold, allowing users to customize the summarization output based on their needs.
+## Try it
 
-## Final Outcomes
-The summarization tool effectively generates diverse and relevant summaries for various document types, including articles and reports. It has been tested on news articles and lengthy reports, demonstrating its ability to provide concise, informative summaries. This tool highlights the potential of NLP in making large volumes of information easier to access and understand.
-
-## GitHub Repository
-For more information, access the project on GitHub: [Text Summarization Tool](https://github.com/mrw-soumik/Text-Summarization-Tool)
+Run `python summarizer.py` in the repository to summarize the example paragraph it contains, or replace that text with your own.

@@ -1,1129 +1,565 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CA">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AI Project Lead and AI Engineer based in St. John's, Canada, with experience across applied AI, business systems, data analytics, machine learning, APIs, cloud technologies, and client-facing technical delivery.">
-    <meta name="keywords" content="Mostafa Rafiur Wasib, AI Project Lead, AI Engineer, Applied AI, Generative AI, Machine Learning, Business Systems Analyst, Business Analysis, Data Analytics, Power BI, AWS, Cloud Technologies, Technical Project Delivery, St. John's, Newfoundland and Labrador, Canada">
-    <meta property="og:title" content="Mostafa Rafiur Wasib | AI Project Lead & AI Engineer">
-    <meta property="og:description" content="AI Project Lead and AI Engineer with experience across applied AI, business systems, data analytics, machine learning, cloud technologies, and client-facing technical delivery.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mrw-soumik.github.io/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mostafa Rafiur Wasib | AI Project Lead &amp; AI Engineer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles.css">
+    <meta name="description" content="AI Project Lead and AI Engineer in St. John's, NL, turning business problems into working AI and data systems: RAG, ML, business analysis and Power BI.">
+    <link rel="canonical" href="https://mrw-soumik.github.io/">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mostafa Rafiur Wasib">
+    <meta property="og:title" content="Mostafa Rafiur Wasib | AI Project Lead &amp; AI Engineer">
+    <meta property="og:description" content="I turn business problems into working AI and data systems, from the first requirements conversation to a tested, documented handover.">
+    <meta property="og:url" content="https://mrw-soumik.github.io/">
+    <meta property="og:image" content="https://mrw-soumik.github.io/assets/img/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Mostafa Rafiur Wasib, AI Project Lead and AI Engineer, St. John's, NL">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&amp;display=swap">
+    <link rel="stylesheet" href="/assets/styles.css">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Mostafa Rafiur Wasib",
-        "jobTitle": "AI Project Lead & AI Engineer",
-        "description": "AI Project Lead and AI Engineer with experience across applied AI, business systems, data analytics, machine learning, cloud technologies, and client-facing technical delivery.",
         "url": "https://mrw-soumik.github.io/",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "St. John's",
-            "addressRegion": "Newfoundland and Labrador",
-            "addressCountry": "Canada"
-        },
+        "image": "https://mrw-soumik.github.io/assets/img/headshot.jpg",
+        "jobTitle": "AI Project Lead",
+        "worksFor": { "@type": "Organization", "name": "Genesis Group Inc. / Genesis AI Garage" },
+        "address": { "@type": "PostalAddress", "addressLocality": "St. John's", "addressRegion": "NL", "addressCountry": "CA" },
         "email": "mailto:mostafa.wasib73@gmail.com",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Genesis Group Inc. / Genesis AI Garage"
+        "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Memorial University of Newfoundland" },
+            { "@type": "CollegeOrUniversity", "name": "University of Malaya" }
+        ],
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "AWS Certified Machine Learning Engineer - Associate",
+            "credentialCategory": "certification",
+            "recognizedBy": { "@type": "Organization", "name": "Amazon Web Services" }
         },
-        "sameAs": [
-            "https://www.linkedin.com/in/mostafa-wasib/",
-            "https://github.com/mrw-soumik"
-        ]
+        "knowsAbout": ["Applied AI", "Retrieval-augmented generation", "Machine learning", "Business analysis", "Business systems analysis", "Power BI", "Python", "Amazon Web Services"],
+        "sameAs": ["https://www.linkedin.com/in/mostafa-wasib/", "https://github.com/mrw-soumik"]
     }
     </script>
 </head>
 <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+        <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+        <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></symbol>
+        <symbol id="i-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></symbol>
+        <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/></symbol>
+        <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></symbol>
+        <symbol id="i-flow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="6" rx="1.5"/><rect x="14" y="15" width="7" height="6" rx="1.5"/><path d="M6.5 9v4a2 2 0 0 0 2 2H14"/></symbol>
+        <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><path d="m6.3 6.3 2.1 2.1M15.6 15.6l2.1 2.1M6.3 17.7l2.1-2.1M15.6 8.4l2.1-2.1"/></symbol>
+        <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+        <symbol id="i-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></symbol>
+    </svg>
 
-    <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Primary navigation">
-        <div class="container">
-            <a class="navbar-brand" href="#top">Mostafa Rafiur Wasib</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="container nav" aria-label="Primary">
+            <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">MW</span><span>Mostafa Rafiur Wasib</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                <svg aria-hidden="true"><use href="#i-menu"/></svg><span class="visually-hidden">Menu</span>
             </button>
-            <div class="collapse navbar-collapse" id="primaryNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#professional-focus">Focus</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#business-analysis">Business Systems</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#role-fit">Where I Add Value</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#production-ai-work">Client Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#github-work">Public Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <header id="top" class="hero">
-        <div class="container">
-            <div class="hero-grid">
-                <div class="hero-main">
-                    <p class="eyebrow">AI Project Lead at Genesis Group Inc. / Genesis AI Garage</p>
-                    <h1>Mostafa Rafiur Wasib</h1>
-                    <p class="hero-subtitle">AI Project Lead &amp; AI Engineer</p>
-                    <p class="hero-tagline">Applied AI · Business Systems · Data Analytics · Cloud · Client Delivery</p>
-                    <p class="hero-copy">
-                        I lead and build practical AI, software, data, and business-system solutions, combining hands-on technical work with requirements analysis, project planning, testing, documentation, and client delivery.
-                    </p>
-                    <p class="hero-meta">St. John's, NL, Canada | <a href="mailto:mostafa.wasib73@gmail.com">mostafa.wasib73@gmail.com</a> | 709-219-4278</p>
-                    <div class="hero-actions">
-                        <a class="btn btn-primary" href="#production-ai-work">View Professional Work</a>
-                        <a class="btn btn-outline-primary" href="#github-work">View Public Projects</a>
-                        <a class="btn btn-secondary" href="assets/Mostafa_Rafiur_Wasib_General_Technical_CV.pdf" download>Download General CV</a>
-                        <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/mostafa-wasib/" target="_blank" rel="noopener">LinkedIn</a>
-                        <a class="btn btn-outline-primary" href="#contact">Contact</a>
-                    </div>
-                    <div class="focus-row">
-                        <span>Applied AI &amp; GenAI</span>
-                        <span>Machine Learning</span>
-                        <span>Business Systems</span>
-                        <span>Data &amp; BI</span>
-                        <span>APIs &amp; Integrations</span>
-                        <span>Cloud Delivery</span>
-                        <span>Technical Project Delivery</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/#work">Projects</a></li>
+                <li><a href="/#client-work">Client work</a></li>
+                <li><a href="/#experience">Experience</a></li>
+                <li><a href="/#skills">Skills</a></li>
+                <li><a href="/#contact">Contact</a></li>
+                <li><a class="nav-cta" href="/resume.html">Résumé</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main id="main-content">
-        <section id="professional-focus" class="section-block">
+    <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
             <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Professional Focus</p>
-                    <h2>Applied AI, business systems, data, cloud, and technical delivery</h2>
-                    <p>One connected professional identity across applied AI engineering, business and systems analysis, data and BI, and client-facing technical delivery.</p>
-                </div>
-                <div class="focus-grid">
-                    <article class="fit-card">
-                        <h3>Applied AI &amp; Generative AI</h3>
-                        <p>LLM applications, retrieval-augmented generation, document and knowledge workflows, structured outputs, evaluation, integrations, and maintainable AI delivery.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>AI Project &amp; Client Delivery</h3>
-                        <p>Project planning, requirements clarification, client communication, scope and risk management, technical coordination, demonstrations, testing, documentation, and handover.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Business Systems &amp; Analysis</h3>
-                        <p>Business requirements, workflow analysis, systems thinking, process improvement, integration support, acceptance criteria, testing, documentation, and user needs.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Data &amp; Business Intelligence</h3>
-                        <p>SQL, data preparation, data validation, dashboards, KPI reporting, Power BI, Power Query, Excel, Tableau, and insight communication.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Machine Learning &amp; Data Science</h3>
-                        <p>Feature engineering, predictive modelling, anomaly detection, forecasting, recommendation systems, model evaluation, experimentation, and visualization.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Cloud, Backend &amp; MLOps</h3>
-                        <p>APIs, backend services, Docker, CI/CD, AWS, Azure, Google Cloud, infrastructure as code, monitoring, logging, and deployment-readiness practices.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="section-block section-muted">
-            <div class="container section-narrow">
-                <p class="section-kicker">About</p>
-                <h2>Applied AI, business systems, and technical delivery</h2>
-                <p>
-                    I am an AI Project Lead and AI Engineer with 5+ years of combined experience across artificial intelligence, software development, business systems, machine learning, data analytics, applied research, and client-facing technical delivery.
-                </p>
-                <p>
-                    At Genesis Group Inc. and Genesis AI Garage, I lead and support confidential AI and software engagements from requirements discovery and feasibility assessment through planning, implementation, testing, deployment support, documentation, and handover.
-                </p>
-                <p>
-                    My work combines hands-on technical implementation with business and systems analysis. I clarify requirements, analyze workflows and data, support solution planning, coordinate delivery, validate technical outputs, prepare documentation, and communicate progress with clients and technical teams.
-                </p>
-                <p>
-                    My technical toolkit includes Python, JavaScript, TypeScript, Node.js, FastAPI, REST APIs, SQL, PostgreSQL, Docker, AWS CDK, AWS, Microsoft Azure, Google Cloud, Microsoft Power BI, Power Query, Tableau, PyTorch, TensorFlow, scikit-learn, LangGraph, and modern LLM platforms.
-                </p>
-                <p>
-                    Because much of my recent client work involves proprietary data and private production code, I present those engagements as approved public case studies focused on the problem, my contribution, technologies, and high-level outcome.
-                </p>
-            </div>
-        </section>
-
-        <section id="business-analysis" class="section-block">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Business Systems, Analysis &amp; Delivery</p>
-                    <h2>Business Systems, Analysis &amp; Delivery</h2>
-                    <p>My work combines technical implementation with business and systems analysis. I help clarify business needs, translate requirements into technical tasks, analyze workflows and data, support testing, document processes, and communicate findings to clients and users.</p>
-                </div>
-                <div class="ba-grid">
-                    <article class="fit-card">
-                        <h3>Requirements &amp; Workflow Analysis</h3>
-                        <ul class="tag-list">
-                            <li>Requirements gathering</li>
-                            <li>Requirements clarification</li>
-                            <li>User needs</li>
-                            <li>Current-state workflows</li>
-                            <li>Future-state workflows</li>
-                            <li>Business rules</li>
-                            <li>Acceptance criteria</li>
-                            <li>Technical task breakdown</li>
-                            <li>Process documentation</li>
-                        </ul>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Data, Reporting &amp; Decision Support</h3>
-                        <ul class="tag-list">
-                            <li>SQL and Python analysis</li>
-                            <li>Power BI</li>
-                            <li>Power Query</li>
-                            <li>Excel</li>
-                            <li>Tableau</li>
-                            <li>KPI reporting</li>
-                            <li>Data validation</li>
-                            <li>Data quality</li>
-                            <li>Operational reporting</li>
-                            <li>Insight summaries</li>
-                        </ul>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Systems &amp; Integration Support</h3>
-                        <ul class="tag-list">
-                            <li>REST APIs</li>
-                            <li>Data pipelines</li>
-                            <li>System integration</li>
-                            <li>Microsoft 365</li>
-                            <li>SharePoint</li>
-                            <li>CRM workflows</li>
-                            <li>PostgreSQL</li>
-                            <li>Data modelling</li>
-                            <li>Information management</li>
-                        </ul>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Testing, Documentation &amp; User Support</h3>
-                        <ul class="tag-list">
-                            <li>Test planning</li>
-                            <li>Test cases</li>
-                            <li>Validation</li>
-                            <li>User acceptance testing support</li>
-                            <li>Issue clarification</li>
-                            <li>Technical documentation</li>
-                            <li>Runbooks</li>
-                            <li>User guidance</li>
-                            <li>Handover documentation</li>
-                        </ul>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="role-fit" class="section-block section-muted">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Where I Add Value</p>
-                    <h2>Where I Add Value</h2>
-                    <p>My work sits at the intersection of applied AI engineering, business and systems analysis, data and BI, cloud delivery, and client-facing technical project delivery.</p>
-                </div>
-                <div class="role-fit-grid">
-                    <article class="fit-card">
-                        <h3>AI Engineer / Applied AI Engineer</h3>
-                        <p>GenAI and RAG workflows, structured outputs, APIs, data processing, cloud-backed applications, testing, evaluation, and technical handover.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>AI Project Lead / Technical Delivery</h3>
-                        <p>Requirements discovery, feasibility assessment, scope and risk management, client communication, technical coordination, demonstrations, validation, documentation, and delivery.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Business Systems Analyst / Business Analyst</h3>
-                        <p>Requirements gathering, user needs, current-state and future-state workflows, business rules, acceptance criteria, systems analysis, integration support, testing, and documentation.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Data / Business Intelligence Analyst</h3>
-                        <p>SQL and Python analysis, Power BI, Power Query, Tableau, Excel, dashboards, KPI reporting, data validation, and operational insight.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Machine Learning Engineer / Data Scientist</h3>
-                        <p>Feature engineering, anomaly detection, forecasting, recommendations, predictive modelling, experiment design, model evaluation, monitoring, and visualization.</p>
-                    </article>
-                    <article class="fit-card">
-                        <h3>Cloud / Backend / MLOps Engineer</h3>
-                        <p>Python services, Node.js, TypeScript, FastAPI, REST APIs, Docker, AWS CDK, CI/CD, cloud services, logging, monitoring, and deployment support.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="section-block">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Skills</p>
-                    <h2>Technical, analytical, and delivery toolkit</h2>
-                </div>
-                <div class="skill-grid">
-                    <article class="skill-card">
-                        <h3>AI, Generative AI &amp; Machine Learning</h3>
-                        <ul class="tag-list">
-                            <li>Artificial Intelligence</li>
-                            <li>Generative AI</li>
-                            <li>Large Language Models</li>
-                            <li>Retrieval-Augmented Generation</li>
-                            <li>Natural Language Processing</li>
-                            <li>Semantic Search</li>
-                            <li>Structured Outputs</li>
-                            <li>Prompt Engineering</li>
-                            <li>LangGraph</li>
-                            <li>LangChain</li>
-                            <li>OpenAI API</li>
-                            <li>Anthropic Claude</li>
-                            <li>AWS Bedrock</li>
-                            <li>Machine Learning</li>
-                            <li>Anomaly Detection</li>
-                            <li>Forecasting</li>
-                            <li>Recommendation Systems</li>
-                            <li>Model Evaluation</li>
-                            <li>Feature Engineering</li>
-                            <li>PyTorch</li>
-                            <li>TensorFlow</li>
-                            <li>scikit-learn</li>
-                        </ul>
-                    </article>
-                    <article class="skill-card">
-                        <h3>Software, Backend &amp; Integrations</h3>
-                        <ul class="tag-list">
-                            <li>Python</li>
-                            <li>SQL</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>Node.js</li>
-                            <li>FastAPI</li>
-                            <li>Flask</li>
-                            <li>React</li>
-                            <li>REST APIs</li>
-                            <li>JSON</li>
-                            <li>PostgreSQL</li>
-                            <li>MySQL</li>
-                            <li>Git</li>
-                            <li>GitHub</li>
-                            <li>GitLab</li>
-                            <li>Software Development</li>
-                            <li>External API Integration</li>
-                        </ul>
-                    </article>
-                    <article class="skill-card">
-                        <h3>Cloud, DevOps &amp; MLOps</h3>
-                        <ul class="tag-list">
-                            <li>Amazon Web Services</li>
-                            <li>Microsoft Azure</li>
-                            <li>Google Cloud Platform</li>
-                            <li>AWS CDK</li>
-                            <li>Infrastructure as Code</li>
-                            <li>Docker</li>
-                            <li>CI/CD</li>
-                            <li>GitHub Actions</li>
-                            <li>Monitoring</li>
-                            <li>Logging</li>
-                            <li>Grafana</li>
-                            <li>CloudWatch</li>
-                            <li>Automated Testing</li>
-                            <li>Deployment Support</li>
-                            <li>Rollback Planning</li>
-                            <li>Runbooks</li>
-                            <li>Technical Handover</li>
-                            <li>MLOps</li>
-                        </ul>
-                    </article>
-                    <article class="skill-card">
-                        <h3>Data, BI &amp; Business Systems</h3>
-                        <ul class="tag-list">
-                            <li>Business Analysis</li>
-                            <li>Business Systems Analysis</li>
-                            <li>Requirements Gathering</li>
-                            <li>Workflow Analysis</li>
-                            <li>Process Improvement</li>
-                            <li>Data Analysis</li>
-                            <li>SQL</li>
-                            <li>PostgreSQL</li>
-                            <li>ETL and Data Pipelines</li>
-                            <li>Data Modelling</li>
-                            <li>Data Governance</li>
-                            <li>Data Quality</li>
-                            <li>Microsoft Power BI</li>
-                            <li>Microsoft Power Query</li>
-                            <li>Microsoft Excel</li>
-                            <li>Tableau</li>
-                            <li>Microsoft 365</li>
-                            <li>SharePoint</li>
-                            <li>CRM Workflows</li>
-                            <li>Reporting and Dashboards</li>
-                            <li>Testing and UAT</li>
-                            <li>User Support</li>
-                        </ul>
-                    </article>
-                    <article class="skill-card">
-                        <h3>Project &amp; Client Delivery</h3>
-                        <ul class="tag-list">
-                            <li>AI Project Leadership</li>
-                            <li>Project Management</li>
-                            <li>Technical Project Management</li>
-                            <li>Client Management</li>
-                            <li>Client Communication</li>
-                            <li>Requirements Clarification</li>
-                            <li>Feasibility Assessment</li>
-                            <li>Project Planning</li>
-                            <li>Scope Management</li>
-                            <li>Risk Management</li>
-                            <li>Agile Project Management</li>
-                            <li>Technical Coordination</li>
-                            <li>Client Demonstrations</li>
-                            <li>Testing and Validation</li>
-                            <li>Documentation</li>
-                            <li>Handover</li>
-                            <li>Business Outcome Alignment</li>
-                        </ul>
-                    </article>
-                    <article class="skill-card">
-                        <h3>Quality, Privacy &amp; Responsible Delivery</h3>
-                        <ul class="tag-list">
-                            <li>Quality Assurance</li>
-                            <li>Privacy-Aware Delivery</li>
-                            <li>Privacy by Design</li>
-                            <li>Data Minimization</li>
-                            <li>Access-Control Considerations</li>
-                            <li>Secure Data Handling</li>
-                            <li>Documentation and Traceability</li>
-                            <li>Responsible AI Considerations</li>
-                            <li>Model Evaluation</li>
-                            <li>Testing</li>
-                        </ul>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="production-ai-work" class="section-block section-muted">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Production AI Work</p>
-                    <h2>Production AI / Client-Facing Work</h2>
-                    <p>
-                        Most of my recent Genesis work involves proprietary client data and private production code. The case studies below present approved public summaries of the problem, my contribution, technologies, and high-level outcome without exposing private data, source code, credentials, or client-specific implementation details.
-                    </p>
-                </div>
-
-                <div class="case-study-grid">
-                    <article class="case-card">
-                        <p class="case-label">Nditive</p>
-                        <h3>Environmental Forecasting &amp; Anomaly Detection</h3>
-                        <p class="case-domain">Environmental / industrial sensor analytics</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Build forecasting and anomaly-detection workflows for operational sensor data.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Developed CO2/environmental forecasting, feature engineering, anomaly detection, thresholding, offline evaluation, dashboard reporting, and monitoring handover.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Supported practical ML workflows and monitoring views for operational insight and reliability.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>scikit-learn</li>
-                            <li>XGBoost</li>
-                            <li>LSTM/autoencoder approaches</li>
-                            <li>AWS Athena</li>
-                            <li>S3</li>
-                            <li>Grafana</li>
-                        </ul>
-                        <p class="confidential-note">Public summary only. Proprietary data and production code are not publicly shared.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">Weeva</p>
-                        <h3>Document Intelligence &amp; RAG Workflow</h3>
-                        <p class="case-domain">Document-heavy business workflows</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Help users search unstructured documents and convert relevant information into structured, usable outputs.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Developed RAG workflows for document ingestion, parsing, chunking, embedding generation, semantic retrieval, metadata filtering, and structured LLM responses.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Helped convert complex unstructured information into searchable, citation-grounded outputs for client decision-making.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>FastAPI</li>
-                            <li>LangGraph/LangChain</li>
-                            <li>OpenAI</li>
-                            <li>Anthropic Claude</li>
-                            <li>AWS Bedrock</li>
-                            <li>PostgreSQL/pgvector</li>
-                            <li>Docker</li>
-                        </ul>
-                        <p class="confidential-note">Public summary only. Proprietary data and production code are not publicly shared.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">StarLuv</p>
-                        <h3>Agentic Recommendation &amp; Ranking Workflow</h3>
-                        <p class="case-domain">Retail / product discovery</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Improve product discovery and recommendation reliability over a large product catalog.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Tested and improved retrieve-rank-reason workflows, product metadata handling, ranking logic, behavior-learning support, and frontend-facing demo outputs.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Validated the recommendation workflow through structured testing and supported demonstration and rollout planning.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>LangGraph-style workflows</li>
-                            <li>LLM APIs</li>
-                            <li>Retrieval/ranking logic</li>
-                            <li>Product metadata</li>
-                            <li>Evaluation checks</li>
-                        </ul>
-                        <p class="confidential-note">Implementation details are intentionally kept high level.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">Artinus</p>
-                        <h3>Artinus B2B AI/Data Analytics Workflow</h3>
-                        <p class="case-domain">B2B AI and data analytics</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Help business users combine information from multiple data sources and convert it into useful insights.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Supported AI workflow design, retrieval logic, structured outputs, monitoring documentation, and production-readiness planning.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Supported integration-ready AI/data analytics workflows for business insight generation.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>SQL</li>
-                            <li>Cloud services</li>
-                            <li>Retrieval workflows</li>
-                            <li>Structured output patterns</li>
-                            <li>Documentation</li>
-                            <li>Monitoring plans</li>
-                        </ul>
-                        <p class="confidential-note">Public summary only. Proprietary data and production code are not publicly shared.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">Nucliq</p>
-                        <h3>Healthcare / Biotech Knowledge Assistant</h3>
-                        <p class="case-domain">Healthcare / biotech AI</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Improve access to complex domain knowledge while keeping retrieval structured and maintainable.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Supported RAG and AI infrastructure workflows involving secure retrieval design, document processing, structured outputs, logging, and deployment planning.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Helped make complex knowledge easier to retrieve, summarize, and use in client workflows.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>FastAPI</li>
-                            <li>Vector search</li>
-                            <li>Cloud services</li>
-                            <li>Docker</li>
-                            <li>Logging</li>
-                            <li>Monitoring workflows</li>
-                        </ul>
-                        <p class="confidential-note">Public summary only. Proprietary data and production code are not publicly shared.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">Soma Health</p>
-                        <h3>Healthcare AI Workflow &amp; Documentation Platform</h3>
-                        <p class="case-domain">Healthcare AI / clinical workflow support</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Support AI workflows involving document/report generation, privacy-aware deployment planning, and secure system design.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Helped with architecture planning, logging decisions, deployment review, cost-control thinking, and documentation for maintainable AI infrastructure.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Supported a safer and more maintainable AI workflow for healthcare-related use cases.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>Cloud services</li>
-                            <li>AWS planning</li>
-                            <li>Logging</li>
-                            <li>Monitoring</li>
-                            <li>Deployment documentation</li>
-                        </ul>
-                        <p class="confidential-note">Public summary only. Proprietary data and production code are not publicly shared.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">DuaTask</p>
-                        <h3>Cloud Deployment &amp; Production Readiness</h3>
-                        <p class="case-domain">Business operations / cloud deployment</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Improve deployment readiness, health checks, and handover for an AI-enabled platform.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Supported codebase review, Azure deployment planning, startup/health-check verification, documentation, and production-readiness review.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Helped improve system readiness for deployment and future maintenance.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Azure</li>
-                            <li>Python</li>
-                            <li>Deployment scripts</li>
-                            <li>Health checks</li>
-                            <li>Documentation</li>
-                            <li>Monitoring planning</li>
-                        </ul>
-                        <p class="confidential-note">Implementation details are intentionally kept high level.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">Audyse</p>
-                        <h3>Audio AI / DSP Feasibility</h3>
-                        <p class="case-domain">Audio AI for noisy environments</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Explore AI and DSP approaches for denoising and sound-event detection under real-time constraints.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Researched denoising approaches, emergency sound detection ideas, DSP vs AI tradeoffs, latency constraints, and model feasibility.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Helped clarify practical implementation tradeoffs for future product development.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>Audio ML research</li>
-                            <li>DSP/AI feasibility analysis</li>
-                            <li>Model optimization review</li>
-                        </ul>
-                        <p class="confidential-note">Implementation details are intentionally kept high level.</p>
-                    </article>
-
-                    <article class="case-card">
-                        <p class="case-label">OmaScan</p>
-                        <h3>3D Assessment &amp; Scan Intelligence</h3>
-                        <p class="case-domain">Accessibility / 3D home assessment workflows</p>
-                        <dl>
-                            <dt>Problem</dt>
-                            <dd>Explore AI approaches for interpreting scan-related context, structured outputs, and assessment workflows.</dd>
-                            <dt>My contribution</dt>
-                            <dd>Supported feasibility research around GLB/scan context, structured JSON understanding, object-detection targets, render-and-lift approaches, and rule-based/LLM-assisted workflows.</dd>
-                            <dt>Outcome</dt>
-                            <dd>Helped evaluate practical AI directions for future product development.</dd>
-                        </dl>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>3D/vision research</li>
-                            <li>Structured data processing</li>
-                            <li>LLM workflow planning</li>
-                        </ul>
-                        <p class="confidential-note">Public summary only. Proprietary data and production code are not publicly shared.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="experience" class="section-block">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Experience</p>
-                    <h2>Professional timeline</h2>
-                </div>
-                <div class="timeline">
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Apr 2026 - Present</div>
-                        <div class="timeline-body">
-                            <h3>AI Project Lead</h3>
-                            <p class="org-line">Genesis Group Inc. / Genesis AI Garage | St. John's, NL</p>
-                            <ul>
-                                <li>Lead confidential client-facing AI and software engagements from discovery and feasibility assessment through planning, implementation coordination, testing, documentation, and handover.</li>
-                                <li>Work directly with clients to clarify requirements, define scope, identify risks, establish priorities, and align technical delivery with business needs.</li>
-                                <li>Coordinate contributors, milestones, technical reviews, demonstrations, progress communication, and delivery documentation.</li>
-                                <li>Bridge business requirements and technical execution across applied AI, data, software, and cloud initiatives.</li>
-                                <li>Remain hands-on in solution review, validation, troubleshooting, and delivery readiness.</li>
-                            </ul>
+                <div class="hero-grid">
+                    <div>
+                        <p class="eyebrow">AI Project Lead · St. John's, NL</p>
+                        <h1 id="hero-title" class="hero-title">Mostafa Rafiur Wasib</h1>
+                        <p class="hero-lead">I turn business problems into working AI and data systems, from the first requirements conversation to a tested, documented handover.</p>
+                        <p class="hero-sub">I lead client AI projects at Genesis AI Garage, combining business and systems analysis with hands-on engineering in Python, retrieval-augmented generation (RAG), machine learning, Power BI and the cloud.</p>
+                        <div class="hero-actions">
+                            <a class="btn btn-primary" href="#work">View my work</a>
+                            <a class="btn btn-secondary" href="/assets/Mostafa_Rafiur_Wasib_General_Technical_CV.pdf" download><svg aria-hidden="true"><use href="#i-download"/></svg>Download résumé (PDF)</a>
                         </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Jan 2025 - Mar 2026</div>
-                        <div class="timeline-body">
-                            <h3>AI Engineer</h3>
-                            <p class="org-line">Genesis Group Inc. / Genesis AI Garage | St. John's, NL</p>
-                            <ul>
-                                <li>Developed and supported AI, machine-learning, data, API, and cloud workflows for confidential client engagements.</li>
-                                <li>Worked with Python, JavaScript, TypeScript, Node.js, FastAPI, REST APIs, SQL, Docker, and cloud technologies.</li>
-                                <li>Supported capabilities involving GenAI/RAG, predictive modelling, data processing, reporting, testing, monitoring, and system integration.</li>
-                                <li>Collaborated with clients and technical contributors to clarify requirements, demonstrate solutions, troubleshoot issues, and improve delivery readiness.</li>
-                                <li>Prepared technical documentation, testing outputs, deployment notes, and handover materials.</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Sep 2024 - Dec 2024</div>
-                        <div class="timeline-body">
-                            <h3>AI Project Intern</h3>
-                            <p class="org-line">Genesis Group Inc. / Genesis AI Garage | St. John's, NL</p>
-                            <ul>
-                                <li>Supported machine-learning experimentation, data preparation, model evaluation, and technical reporting for confidential project work.</li>
-                                <li>Worked with Python, anomaly detection, time-series analysis, predictive modelling, and AWS-based analytics tools.</li>
-                                <li>Supported dashboard reporting, documentation, and presentation of technical findings.</li>
-                                <li>Helped translate analytical results into practical recommendations.</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Jun 2024 - Aug 2024</div>
-                        <div class="timeline-body">
-                            <h3>Data Analyst Intern</h3>
-                            <p class="org-line">Stella's Circle &amp; Choices for Youth | St. John's, NL</p>
-                            <p>Cleaned and transformed datasets, prepared integration-ready JSON outputs, built KPI dashboards, and improved reporting quality through validation and documentation.</p>
-                        </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Feb 2024 - Apr 2024</div>
-                        <div class="timeline-body">
-                            <h3>Community Researcher Intern</h3>
-                            <p class="org-line">Canadian Council on Rehabilitation and Work | St. John's, NL</p>
-                            <p>Collected and analyzed employment-access data and prepared accessibility-focused research summaries and recommendations.</p>
-                        </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Oct 2023 - Dec 2023</div>
-                        <div class="timeline-body">
-                            <h3>Research Assistant</h3>
-                            <p class="org-line">Visual and Analytic Computing Lab, Memorial University of Newfoundland | St. John's, NL</p>
-                            <p>Supported applied AI and data research through preprocessing, model experimentation, visualization, image/medical-data analysis, and documentation.</p>
-                        </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Jan 2022 - Jul 2023</div>
-                        <div class="timeline-body">
-                            <h3>IT Admin &amp; Data Analyst</h3>
-                            <p class="org-line">Vision One Consultancy | Phnom Penh, Cambodia / Remote</p>
-                            <p>Built dashboards, automated ETL workflows, improved data quality, analyzed user logs, and supported reporting and data-access workflows.</p>
-                        </div>
-                    </article>
-
-                    <article class="timeline-item">
-                        <div class="timeline-meta">Sep 2019 - Feb 2020</div>
-                        <div class="timeline-body">
-                            <h3>Data Science Intern</h3>
-                            <p class="org-line">Maxis Berhad | Kuala Lumpur, Malaysia</p>
-                            <p>Performed data preparation, outlier detection, exploratory analysis, Power BI/Tableau dashboard development, and map/API demo workflow prototyping.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="github-work" class="section-block section-muted">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Public Work</p>
-                    <h2>Selected Public Work</h2>
-                    <p>These repositories contain independent, academic, or intentionally public work that can be reviewed without exposing confidential employer or client data, production code, or credentials.</p>
-                </div>
-
-                <div class="github-grid">
-                    <article class="github-card primary">
-                        <p class="repo-label">Portfolio &middot; Personal</p>
-                        <h3>AI/ML Engineering Portfolio</h3>
-                        <p>Personal static GitHub Pages portfolio with public case-study summaries, CV, a public project map, and professional positioning.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>GitHub Pages</li>
+                        <ul class="hero-links">
+                            <li><a href="https://www.linkedin.com/in/mostafa-wasib/"><svg aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a></li>
+                            <li><a href="https://github.com/mrw-soumik"><svg aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></li>
+                            <li><a href="mailto:mostafa.wasib73@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>mostafa.wasib73@gmail.com</a></li>
                         </ul>
-                        <a href="https://github.com/mrw-soumik/mrw-soumik.github.io" target="_blank" rel="noopener">View repository</a>
-                    </article>
-
-                    <article class="github-card">
-                        <p class="repo-label">Independent &middot; Workshop</p>
-                        <h3>Vibe Coding, Engineered (MVPFlow AI)</h3>
-                        <p>Independent, public workshop material: a spec-driven, AI-assisted MVP workflow with a tested FastAPI reference codebase and CI, moving from requirements to scope, architecture, backlog, reviewed PRs, and evaluation.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>FastAPI</li>
-                            <li>CI / Testing</li>
-                            <li>Spec-Driven</li>
-                        </ul>
-                        <a href="https://github.com/mrw-soumik/vibe-coding-engineered" target="_blank" rel="noopener">View repository</a>
-                    </article>
-
-                    <article class="github-card">
-                        <p class="repo-label">Academic &middot; ML</p>
-                        <h3>Gas Sensor Classification &amp; Anomaly Detection</h3>
-                        <p>Independent academic project on sensor-data classification and anomaly detection, aligned with monitoring and operational-analytics themes.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>Jupyter Notebook</li>
-                            <li>Anomaly Detection</li>
-                            <li>Sensor Data</li>
-                        </ul>
-                        <a href="https://github.com/mrw-soumik/Gas-Sensor-Data-Classification-and-Anomaly-Detection" target="_blank" rel="noopener">View repository</a>
-                    </article>
-
-                    <article class="github-card">
-                        <p class="repo-label">Academic &middot; Multimodal</p>
-                        <h3>Multimodal Emotion Recognition System</h3>
-                        <p>Academic project combining facial and audio signals for emotion recognition, useful for showing computer vision, multimodal AI, and HCI experience.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>Computer Vision</li>
-                            <li>HCI</li>
-                        </ul>
-                        <a href="https://github.com/mrw-soumik/Multimodal-Emotion-Recognition-System" target="_blank" rel="noopener">View repository</a>
-                    </article>
-
-                    <article class="github-card">
-                        <p class="repo-label">Public &middot; Collaborative</p>
-                        <h3>AI Accessibility Extension</h3>
-                        <p>Public, collaborative visual-to-audio accessibility project with image captioning and assistive workflow context.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>Accessibility</li>
-                            <li>Image Captioning</li>
-                            <li>Assistive AI</li>
-                        </ul>
-                        <a href="https://github.com/mrw-soumik/AI-Accessibility-Extension-For-Visually-Impaired-Users" target="_blank" rel="noopener">View repository</a>
-                    </article>
-
-                    <article class="github-card">
-                        <p class="repo-label">Academic &middot; ML</p>
-                        <h3>Fungal Habitat Prediction</h3>
-                        <p>Independent academic machine-learning project for habitat prediction using taxonomy and observation data, with model comparison and evaluation.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>Jupyter Notebook</li>
-                            <li>Classification</li>
-                            <li>Ecology Data</li>
-                        </ul>
-                        <a href="https://github.com/mrw-soumik/Fungal-Habitat-Prediction-Using-Taxonomy-Data" target="_blank" rel="noopener">View repository</a>
-                    </article>
-
-                    <article class="github-card">
-                        <p class="repo-label">Academic &middot; NLP</p>
-                        <h3>Text Summarization &amp; Sentiment Analysis</h3>
-                        <p>Compact independent NLP projects that show preprocessing, classical ML, and text-analytics foundations.</p>
-                        <ul class="tag-list compact-tags">
-                            <li>Python</li>
-                            <li>NLP</li>
-                            <li>scikit-learn</li>
-                        </ul>
-                        <a href="https://github.com/mrw-soumik/Text-Summarization-Tool" target="_blank" rel="noopener">Summarization repo</a>
-                        <a href="https://github.com/mrw-soumik/Sentiment-Analysis-Tool" target="_blank" rel="noopener">Sentiment repo</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="public-projects" class="section-block">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Additional Projects</p>
-                    <h2>Additional Academic &amp; Public Projects</h2>
-                    <p>These projects support the case studies and public work above. Each card links to a local project detail page and the matching GitHub repository where available.</p>
-                </div>
-
-                <div class="project-grid">
-                    <article class="project-card">
-                        <h3>Anomaly Detection Model</h3>
-                        <p>Sensor-data anomaly detection exploration with thresholding and model-evaluation context.</p>
-                        <p class="tech-line">Python, PyTorch, LSTM autoencoder, evaluation metrics</p>
-                        <div class="project-links">
-                            <a href="CO2_Emissions.html">Project detail</a>
-                            <a href="https://github.com/mrw-soumik/Gas-Sensor-Data-Classification-and-Anomaly-Detection" target="_blank" rel="noopener">GitHub repo</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <h3>Multimodal Emotion Recognition</h3>
-                        <p>Human-computer interaction project exploring emotion recognition from facial and audio cues.</p>
-                        <p class="tech-line">Python, OpenCV, TensorFlow, multimodal fusion</p>
-                        <div class="project-links">
-                            <a href="Emotion_Recognition.html">Project detail</a>
-                            <a href="https://github.com/mrw-soumik/Multimodal-Emotion-Recognition-System" target="_blank" rel="noopener">GitHub repo</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <h3>Real-Time Visual-to-Audio Accessibility Tool</h3>
-                        <p>Accessibility prototype converting visual scene context into audio support.</p>
-                        <p class="tech-line">Python, TensorFlow, OpenCV</p>
-                        <div class="project-links">
-                            <a href="Visual_to_Audio.html">Project detail</a>
-                            <a href="https://github.com/mrw-soumik/AI-Accessibility-Extension-For-Visually-Impaired-Users" target="_blank" rel="noopener">GitHub repo</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <h3>Fungal Habitat Prediction</h3>
-                        <p>Ecological ML project predicting fungal habitat classes from taxonomy and observation data.</p>
-                        <p class="tech-line">Python, NumPy, scikit-learn, Random Forest, LightGBM</p>
-                        <div class="project-links">
-                            <a href="Fungal_Habitat_Prediction.html">Project detail</a>
-                            <a href="https://github.com/mrw-soumik/Fungal-Habitat-Prediction-Using-Taxonomy-Data" target="_blank" rel="noopener">GitHub repo</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <h3>Text Summarization Tool</h3>
-                        <p>Extractive text summarization project for ranking and selecting important sentences.</p>
-                        <p class="tech-line">Python, NLTK</p>
-                        <div class="project-links">
-                            <a href="Text_Summarization_Tool.html">Project detail</a>
-                            <a href="https://github.com/mrw-soumik/Text-Summarization-Tool" target="_blank" rel="noopener">GitHub repo</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <h3>DNA Sequence Classification</h3>
-                        <p>Bioinformatics classification project comparing sequence encodings for DNA data.</p>
-                        <p class="tech-line">Python, scikit-learn, Gradient Boosting, k-mer encoding</p>
-                        <div class="project-links">
-                            <a href="DNA_Sequence_Classification.html">Project detail</a>
-                            <a href="https://github.com/mrw-soumik/DNA-Sequence-Classification-with-Data-Encoding" target="_blank" rel="noopener">GitHub repo</a>
-                        </div>
-                    </article>
-                </div>
-
-                <details class="more-block">
-                    <summary>View More Academic &amp; Public Projects</summary>
-                    <div class="project-grid">
-                        <article class="project-card">
-                            <h3>CO2 Emissions Forecasting</h3>
-                            <p>Compact public summary of forecasting and anomaly-detection work; detailed production framing appears in the client-work section.</p>
-                            <p class="tech-line">Python, AWS Athena, Grafana, XGBoost, Random Forest</p>
-                            <div class="project-links">
-                                <a href="CO2_Emissions.html">Project detail</a>
-                                <a href="https://github.com/mrw-soumik/Gas-Sensor-Data-Classification-and-Anomaly-Detection" target="_blank" rel="noopener">GitHub repo</a>
-                            </div>
-                        </article>
-
-                        <article class="project-card">
-                            <h3>Real-Time Face, Gender, and Emotion Detection</h3>
-                            <p>Computer-vision prototype for real-time face, age, gender, and emotion analysis.</p>
-                            <p class="tech-line">Python, OpenCV, Caffe, Keras</p>
-                            <div class="project-links">
-                                <a href="Real-time_Face_Age_Gender_Emotion_Detection.html">Project detail</a>
-                                <a href="https://github.com/mrw-soumik/Real-Time-Face-Age-Gender-and-Emotion-Detection-System" target="_blank" rel="noopener">GitHub repo</a>
-                            </div>
-                        </article>
-
-                        <article class="project-card">
-                            <h3>Sentiment Analysis Tool</h3>
-                            <p>Text classification workflow for sentiment analysis with preprocessing and model training.</p>
-                            <p class="tech-line">Python, scikit-learn, NLP preprocessing</p>
-                            <div class="project-links">
-                                <a href="Sentiment_Analysis.html">Project detail</a>
-                                <a href="https://github.com/mrw-soumik/Sentiment-Analysis-Tool" target="_blank" rel="noopener">GitHub repo</a>
-                            </div>
-                        </article>
-
-                        <article class="project-card">
-                            <h3>Image Classification with Neural Networks</h3>
-                            <p>Neural-network image classification project using classic academic datasets.</p>
-                            <p class="tech-line">Python, TensorFlow, neural networks</p>
-                            <div class="project-links">
-                                <a href="Image_Classification.html">Project detail</a>
-                                <a href="https://github.com/mrw-soumik/Neural-Network-for-Image-Classification-using-MNIST-Dataset" target="_blank" rel="noopener">GitHub repo</a>
-                            </div>
-                        </article>
-
-                        <article class="project-card">
-                            <h3>Automated Facemask Detection</h3>
-                            <p>Image-processing project exploring mask detection in public-space imagery.</p>
-                            <p class="tech-line">MATLAB, image processing, Viola-Jones, HSV segmentation</p>
-                            <div class="project-links">
-                                <a href="Automated_Facemask_Detection_in_Public_Spaces.html">Project detail</a>
-                                <a href="https://github.com/mrw-soumik/Automated-Facemask-Detection-in-public-spaces" target="_blank" rel="noopener">GitHub repo</a>
-                            </div>
-                        </article>
-
-                        <article class="project-card">
-                            <h3>MATLAB Image Processing</h3>
-                            <p>Image-processing exercises covering edge detection, filtering, and visual analysis.</p>
-                            <p class="tech-line">MATLAB, edge detection, filtering</p>
-                            <div class="project-links">
-                                <a href="Edge_Detection_and_Filtering.html">Project detail</a>
-                                <a href="https://github.com/mrw-soumik/Image-Processing-Edge-Detection-and-Filtering-in-MATLAB" target="_blank" rel="noopener">GitHub repo</a>
-                            </div>
-                        </article>
-
-                        <article class="project-card">
-                            <h3>Reinforcement Learning Projects</h3>
-                            <p>Bandit learning, grid-world evaluation, and policy-learning experiments.</p>
-                            <p class="tech-line">Python, Jupyter Notebook, reinforcement learning</p>
-                            <div class="project-links">
-                                <a href="Simple_Bandit_Algorithms.html">Bandit detail</a>
-                                <a href="Applied_Reinforcement_Learning_Evaluation.html">Grid-world detail</a>
-                                <a href="Reinforcement_Policies.html">Policy detail</a>
-                                <a href="https://github.com/mrw-soumik/Reinforcement-Learning-An-Applied-Evaluation-through-Grid-World-and-Random-Walk-Scenarios" target="_blank" rel="noopener">Grid-world repo</a>
-                            </div>
-                        </article>
                     </div>
-                </details>
+                    <div class="hero-photo">
+                        <img src="/assets/img/headshot.jpg" width="460" height="460" alt="Portrait of Mostafa Rafiur Wasib" fetchpriority="high">
+                    </div>
+                </div>
+                <ul class="proof" aria-label="Highlights">
+                    <li><strong>AWS Certified Machine Learning Engineer</strong><span>Associate, issued May 2026</span></li>
+                    <li><strong>Master of Artificial Intelligence</strong><span>Memorial University of Newfoundland</span></li>
+                    <li><strong>9 client AI engagements</strong><span>Health, retail, environment and B2B</span></li>
+                    <li><strong>Analysis to delivery</strong><span>Requirements, build, testing and handover</span></li>
+                </ul>
             </div>
         </section>
 
-        <section id="education" class="section-block section-muted">
+        <section class="section section--subtle" id="about" aria-labelledby="about-title">
             <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Education</p>
-                    <h2>Academic background</h2>
+                <div class="section-header">
+                    <p class="eyebrow">What I do</p>
+                    <h2 id="about-title">From business need to working system</h2>
+                    <p>I work where business needs meet technical delivery: I find out what a client actually needs, build the AI or data solution, prove that it works, and hand it over so their team can run it.</p>
                 </div>
-                <div class="credential-grid">
-                    <article class="credential-card">
+                <div class="grid grid-4">
+                    <article class="card">
+                        <span class="icon-badge"><svg aria-hidden="true"><use href="#i-flow"/></svg></span>
+                        <h3>Business and systems analysis</h3>
+                        <p>Stakeholder interviews, current- and future-state process maps, requirements with acceptance criteria, user stories and UAT plans.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon-badge"><svg aria-hidden="true"><use href="#i-spark"/></svg></span>
+                        <h3>AI engineering</h3>
+                        <p>RAG and LLM applications, machine learning for forecasting and anomaly detection, Python and FastAPI services, and evaluation before release.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon-badge"><svg aria-hidden="true"><use href="#i-chart"/></svg></span>
+                        <h3>Data and BI</h3>
+                        <p>SQL, data modelling and Power BI reporting that turn operational data into KPIs people use to make decisions.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon-badge"><svg aria-hidden="true"><use href="#i-flag"/></svg></span>
+                        <h3>Delivery leadership</h3>
+                        <p>Leading client projects from discovery and feasibility through planning, testing, deployment support and handover.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Projects</p>
+                    <h2 id="work-title">Public projects you can try</h2>
+                    <p>The first three are connected and built on public St. John's and Newfoundland and Labrador data: the business analysis defines the requirements, the RAG app implements them and its tests measure them, and the Power BI report tracks the local economy.</p>
+                </div>
+                <div class="grid grid-2">
+                    <!-- TODO(rag): screenshot, eval metrics and final links from the RAG workstream -->
+                    <article class="card project-card">
+                        <a class="project-media" href="https://mrw-soumik.github.io/stjohns-council-minutes-rag/" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/council-minutes-assistant.png" alt="" loading="lazy" width="1280" height="720"></a>
+                        <div class="project-body">
+                            <p class="project-kicker">AI engineering · RAG</p>
+                            <h3>St. John's Council Minutes Assistant</h3>
+                            <p>Ask a question about St. John's council decisions and get a short answer that cites the meeting, date and page, or an honest "not found in the minutes". Search runs live in your browser.</p>
+                            <dl class="metrics">
+                                <div class="metric"><dt>Correct page in top 5</dt><dd>TODO</dd></div>
+                                <div class="metric"><dt>Evaluation questions</dt><dd>TODO</dd></div>
+                                <div class="metric"><dt>Cost per answer</dt><dd>$0 (local model)</dd></div>
+                            </dl>
+                            <ul class="tags"><li>Python</li><li>Hybrid search</li><li>Local LLM</li><li>pgvector</li><li>FastAPI</li><li>Evaluation</li></ul>
+                            <div class="link-row">
+                                <a href="https://mrw-soumik.github.io/stjohns-council-minutes-rag/"><svg aria-hidden="true"><use href="#i-external"/></svg>Live demo</a>
+                                <a href="https://github.com/mrw-soumik/stjohns-council-minutes-rag"><svg aria-hidden="true"><use href="#i-code"/></svg>Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- TODO(ba): diagram, counts and final links from the BA workstream -->
+                    <article class="card project-card">
+                        <a class="project-media" href="https://github.com/mrw-soumik/business-analysis-council-minutes-search" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/business-analysis.png" alt="" loading="lazy" width="1280" height="720"></a>
+                        <div class="project-body">
+                            <p class="project-kicker">Business analysis</p>
+                            <h3>Council minutes search: business analysis case study</h3>
+                            <p>The full analysis behind the app above: a business requirements document, current- and future-state BPMN process maps, user stories with acceptance criteria, a UAT plan, and traceability from each business need to an automated test.</p>
+                            <dl class="metrics">
+                                <div class="metric"><dt>Requirements</dt><dd>TODO</dd></div>
+                                <div class="metric"><dt>User stories</dt><dd>TODO</dd></div>
+                                <div class="metric"><dt>UAT test cases</dt><dd>TODO</dd></div>
+                            </dl>
+                            <ul class="tags"><li>BABOK</li><li>BPMN 2.0</li><li>User stories</li><li>UAT</li><li>Traceability</li></ul>
+                            <div class="link-row">
+                                <a href="https://github.com/mrw-soumik/business-analysis-council-minutes-search"><svg aria-hidden="true"><use href="#i-doc"/></svg>Read the case study</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- TODO(powerbi): title, screenshot, metrics and links from the Power BI workstream -->
+                    <article class="card project-card">
+                        <a class="project-media" href="#" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/powerbi-dashboard.png" alt="" loading="lazy" width="1280" height="720"></a>
+                        <div class="project-body">
+                            <p class="project-kicker">Data and BI · Power BI</p>
+                            <h3>TODO Power BI report title</h3>
+                            <p>TODO summary.</p>
+                            <ul class="tags"><li>Power BI</li><li>DAX</li><li>Power Query</li><li>Star schema</li><li>Python ETL</li></ul>
+                            <div class="link-row">
+                                <a href="#"><svg aria-hidden="true"><use href="#i-external"/></svg>Interactive version</a>
+                                <a href="#"><svg aria-hidden="true"><use href="#i-code"/></svg>Power BI files</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <a class="project-media" href="https://github.com/mrw-soumik/vibe-coding-engineered" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/mvpflow-ai.svg" alt="" loading="lazy" width="1280" height="720"></a>
+                        <div class="project-body">
+                            <p class="project-kicker">AI-assisted engineering · Workshop</p>
+                            <h3>Vibe Coding, Engineered (MVPFlow AI)</h3>
+                            <p>A spec-driven, AI-assisted MVP workflow and the two-hour hands-on workshop that teaches it. Messy founder notes become requirements, scope, architecture, a backlog and tested, reviewed pull requests.</p>
+                            <dl class="metrics">
+                                <div class="metric"><dt>Automated tests</dt><dd>41</dd></div>
+                                <div class="metric"><dt>Workshop</dt><dd>2 hours</dd></div>
+                                <div class="metric"><dt>API key needed</dt><dd>No (offline mode)</dd></div>
+                            </dl>
+                            <ul class="tags"><li>Python</li><li>FastAPI</li><li>Spec-driven development</li><li>CI</li><li>Teaching</li></ul>
+                            <div class="link-row">
+                                <a href="https://github.com/mrw-soumik/vibe-coding-engineered"><svg aria-hidden="true"><use href="#i-code"/></svg>Code and workshop</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--subtle" id="client-work" aria-labelledby="client-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Client work</p>
+                    <h2 id="client-title">Production AI work at Genesis AI Garage</h2>
+                    <p>Most of my professional work is under NDA. These approved summaries describe the problem, my role and the outcome, without client data or code. Diagrams show the general architecture only.</p>
+                </div>
+                <!-- TODO(metrics): role, duration, diagrams and approved metrics from the metrics workstream -->
+                <div class="case-featured">
+                    <article class="card case">
+                        <div>
+                            <p class="case-meta">Weeva · Document-heavy business workflows</p>
+                            <h3>Document intelligence and RAG</h3>
+                            <dl>
+                                <dt>Problem</dt>
+                                <dd>Answers were buried in large sets of unstructured documents, and users needed them as structured, usable outputs.</dd>
+                                <dt>What I did</dt>
+                                <dd>Built the ingestion and retrieval pipeline: parsing, chunking, embeddings, semantic search with metadata filters, and LLM responses in a structured, citation-grounded format.</dd>
+                                <dt>Outcome</dt>
+                                <dd>Searchable, citation-grounded answers that the client's team could use in decision-making.</dd>
+                            </dl>
+                            <ul class="tags"><li>Python</li><li>FastAPI</li><li>LangGraph</li><li>PostgreSQL + pgvector</li><li>Claude</li><li>AWS Bedrock</li><li>Docker</li></ul>
+                        </div>
+                        <figure class="case-figure"><!-- TODO(diagram) --><figcaption>General architecture, simplified. No client-specific details.</figcaption></figure>
+                    </article>
+
+                    <article class="card case">
+                        <div>
+                            <p class="case-meta">Nditive · Environmental and industrial sensor analytics</p>
+                            <h3>Environmental forecasting and anomaly detection</h3>
+                            <dl>
+                                <dt>Problem</dt>
+                                <dd>Operational sensor data needed reliable forecasts and early warning of abnormal readings.</dd>
+                                <dt>What I did</dt>
+                                <dd>Engineered features, built CO<sub>2</sub> forecasting and anomaly-detection models with tuned thresholds, evaluated them offline, and handed over dashboards and monitoring.</dd>
+                                <dt>Outcome</dt>
+                                <dd>Forecasting and anomaly-detection workflows with monitoring views the client's team could act on.</dd>
+                            </dl>
+                            <ul class="tags"><li>Python</li><li>scikit-learn</li><li>XGBoost</li><li>LSTM autoencoder</li><li>AWS Athena</li><li>S3</li><li>Grafana</li></ul>
+                        </div>
+                        <figure class="case-figure"><!-- TODO(diagram) --><figcaption>General architecture, simplified. No client-specific details.</figcaption></figure>
+                    </article>
+
+                    <article class="card case">
+                        <div>
+                            <p class="case-meta">StarLuv · Retail product discovery</p>
+                            <h3>Agentic recommendation and ranking</h3>
+                            <dl>
+                                <dt>Problem</dt>
+                                <dd>Shoppers needed relevant, explainable product recommendations from a large catalogue.</dd>
+                                <dt>What I did</dt>
+                                <dd>Tested and improved a retrieve, rank and reason workflow: product metadata handling, ranking logic, behaviour signals and demo outputs, backed by structured evaluation checks.</dd>
+                                <dt>Outcome</dt>
+                                <dd>A validated recommendation workflow that supported client demonstrations and rollout planning.</dd>
+                            </dl>
+                            <ul class="tags"><li>Python</li><li>LangGraph</li><li>LLM APIs</li><li>Vector search</li><li>Ranking</li><li>Evaluation</li></ul>
+                        </div>
+                        <figure class="case-figure"><!-- TODO(diagram) --><figcaption>General architecture, simplified. No client-specific details.</figcaption></figure>
+                    </article>
+                </div>
+
+                <div class="grid grid-3" style="margin-top: 24px">
+                    <article class="card case-compact">
+                        <p class="case-meta">Artinus · B2B AI and data analytics</p>
+                        <h3>Multi-source insight workflow</h3>
+                        <p>Designed AI workflows that combine several business data sources into structured insights, with retrieval logic, monitoring documentation and a production-readiness plan.</p>
+                        <ul class="tags"><li>Python</li><li>SQL</li><li>Retrieval</li><li>Structured outputs</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">Nucliq · Healthcare and biotech</p>
+                        <h3>Domain knowledge assistant</h3>
+                        <p>Supported a RAG assistant for complex biotech knowledge: secure retrieval design, document processing, structured outputs, logging and deployment planning.</p>
+                        <ul class="tags"><li>Python</li><li>FastAPI</li><li>Vector search</li><li>Docker</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">Soma Health · Clinical workflow support</p>
+                        <h3>Healthcare AI documentation platform</h3>
+                        <p>Contributed architecture planning, logging decisions, deployment review and cost control for privacy-aware, maintainable AI infrastructure.</p>
+                        <ul class="tags"><li>Python</li><li>AWS</li><li>Logging</li><li>Architecture review</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">DuaTask · Business operations</p>
+                        <h3>Cloud deployment and production readiness</h3>
+                        <p>Reviewed the codebase, planned the Azure deployment, verified start-up and health checks, and wrote the production-readiness and handover documentation.</p>
+                        <ul class="tags"><li>Azure</li><li>Python</li><li>Health checks</li><li>Documentation</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">Audyse · Audio AI</p>
+                        <h3>Audio AI and DSP feasibility</h3>
+                        <p>Assessed denoising and emergency sound-detection approaches, compared DSP and AI trade-offs under real-time latency limits, and recommended a path for product development.</p>
+                        <ul class="tags"><li>Python</li><li>Audio ML</li><li>DSP</li><li>Feasibility</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">OmaScan · Accessibility and 3D home assessment</p>
+                        <h3>3D scan intelligence feasibility</h3>
+                        <p>Researched AI approaches for interpreting 3D scans: GLB scene context, structured JSON understanding, object-detection targets and rule-based plus LLM-assisted assessment.</p>
+                        <ul class="tags"><li>Python</li><li>3D and vision</li><li>LLM workflows</li></ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Experience</p>
+                    <h2 id="experience-title">From intern to AI Project Lead</h2>
+                </div>
+                <ol class="timeline">
+                    <li class="timeline-item">
+                        <p class="timeline-date">Apr 2026 to present</p>
+                        <div>
+                            <h3 class="timeline-role">AI Project Lead</h3>
+                            <p class="timeline-org">Genesis Group Inc. / Genesis AI Garage, St. John's, NL</p>
+                            <ul>
+                                <li>Lead client AI and software engagements end to end: discovery, feasibility, planning, delivery coordination, testing and handover.</li>
+                                <li>Run requirements and scoping sessions with clients, turn them into prioritized backlogs, and manage scope, risks and timelines.</li>
+                                <li>Coordinate engineers and technical reviews, run client demonstrations, and keep delivery and handover documentation current.</li>
+                                <li>Stay hands-on: review solutions, validate outputs and troubleshoot before release.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <p class="timeline-date">Jan 2025 to Mar 2026</p>
+                        <div>
+                            <h3 class="timeline-role">AI Engineer</h3>
+                            <p class="timeline-org">Genesis Group Inc. / Genesis AI Garage, St. John's, NL</p>
+                            <ul>
+                                <li>Built AI, machine-learning, data and API solutions for client engagements in Python, TypeScript, FastAPI, SQL and Docker on AWS and Azure.</li>
+                                <li>Delivered RAG and document-intelligence workflows, forecasting and anomaly-detection models, and recommendation pipelines (see client work above).</li>
+                                <li>Worked directly with clients to clarify requirements, demonstrate solutions and resolve issues; wrote test plans, deployment notes and handover guides.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <p class="timeline-date">Sep 2024 to Dec 2024</p>
+                        <div>
+                            <h3 class="timeline-role">AI Project Intern</h3>
+                            <p class="timeline-org">Genesis Group Inc. / Genesis AI Garage, St. John's, NL</p>
+                            <p>Prepared data, ran machine-learning experiments in anomaly detection and time series, and reported results using AWS analytics tools.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <p class="timeline-date">Earlier roles</p>
+                        <div>
+                            <ul class="timeline-earlier">
+                                <li><strong>Data Analyst Intern</strong>, Stella's Circle and Choices for Youth, St. John's (Jun to Aug 2024): standardized program data into integration-ready JSON, built KPI dashboards and documented transformation logic.</li>
+                                <li><strong>Community Researcher Intern</strong>, Canadian Council on Rehabilitation and Work, St. John's (Feb to Apr 2024): analyzed employment-access data and summarized barriers and recommendations.</li>
+                                <li><strong>Research Assistant</strong>, Visual and Analytic Computing Lab, Memorial University (Oct to Dec 2023): prepared datasets and ran image and medical-data experiments.</li>
+                                <li><strong>IT Admin and Data Analyst</strong>, Vision One Consultancy, Phnom Penh and remote (Jan 2022 to Jul 2023): built dashboards, automated ETL and improved data quality for business reporting.</li>
+                                <li><strong>Data Science Intern</strong>, Maxis Berhad, Kuala Lumpur (Sep 2019 to Feb 2020): data preparation, outlier detection, and Power BI and Tableau dashboards.</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section section--subtle" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Skills</p>
+                    <h2 id="skills-title">Tools and methods I use</h2>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card skill-group">
+                        <h3>AI and machine learning</h3>
+                        <ul class="skill-list"><li>Python</li><li>LLM applications</li><li>RAG</li><li>LangGraph</li><li>LangChain</li><li>Prompt engineering</li><li>Structured outputs</li><li>LLM evaluation</li><li>Embeddings and vector search</li><li>scikit-learn</li><li>XGBoost</li><li>PyTorch</li><li>TensorFlow</li><li>Forecasting</li><li>Anomaly detection</li><li>Recommender systems</li><li>Claude</li><li>OpenAI</li><li>AWS Bedrock</li></ul>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Business and systems analysis</h3>
+                        <ul class="skill-list"><li>Requirements elicitation</li><li>Business requirements documents</li><li>BPMN process mapping</li><li>Current- and future-state analysis</li><li>User stories and acceptance criteria</li><li>UAT planning</li><li>Requirements traceability</li><li>Stakeholder communication</li><li>Workflow analysis</li><li>Technical documentation</li></ul>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Data and BI</h3>
+                        <ul class="skill-list"><li>SQL</li><li>PostgreSQL</li><li>pgvector</li><li>MySQL</li><li>Power BI</li><li>DAX</li><li>Power Query</li><li>Tableau</li><li>Excel</li><li>Data modelling</li><li>Data quality</li><li>ETL pipelines</li><li>KPI dashboards</li></ul>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Cloud, engineering and delivery</h3>
+                        <ul class="skill-list"><li>FastAPI</li><li>REST APIs</li><li>TypeScript</li><li>Node.js</li><li>Next.js</li><li>React</li><li>Supabase</li><li>Docker</li><li>GitHub Actions</li><li>AWS (CDK, S3, Athena, CloudWatch)</li><li>Azure</li><li>Google Cloud</li><li>Terraform</li><li>Grafana</li><li>Agile delivery</li><li>Scope and risk management</li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="education" aria-labelledby="education-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Education</p>
+                    <h2 id="education-title">Degrees and certifications</h2>
+                </div>
+                <div class="grid grid-3">
+                    <article class="card credential">
                         <h3>Master of Artificial Intelligence</h3>
-                        <p>Memorial University of Newfoundland, Canada</p>
-                        <p class="date-line">Sep 2023 - Dec 2024</p>
+                        <p>Memorial University of Newfoundland</p>
+                        <p class="note">Sep 2023 to Dec 2024</p>
                     </article>
-                    <article class="credential-card">
-                        <h3>Bachelor of Computer Science, Artificial Intelligence</h3>
+                    <article class="card credential">
+                        <h3>Bachelor of Computer Science (Artificial Intelligence)</h3>
                         <p>University of Malaya, Malaysia</p>
-                        <p class="date-line">Sep 2015 - Feb 2020</p>
+                        <p class="note">Sep 2015 to Feb 2020</p>
                     </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="certifications" class="section-block">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Certifications</p>
-                    <h2>Licenses and certifications</h2>
-                </div>
-                <div class="credential-grid certification-grid">
-                    <article class="credential-card featured">
-                        <h3>AWS Certified Machine Learning Engineer - Associate</h3>
+                    <article class="card credential">
+                        <h3>AWS Certified Machine Learning Engineer – Associate</h3>
                         <p>Amazon Web Services</p>
-                        <p class="date-line">Issued May 2026 | Expires May 2029</p>
-                        <p class="credential-id">Credential ID: 25d75eb7ed0842d9af4f169397594f58</p>
+                        <p class="note">Issued May 2026, valid to May 2029 · ID 25d75eb7ed0842d9af4f169397594f58</p>
                     </article>
-                    <article class="credential-card featured">
-                        <h3>Mitacs Invention to Innovation Skills Training</h3>
-                        <p>SFU Beedie Executive Education</p>
-                        <p class="date-line">Issued Jun 2025</p>
-                        <p class="credential-id">Credential ID: i2I2785</p>
+                    <article class="card credential">
+                        <h3>Power BI Essential Training</h3>
+                        <p>LinkedIn Learning</p>
+                        <p class="note">Issued Aug 2026 · <a href="https://www.linkedin.com/learning/certificates/ac4d9a28353c59ffcfc5a02703ef03b1b3cab753bea87f2acabeb138aa7f0c70">View certificate</a></p>
                     </article>
-                    <article class="credential-card featured">
-                        <h3>AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
+                    <article class="card credential">
+                        <h3>Mitacs Invention to Innovation (i2I) Skills Training</h3>
+                        <p>SFU Beedie School of Business</p>
+                        <p class="note">Issued Jun 2025 · ID i2I2785</p>
+                    </article>
+                    <article class="card credential">
+                        <h3>AWS Academy Graduate: Cloud Foundations</h3>
                         <p>Amazon Web Services</p>
-                        <p class="date-line">Issued Jan 2020</p>
+                        <p class="note">Issued Jan 2020</p>
                     </article>
                 </div>
-
-                <details class="more-block">
-                    <summary>Additional Certifications</summary>
-                    <div class="credential-grid certification-grid">
-                        <article class="credential-card">
-                            <h3>Power BI Essential Training</h3>
-                            <p>LinkedIn</p>
-                            <p class="date-line">Issued Aug 2026</p>
-                            <p class="credential-id"><a href="https://www.linkedin.com/learning/certificates/ac4d9a28353c59ffcfc5a02703ef03b1b3cab753bea87f2acabeb138aa7f0c70" target="_blank" rel="noopener">Show credential</a></p>
-                        </article>
-                        <article class="credential-card">
-                            <h3>Fidelity Investments - Customer Service Job Simulation</h3>
-                            <p>Forage</p>
-                            <p class="date-line">Issued Dec 2023</p>
-                            <p class="credential-id">Credential ID: 7qx54poyG85XB5h2H</p>
-                        </article>
-                        <article class="credential-card">
-                            <h3>AI For Everyone</h3>
-                            <p>Coursera</p>
-                            <p class="date-line">Issued Jun 2020</p>
-                            <p class="credential-id">Credential ID: BNHHR2YN693L</p>
-                        </article>
-                        <article class="credential-card">
-                            <h3>Getting Started with AWS Machine Learning</h3>
-                            <p>Coursera</p>
-                            <p class="date-line">Issued Jul 2020</p>
-                            <p class="credential-id">Credential ID: UVRGD9SJTMF2</p>
-                        </article>
-                        <article class="credential-card">
-                            <h3>Introduction to Data Analytics for Business</h3>
-                            <p>Coursera</p>
-                            <p class="date-line">Issued Jul 2020</p>
-                            <p class="credential-id">Credential ID: ZWM3N6TKGKR9</p>
-                        </article>
-                        <article class="credential-card">
-                            <h3>AWS Fundamentals: Going Cloud-Native</h3>
-                            <p>Coursera</p>
-                            <p class="date-line">Issued Jul 2020</p>
-                            <p class="credential-id">Credential ID: FLA8XC8UE6H5</p>
-                        </article>
-                        <article class="credential-card">
-                            <h3>Leadership Gold</h3>
-                            <p>Abundant Impact</p>
-                            <p class="date-line">Issued Apr 2023</p>
-                            <p class="credential-id">Credential ID: 55684331599925</p>
-                        </article>
+                <details class="more">
+                    <summary>Earlier courses</summary>
+                    <div class="more-body">
+                        <p class="note">Coursera, 2020: Getting Started with AWS Machine Learning (ID UVRGD9SJTMF2) · Introduction to Data Analytics for Business (ID ZWM3N6TKGKR9) · AWS Fundamentals: Going Cloud-Native (ID FLA8XC8UE6H5) · AI For Everyone (ID BNHHR2YN693L)</p>
                     </div>
                 </details>
             </div>
         </section>
 
-        <section id="cv" class="section-block section-muted cv-band">
+        <section class="section section--subtle" id="more-projects" aria-labelledby="more-title">
             <div class="container">
-                <div class="cv-inner">
-                    <div class="cv-copy">
-                        <h2>General CV</h2>
-                        <p>A broad, ATS-friendly CV covering AI project leadership, hands-on AI engineering, business systems, data analysis, and client-facing technical delivery.</p>
-                    </div>
-                    <a class="btn btn-primary" href="assets/Mostafa_Rafiur_Wasib_General_Technical_CV.pdf" download>Download General CV</a>
+                <div class="section-header">
+                    <p class="eyebrow">More projects</p>
+                    <h2 id="more-title">Academic and independent projects</h2>
+                    <p>Earlier work from my Master of AI and independent study, kept for range: computer vision, NLP, classical machine learning and reinforcement learning.</p>
                 </div>
+                <ul class="project-list">
+                    <li>
+                        <h3>Multimodal emotion recognition</h3>
+                        <p>Facial-expression CNNs combined with Wav2Vec2 voice features to recognize emotion from video and audio.</p>
+                        <div class="link-row"><a href="/Emotion_Recognition.html">Details</a><a href="https://github.com/mrw-soumik/Multimodal-Emotion-Recognition-System">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>DNA sequence classification</h3>
+                        <p>Two-person project comparing k-mer, binary and TF-IDF encodings for gradient-boosted DNA classification; I built the k-mer pipeline, which performed best.</p>
+                        <div class="link-row"><a href="/DNA_Sequence_Classification.html">Details</a><a href="https://github.com/mrw-soumik/DNA-Sequence-Classification-with-Data-Encoding">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Fungal habitat prediction (Newfoundland and Labrador data)</h3>
+                        <p>6,162 preserved fungal specimen records: data-quality analysis and Random Forest and LightGBM models benchmarked against a majority-class baseline.</p>
+                        <div class="link-row"><a href="/Fungal_Habitat_Prediction.html">Details</a><a href="https://github.com/mrw-soumik/Fungal-Habitat-Prediction-Using-Taxonomy-Data">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Gas sensor classification and anomaly detection</h3>
+                        <p>Gas-type classification and anomaly detection on sensor-array data, comparing Keras and PyTorch implementations.</p>
+                        <div class="link-row"><a href="https://github.com/mrw-soumik/Gas-Sensor-Data-Classification-and-Anomaly-Detection">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Sentiment analysis</h3>
+                        <p>Three-class sentiment classifier comparing Naive Bayes, logistic regression and SVM on TF-IDF features.</p>
+                        <div class="link-row"><a href="/Sentiment_Analysis.html">Details</a><a href="https://github.com/mrw-soumik/Sentiment-Analysis-Tool">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Extractive text summarization</h3>
+                        <p>Sentence scoring by frequency, position and keywords, with sentence embeddings to avoid redundant picks.</p>
+                        <div class="link-row"><a href="/Text_Summarization_Tool.html">Details</a><a href="https://github.com/mrw-soumik/Text-Summarization-Tool">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Reinforcement learning experiments</h3>
+                        <p>SARSA and Q-learning in grid worlds, Monte Carlo and TD(0) value estimation, and multi-armed bandit algorithms.</p>
+                        <div class="link-row"><a href="/Applied_Reinforcement_Learning_Evaluation.html">Grid world</a><a href="/Simple_Bandit_Algorithms.html">Bandits</a><a href="/Reinforcement_Policies.html">Policies</a><a href="https://github.com/mrw-soumik/Reinforcement-Learning-An-Applied-Evaluation-through-Grid-World-and-Random-Walk-Scenarios">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Real-time face, age, gender and emotion detection</h3>
+                        <p>OpenCV DNN face detection combined with pre-trained age, gender and emotion models on live video.</p>
+                        <div class="link-row"><a href="/Real-time_Face_Age_Gender_Emotion_Detection.html">Details</a><a href="https://github.com/mrw-soumik/Real-Time-Face-Age-Gender-and-Emotion-Detection-System">Code</a></div>
+                    </li>
+                    <li>
+                        <h3>Visual-to-audio accessibility extension (team project)</h3>
+                        <p>Browser extension prototype that describes images aloud for visually impaired users, using image captioning and text-to-speech.</p>
+                        <div class="link-row"><a href="/Visual_to_Audio.html">Details</a><a href="https://github.com/mrw-soumik/AI-Accessibility-Extension-For-Visually-Impaired-Users">Code</a></div>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section id="contact" class="section-block contact-band">
+        <section class="section" id="contact" aria-labelledby="contact-title">
             <div class="container">
-                <div class="section-heading">
-                    <p class="section-kicker">Contact</p>
-                    <h2>Open to opportunities across applied AI, business systems, data analytics, cloud technologies, and technical project delivery</h2>
-                    <p>Based in St. John's, Newfoundland and Labrador. Open to local, hybrid, and remote opportunities across Canada.</p>
-                </div>
-                <div class="contact-grid">
-                    <a class="contact-email" href="mailto:mostafa.wasib73@gmail.com?subject=Opportunity%20for%20Mostafa%20Rafiur%20Wasib">mostafa.wasib73@gmail.com</a>
-                    <button class="copy-email" type="button" data-email="mostafa.wasib73@gmail.com">Copy email</button>
-                    <a href="https://www.linkedin.com/in/mostafa-wasib/" target="_blank" rel="noopener">LinkedIn</a>
-                    <a href="https://github.com/mrw-soumik" target="_blank" rel="noopener">GitHub</a>
-                    <a href="assets/Mostafa_Rafiur_Wasib_General_Technical_CV.pdf" download>Download General CV</a>
-                    <span>Phone: 709-219-4278</span>
+                <div class="contact-card">
+                    <div>
+                        <p class="eyebrow">Contact</p>
+                        <h2 id="contact-title">Let's talk</h2>
+                        <p>I'm open to AI engineering, business systems analysis and data roles in St. John's, and to hybrid or remote roles across Canada. Email is the fastest way to reach me.</p>
+                        <div class="hero-actions">
+                            <a class="btn btn-primary" href="mailto:mostafa.wasib73@gmail.com?subject=Opportunity%20for%20Mostafa%20Rafiur%20Wasib"><svg aria-hidden="true"><use href="#i-mail"/></svg>Email me</a>
+                            <a class="btn btn-secondary" href="/resume.html">View résumé</a>
+                        </div>
+                    </div>
+                    <ul class="contact-list">
+                        <li><svg aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:mostafa.wasib73@gmail.com">mostafa.wasib73@gmail.com</a><button class="copy-btn" type="button" data-copy="mostafa.wasib73@gmail.com">Copy</button><span class="visually-hidden" role="status" aria-live="polite"></span></li>
+                        <li><svg aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+17092194278">709-219-4278</a></li>
+                        <li><svg aria-hidden="true"><use href="#i-linkedin"/></svg><a href="https://www.linkedin.com/in/mostafa-wasib/">linkedin.com/in/mostafa-wasib</a></li>
+                        <li><svg aria-hidden="true"><use href="#i-github"/></svg><a href="https://github.com/mrw-soumik">github.com/mrw-soumik</a></li>
+                        <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span>St. John's, Newfoundland and Labrador, Canada</span></li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2026 Mostafa Rafiur Wasib. All rights reserved.</p>
+        <div class="container footer-inner">
+            <p>© 2026 Mostafa Rafiur Wasib</p>
+            <ul class="footer-links">
+                <li><a href="/resume.html">Résumé</a></li>
+                <li><a href="https://github.com/mrw-soumik">GitHub</a></li>
+                <li><a href="https://github.com/mrw-soumik/mrw-soumik.github.io">Site source</a></li>
+            </ul>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.querySelectorAll(".copy-email").forEach((button) => {
-            button.addEventListener("click", async () => {
-                const email = button.dataset.email;
-                try {
-                    await navigator.clipboard.writeText(email);
-                    button.textContent = "Email copied";
-                } catch {
-                    button.textContent = email;
-                }
-            });
-        });
-    </script>
+    <script src="/assets/site.js" defer></script>
 </body>
 </html>

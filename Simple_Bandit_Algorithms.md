@@ -1,18 +1,19 @@
-# Reinforcement Learning - Experiment with Simple Bandit Learning Algorithms
+---
+layout: project
+title: Multi-armed bandit experiments
+description: Team project comparing greedy, epsilon-greedy, optimistic initialization and gradient bandit algorithms on stationary multi-armed bandit problems.
+summary: How should an agent balance trying new options against using the best one so far? A comparison of classic bandit algorithms on stationary problems.
+category: Academic project · Reinforcement learning
+team: Md. Azmol Fuad and Mostafa Rafiur Wasib
+tech: Python, NumPy, Matplotlib, Jupyter
+repo: https://github.com/mrw-soumik/Reinforcement-Learning-Experiment-With-Simple-Bandit-Learning-Algorithms
+repo_label: View team repository on GitHub
+---
 
-**Technologies:** Python  
+## Approach
 
-## Objective
-To experiment with various simple bandit algorithms and compare their performance on accumulated rewards and optimal action selection frequency.
+Implemented greedy, epsilon-greedy, optimistic initial values and gradient bandit algorithms, and compared their average reward and how often each chose the optimal action across many runs of stationary bandit problems.
 
-## Key Contributions
-- Implemented epsilon-greedy, optimistic initialization, and gradient bandit algorithms.
-- Conducted experiments on stationary bandit problems, analyzing each algorithm's performance under different conditions.
-- Provided insights on exploration-exploitation trade-offs and optimal policy learning.
+## Results
 
-## Outcome
-The epsilon-greedy algorithm with a low epsilon value (0.05) emerged as the best performer, balancing exploration and exploitation effectively.
-
-
-
-[GitHub Repository for Reinforcement-Learning-Experiment-With-Simple-Bandit-Learning-Algorithms](https://github.com/mrw-soumik/Reinforcement-Learning-Experiment-With-Simple-Bandit-Learning-Algorithms/tree/main)
+Epsilon-greedy with a small exploration rate (epsilon = 0.05) gave the best balance of exploration and exploitation in these experiments.
