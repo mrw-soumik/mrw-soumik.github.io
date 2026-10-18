@@ -711,6 +711,9 @@ a:hover { color: var(--accent-hover); }
 .cred-with-logo { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 14px; align-items: center; }
 .cred-with-badge { grid-template-columns: 64px minmax(0, 1fr); }
 .cred-badge { display: block; width: 64px; height: 64px; }
+/* Certification logos share the badge's 64px column so the text lines up. */
+.cred-list--certs .cred-with-logo { grid-template-columns: 64px minmax(0, 1fr); }
+.cred-list--certs .org-logo { justify-self: center; }
 
 .contact-intro { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
 .contact-intro .eyebrow { margin-bottom: 4px; }
