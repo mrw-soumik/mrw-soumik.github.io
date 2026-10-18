@@ -160,19 +160,18 @@
                     <p>The first three are connected and built on public St. John's and Newfoundland and Labrador data: the business analysis defines the requirements, the RAG app implements them and its tests measure them, and the Power BI report tracks the local economy.</p>
                 </div>
                 <div class="grid grid-2">
-                    <!-- TODO(rag): screenshot, eval metrics and final links from the RAG workstream -->
                     <article class="card project-card">
                         <a class="project-media" href="https://mrw-soumik.github.io/stjohns-council-minutes-rag/" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/council-minutes-assistant.png" alt="" loading="lazy" width="1280" height="720"></a>
                         <div class="project-body">
                             <p class="project-kicker">AI engineering · RAG</p>
                             <h3>St. John's Council Minutes Assistant</h3>
-                            <p>Ask about St. John's council decisions and get a short, cited answer, or an honest "not found". Search runs live in your browser.</p>
+                            <p>Ask about St. John's council decisions and get a short answer from a local open model that cites the meeting and agenda item, or an honest "not found". Search runs live in your browser.</p>
                             <dl class="metrics">
-                                <div class="metric"><dt>Correct page in top 5</dt><dd>TODO</dd></div>
-                                <div class="metric"><dt>Evaluation questions</dt><dd>TODO</dd></div>
+                                <div class="metric"><dt>Correct source in top 5</dt><dd>95%</dd></div>
+                                <div class="metric"><dt>Unanswerable questions declined</dt><dd>20 of 20</dd></div>
                                 <div class="metric"><dt>Cost per answer</dt><dd>$0 (local model)</dd></div>
                             </dl>
-                            <ul class="tags"><li>Python</li><li>Hybrid search</li><li>Local LLM</li><li>pgvector</li><li>FastAPI</li><li>Evaluation</li></ul>
+                            <ul class="tags"><li>Python</li><li>Hybrid search</li><li>Local LLM (MLX)</li><li>pgvector</li><li>FastAPI</li><li>Evaluation</li></ul>
                             <div class="link-row">
                                 <a href="https://mrw-soumik.github.io/stjohns-council-minutes-rag/"><svg aria-hidden="true"><use href="#i-external"/></svg>Live demo</a>
                                 <a href="https://github.com/mrw-soumik/stjohns-council-minutes-rag"><svg aria-hidden="true"><use href="#i-code"/></svg>Code</a>
