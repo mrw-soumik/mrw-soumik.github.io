@@ -683,3 +683,44 @@ a:hover { color: var(--accent-hover); }
 
 /* Old section anchors from the previous site version still land on the right section. */
 .anchor-alias { display: block; height: 0; }
+
+/* ---------- Organization logos (employers, universities, certification badge) ---------- */
+.org-logo {
+    display: block;
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #ffffff;
+    object-fit: contain;
+}
+.org-logo--fill { padding: 0; overflow: hidden; }
+.org-logo--sm { width: 30px; height: 30px; padding: 3px; border-radius: 8px; }
+.org-logo--sm.org-logo--fill { padding: 0; }
+.org-logo--generic { display: grid; place-items: center; background: var(--surface-2); color: var(--text-faint); }
+.org-logo--generic svg { width: 16px; height: 16px; }
+
+.timeline-side { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.timeline-company { font-size: 1.15rem; }
+.role { margin-top: 16px; padding-left: 16px; border-left: 2px solid var(--border); }
+.timeline-role { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; font-size: 1.02rem; }
+.role-dates { color: var(--text-faint); font-size: 0.88rem; font-weight: 500; }
+.timeline-item .timeline-earlier { padding-left: 0; list-style: none; }
+.timeline-item .timeline-earlier li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 12px; align-items: center; margin: 10px 0; }
+.logo-cell { display: flex; gap: 6px; }
+
+.cred-with-logo { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 14px; align-items: center; }
+.cred-with-badge { grid-template-columns: 64px minmax(0, 1fr); }
+.cred-badge { display: block; width: 64px; height: 64px; }
+
+.contact-intro { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
+.contact-intro .eyebrow { margin-bottom: 4px; }
+.contact-card .contact-intro h2 { margin: 0; }
+.contact-photo { width: 64px; height: 64px; border: 1px solid var(--border); border-radius: 50%; object-fit: cover; }
+
+@media (max-width: 720px) {
+    .timeline-side { flex-direction: row; align-items: center; }
+}
+
+.contact-card .eyebrow { color: var(--accent); }
