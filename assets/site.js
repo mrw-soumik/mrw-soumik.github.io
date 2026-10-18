@@ -47,3 +47,15 @@
         });
     });
 })();
+
+// Open collapsed sections when a link points at them (for example /#more-projects).
+(function () {
+    function openTarget() {
+        if (!location.hash) return;
+        var target = document.getElementById(location.hash.slice(1));
+        if (!target) return;
+        target.querySelectorAll("details[data-autoopen]").forEach(function (d) { d.open = true; });
+    }
+    window.addEventListener("hashchange", openTarget);
+    openTarget();
+})();
