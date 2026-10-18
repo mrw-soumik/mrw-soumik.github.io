@@ -680,3 +680,6 @@ a:hover { color: var(--accent-hover); }
     .flow { grid-template-columns: 1fr; gap: 30px; }
     .flow-step:not(:last-child)::after { content: "\2193"; top: auto; right: auto; bottom: -27px; left: 50%; transform: translateX(-50%); }
 }
+
+/* Old section anchors from the previous site version still land on the right section. */
+.anchor-alias { display: block; height: 0; }
