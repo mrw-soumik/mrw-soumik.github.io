@@ -241,98 +241,62 @@
                 <div class="section-header">
                     <p class="eyebrow">Client work</p>
                     <h2 id="client-title">Production AI work at Genesis AI Garage</h2>
-                    <p>Most of my professional work is under NDA. These approved summaries describe the problem, my role and the outcome, without client data or code. Diagrams show the general architecture only.</p>
+                    <p>My client work is under NDA, so these are brief, approved summaries of the domain and my role, without client data, results or code. I'm glad to talk through my approach in interviews, within those limits.</p>
                 </div>
-                <!-- TODO(metrics): role, duration, diagrams and approved metrics from the metrics workstream -->
-                <div class="case-featured">
-                    <article class="card case">
-                        <div>
-                            <p class="case-meta">Weeva · Document-heavy business workflows</p>
-                            <h3>Document intelligence and RAG</h3>
-                            <dl>
-                                <dt>Problem</dt>
-                                <dd>Answers were buried in large sets of unstructured documents, and users needed them as structured, usable outputs.</dd>
-                                <dt>What I did</dt>
-                                <dd>Built the ingestion and retrieval pipeline: parsing, chunking, embeddings, semantic search with metadata filters, and LLM responses in a structured, citation-grounded format.</dd>
-                                <dt>Outcome</dt>
-                                <dd>Searchable, citation-grounded answers that the client's team could use in decision-making.</dd>
-                            </dl>
-                            <ul class="tags"><li>Python</li><li>FastAPI</li><li>LangGraph</li><li>PostgreSQL + pgvector</li><li>Claude</li><li>AWS Bedrock</li><li>Docker</li></ul>
-                        </div>
-                        <figure class="case-figure"><!-- TODO(diagram) --><figcaption>General architecture, simplified. No client-specific details.</figcaption></figure>
+                <div class="grid grid-3">
+                    <article class="card case-compact">
+                        <p class="case-meta">StarLuv · Retail product discovery</p>
+                        <h3>Personalized product recommendations</h3>
+                        <p>Built the personalization and ranking of a retrieve, rank and explain recommendation workflow, with evaluation checks and automated tests.</p>
+                        <ul class="tags"><li>Python</li><li>Vector search</li><li>LLM APIs</li><li>Evaluation</li></ul>
                     </article>
-
-                    <article class="card case">
-                        <div>
-                            <p class="case-meta">Nditive · Environmental and industrial sensor analytics</p>
-                            <h3>Environmental forecasting and anomaly detection</h3>
-                            <dl>
-                                <dt>Problem</dt>
-                                <dd>Operational sensor data needed reliable forecasts and early warning of abnormal readings.</dd>
-                                <dt>What I did</dt>
-                                <dd>Engineered features, built CO<sub>2</sub> forecasting and anomaly-detection models with tuned thresholds, evaluated them offline, and handed over dashboards and monitoring.</dd>
-                                <dt>Outcome</dt>
-                                <dd>Forecasting and anomaly-detection workflows with monitoring views the client's team could act on.</dd>
-                            </dl>
-                            <ul class="tags"><li>Python</li><li>scikit-learn</li><li>XGBoost</li><li>LSTM autoencoder</li><li>AWS Athena</li><li>S3</li><li>Grafana</li></ul>
-                        </div>
-                        <figure class="case-figure"><!-- TODO(diagram) --><figcaption>General architecture, simplified. No client-specific details.</figcaption></figure>
-                    </article>
-
-                    <article class="card case">
-                        <div>
-                            <p class="case-meta">StarLuv · Retail product discovery</p>
-                            <h3>Agentic recommendation and ranking</h3>
-                            <dl>
-                                <dt>Problem</dt>
-                                <dd>Shoppers needed relevant, explainable product recommendations from a large catalogue.</dd>
-                                <dt>What I did</dt>
-                                <dd>Tested and improved a retrieve, rank and reason workflow: product metadata handling, ranking logic, behaviour signals and demo outputs, backed by structured evaluation checks.</dd>
-                                <dt>Outcome</dt>
-                                <dd>A validated recommendation workflow that supported client demonstrations and rollout planning.</dd>
-                            </dl>
-                            <ul class="tags"><li>Python</li><li>LangGraph</li><li>LLM APIs</li><li>Vector search</li><li>Ranking</li><li>Evaluation</li></ul>
-                        </div>
-                        <figure class="case-figure"><!-- TODO(diagram) --><figcaption>General architecture, simplified. No client-specific details.</figcaption></figure>
-                    </article>
-                </div>
-
-                <div class="grid grid-3" style="margin-top: 24px">
                     <article class="card case-compact">
                         <p class="case-meta">Artinus · B2B AI and data analytics</p>
-                        <h3>Multi-source insight workflow</h3>
-                        <p>Designed AI workflows that combine several business data sources into structured insights, with retrieval logic, monitoring documentation and a production-readiness plan.</p>
-                        <ul class="tags"><li>Python</li><li>SQL</li><li>Retrieval</li><li>Structured outputs</li></ul>
+                        <h3>Document intelligence and RAG platform</h3>
+                        <p>Built and owned a cloud platform that extracts structured data from business documents, validates it and answers questions with citations, with CI quality and security checks.</p>
+                        <ul class="tags"><li>Python</li><li>Azure</li><li>OCR</li><li>pgvector</li><li>CI/CD</li></ul>
                     </article>
                     <article class="card case-compact">
-                        <p class="case-meta">Nucliq · Healthcare and biotech</p>
-                        <h3>Domain knowledge assistant</h3>
-                        <p>Supported a RAG assistant for complex biotech knowledge: secure retrieval design, document processing, structured outputs, logging and deployment planning.</p>
-                        <ul class="tags"><li>Python</li><li>FastAPI</li><li>Vector search</li><li>Docker</li></ul>
-                    </article>
-                    <article class="card case-compact">
-                        <p class="case-meta">Soma Health · Clinical workflow support</p>
-                        <h3>Healthcare AI documentation platform</h3>
-                        <p>Contributed architecture planning, logging decisions, deployment review and cost control for privacy-aware, maintainable AI infrastructure.</p>
-                        <ul class="tags"><li>Python</li><li>AWS</li><li>Logging</li><li>Architecture review</li></ul>
+                        <p class="case-meta">OmaScan · Accessibility and 3D home assessment</p>
+                        <h3>3D scan intelligence</h3>
+                        <p>Built an engine that turns 3D home scans into structured fixture data for accessibility assessments, designed to flag uncertain results instead of guessing.</p>
+                        <ul class="tags"><li>Python</li><li>3D and vision</li><li>Structured outputs</li></ul>
                     </article>
                     <article class="card case-compact">
                         <p class="case-meta">DuaTask · Business operations</p>
                         <h3>Cloud deployment and production readiness</h3>
-                        <p>Reviewed the codebase, planned the Azure deployment, verified start-up and health checks, and wrote the production-readiness and handover documentation.</p>
-                        <ul class="tags"><li>Azure</li><li>Python</li><li>Health checks</li><li>Documentation</li></ul>
+                        <p>Primary contributor on a document-processing platform: private cloud deployment on Azure, infrastructure as code, automated tests and handover documentation.</p>
+                        <ul class="tags"><li>Azure</li><li>Python</li><li>Infrastructure as code</li><li>Documentation</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">Weeva · Business decision support</p>
+                        <h3>Evidence-verification pipeline</h3>
+                        <p>Building an MVP that gathers public evidence for a business question, checks every quote against its source and summarizes the findings into a recommendation.</p>
+                        <ul class="tags"><li>Python</li><li>LLM verification</li><li>Web search</li><li>Evaluation</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">Nucliq · Healthcare and biotech</p>
+                        <h3>Knowledge assistant (RAG)</h3>
+                        <p>Built the first serverless RAG prototype on AWS and supported the production build: document ingestion, vector retrieval and guardrails for health-related answers.</p>
+                        <ul class="tags"><li>AWS</li><li>RAG</li><li>pgvector</li><li>Terraform</li></ul>
                     </article>
                     <article class="card case-compact">
                         <p class="case-meta">Audyse · Audio AI</p>
-                        <h3>Audio AI and DSP feasibility</h3>
-                        <p>Assessed denoising and emergency sound-detection approaches, compared DSP and AI trade-offs under real-time latency limits, and recommended a path for product development.</p>
-                        <ul class="tags"><li>Python</li><li>Audio ML</li><li>DSP</li><li>Feasibility</li></ul>
+                        <h3>Emergency sound detection</h3>
+                        <p>Prototyped emergency-sound detection with direction estimation for noisy environments, and assessed DSP and AI trade-offs under real-time limits.</p>
+                        <ul class="tags"><li>Python</li><li>Audio ML</li><li>ONNX</li></ul>
                     </article>
                     <article class="card case-compact">
-                        <p class="case-meta">OmaScan · Accessibility and 3D home assessment</p>
-                        <h3>3D scan intelligence feasibility</h3>
-                        <p>Researched AI approaches for interpreting 3D scans: GLB scene context, structured JSON understanding, object-detection targets and rule-based plus LLM-assisted assessment.</p>
-                        <ul class="tags"><li>Python</li><li>3D and vision</li><li>LLM workflows</li></ul>
+                        <p class="case-meta">Nditive · Environmental sensor analytics</p>
+                        <h3>Forecasting and anomaly detection</h3>
+                        <p>Prototyped forecasting and anomaly-detection models for environmental sensor data and reported results through dashboards.</p>
+                        <ul class="tags"><li>Python</li><li>XGBoost</li><li>Anomaly detection</li><li>Grafana</li></ul>
+                    </article>
+                    <article class="card case-compact">
+                        <p class="case-meta">Soma Health · Clinical workflow support</p>
+                        <h3>Healthcare AI architecture review</h3>
+                        <p>Reviewed and contributed to a healthcare AI platform's architecture: retrieval, logging, deployment and cost considerations for a privacy-sensitive workflow.</p>
+                        <ul class="tags"><li>AWS</li><li>RAG</li><li>Architecture review</li></ul>
                     </article>
                 </div>
             </div>

@@ -13,7 +13,6 @@ Source for the portfolio of **Mostafa Rafiur Wasib**, AI Project Lead and AI Eng
 | `index.html` | Homepage (plain HTML, no build step) |
 | `resume.html`, `assets/resume.css` | Printable résumé and the source of the résumé PDF |
 | `assets/*.pdf` | Résumé PDF. Two file names are kept identical so older links keep working |
-| `work/` | Client case studies: approved, NDA-safe summaries with architecture diagrams |
 | `*.md`, `_layouts/`, `_includes/` | Academic project pages, rendered by GitHub Pages (Jekyll) with the site layout |
 | `assets/styles.css`, `assets/site.js` | Shared styles (light and dark themes) and small progressive-enhancement scripts |
 | `_config.yml` | Jekyll settings, plugins (SEO tags, sitemap, redirects) and pages kept unpublished |

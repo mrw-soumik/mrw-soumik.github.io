@@ -261,7 +261,7 @@ a:hover { color: var(--accent-hover); }
 .section { padding: 88px 0; }
 .section--subtle { background: var(--bg-subtle); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .section-header { max-width: 760px; margin-bottom: 40px; }
-.section-header p { margin: 12px 0 0; color: var(--text-muted); font-size: 1.06rem; }
+.section-header p:not(.eyebrow) { margin: 12px 0 0; color: var(--text-muted); font-size: 1.06rem; }
 .eyebrow {
     margin: 0 0 10px;
     color: var(--accent);
@@ -430,13 +430,6 @@ a:hover { color: var(--accent-hover); }
 .link-row svg { width: 16px; height: 16px; }
 
 /* Client case studies */
-.case-featured { display: grid; gap: 24px; }
-.case {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-    gap: 32px;
-    padding: 28px;
-}
 .case-figure {
     margin: 0;
     padding: 16px;
@@ -446,11 +439,6 @@ a:hover { color: var(--accent-hover); }
 }
 .case-figure figcaption { margin-top: 10px; color: var(--text-faint); font-size: 0.82rem; }
 .case-meta { margin: 0 0 6px; color: var(--text-faint); font-size: 0.86rem; font-weight: 500; }
-.case h3 { font-size: 1.3rem; }
-.case dl { margin: 14px 0 18px; }
-.case dt { margin-top: 12px; color: var(--text); font-size: 0.9rem; font-weight: 650; }
-.case dd { margin: 2px 0 0; color: var(--text-muted); }
-@media (max-width: 900px) { .case { grid-template-columns: 1fr; gap: 20px; padding: 22px; } }
 
 .case-compact h3 { font-size: 1.05rem; }
 .case-compact .case-meta { margin-bottom: 8px; }
