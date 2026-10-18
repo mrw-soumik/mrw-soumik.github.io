@@ -640,3 +640,43 @@ a:hover { color: var(--accent-hover); }
     .project-card .tags { display: none; }
     .metric dd { font-size: 1rem; }
 }
+
+/* ---------- How the connected projects fit together ---------- */
+.flow-figure { margin: 0 0 28px; }
+.flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 44px; margin: 0; padding: 0; list-style: none; }
+.flow-step {
+    position: relative;
+    padding: 16px 18px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+}
+.flow-step:not(:last-child)::after {
+    content: "\2192";
+    position: absolute;
+    top: 50%;
+    right: -34px;
+    transform: translateY(-50%);
+    color: var(--text-faint);
+    font-size: 1.4rem;
+    line-height: 1;
+}
+.flow-kicker { display: block; color: var(--accent); font-size: 0.76rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.flow-step strong { display: block; margin: 4px 0 2px; color: var(--text); }
+.flow-detail { display: block; color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; }
+.flow-return {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+    padding: 10px 14px;
+    border: 1px dashed var(--border-strong);
+    border-radius: var(--radius-sm);
+    color: var(--text-muted);
+    font-size: 0.92rem;
+}
+.flow-return svg { width: 18px; height: 18px; flex: none; color: var(--accent); }
+@media (max-width: 760px) {
+    .flow { grid-template-columns: 1fr; gap: 30px; }
+    .flow-step:not(:last-child)::after { content: "\2193"; top: auto; right: auto; bottom: -27px; left: 50%; transform: translateX(-50%); }
+}

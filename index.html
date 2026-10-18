@@ -157,8 +157,28 @@
                 <div class="section-header">
                     <p class="eyebrow">Projects</p>
                     <h2 id="work-title">Public projects you can try</h2>
-                    <p>The first three are connected and built on public St. John's and Newfoundland and Labrador data: the business analysis defines the requirements, the RAG app implements them and its tests measure them, and the Power BI report tracks the local economy.</p>
+                    <p>Built on public St. John's and Newfoundland and Labrador data. The council minutes work was analysed, built and measured end to end:</p>
                 </div>
+                <figure class="flow-figure">
+                    <ol class="flow" aria-label="How the business analysis, the RAG app and its checks connect">
+                        <li class="flow-step">
+                            <span class="flow-kicker">1 · Business analysis</span>
+                            <strong>Requirements and tests defined</strong>
+                            <span class="flow-detail">7 functional and 7 non-functional requirements, 26 user stories, 30 UAT test cases</span>
+                        </li>
+                        <li class="flow-step">
+                            <span class="flow-kicker">2 · AI engineering</span>
+                            <strong>RAG app built to them</strong>
+                            <span class="flow-detail">Hybrid search, cited answers and an honest "not found"</span>
+                        </li>
+                        <li class="flow-step">
+                            <span class="flow-kicker">3 · Evaluation</span>
+                            <strong>14 automated checks</strong>
+                            <span class="flow-detail">Retrieval, citations, refusals, speed, accessibility and privacy</span>
+                        </li>
+                    </ol>
+                    <figcaption class="flow-return"><svg aria-hidden="true"><use href="#i-flow"/></svg>Results go back into the traceability matrix, so every requirement shows its measured result.</figcaption>
+                </figure>
                 <div class="grid grid-2">
                     <article class="card project-card">
                         <a class="project-media" href="https://mrw-soumik.github.io/stjohns-council-minutes-rag/" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/council-minutes-assistant.png" alt="" loading="lazy" width="1280" height="720"></a>
@@ -174,6 +194,7 @@
                             <ul class="tags"><li>Python</li><li>Hybrid search</li><li>Local LLM (MLX)</li><li>pgvector</li><li>FastAPI</li><li>Evaluation</li></ul>
                             <div class="link-row">
                                 <a href="https://mrw-soumik.github.io/stjohns-council-minutes-rag/"><svg aria-hidden="true"><use href="#i-external"/></svg>Live demo</a>
+                                <a href="https://github.com/mrw-soumik/stjohns-council-minutes-rag#how-it-works"><svg aria-hidden="true"><use href="#i-flow"/></svg>Architecture</a>
                                 <a href="https://github.com/mrw-soumik/stjohns-council-minutes-rag"><svg aria-hidden="true"><use href="#i-code"/></svg>Code</a>
                             </div>
                         </div>
