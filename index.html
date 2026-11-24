@@ -158,7 +158,7 @@
                 <div class="section-header">
                     <p class="eyebrow">Projects</p>
                     <h2 id="work-title">Public projects you can try</h2>
-                    <p>Built on public St. John's and Newfoundland and Labrador data. The council minutes work was analysed, built and measured end to end:</p>
+                    <p>Built on public data, most of it from St. John's and Newfoundland and Labrador. The council minutes work was analysed, built and measured end to end:</p>
                 </div>
                 <figure class="flow-figure">
                     <ol class="flow" aria-label="How the business analysis, the RAG app and its checks connect">
@@ -272,6 +272,25 @@
                             <ul class="tags"><li>Python</li><li>FastAPI</li><li>Spec-driven development</li><li>CI</li><li>Teaching</li></ul>
                             <div class="link-row">
                                 <a href="https://github.com/mrw-soumik/vibe-coding-engineered"><svg aria-hidden="true"><use href="#i-code"/></svg>Code and workshop</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <a class="project-media" href="https://github.com/mrw-soumik/logbook-subsea" tabindex="-1" aria-hidden="true"><img src="/assets/img/projects/logbook-subsea.jpg" alt="" loading="lazy" width="1280" height="720"></a>
+                        <div class="project-body">
+                            <p class="project-kicker">Computer vision · Side-scan sonar</p>
+                            <h3>Logbook Subsea: pipeline inspection with a person in the loop</h3>
+                            <p>Turns underwater pipeline survey data (camera video, side-scan sonar and navigation from the public SubPipe dataset by Oceanscan-MST, CC BY 4.0) into an event listing and a draft inspection report, with a person approving every item. Models are scored on surveys they never saw, and checks still waiting for independent reviewers are marked provisional.</p>
+                            <dl class="metrics">
+                                <div class="metric"><dt>Pipe found on camera (mean IoU)</dt><dd>0.84</dd></div>
+                                <div class="metric"><dt>Sonar balanced accuracy, unseen surveys</dt><dd>90%+</dd></div>
+                                <div class="metric"><dt>Processing an hour of footage</dt><dd>9.6 min, $0</dd></div>
+                            </dl>
+                            <ul class="tags"><li>Python</li><li>PyTorch</li><li>Segmentation</li><li>Object detection</li><li>Local VLM (MLX)</li><li>FastAPI</li><li>Docker</li></ul>
+                            <div class="link-row">
+                                <a href="https://github.com/mrw-soumik/logbook-subsea"><svg aria-hidden="true"><use href="#i-code"/></svg>Code and results</a>
+                                <a href="https://github.com/mrw-soumik/logbook-subsea/blob/main/docs/video/logbook_subsea_2min.mp4"><svg aria-hidden="true"><use href="#i-external"/></svg>Two-minute video</a>
                             </div>
                         </div>
                     </article>
