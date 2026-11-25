@@ -1,7 +1,7 @@
 # Site settings. GitHub Pages builds this repository with Jekyll.
 # index.html, resume.html and 404.html are plain HTML; Markdown pages use _layouts/.
 title: Mostafa Rafiur Wasib
-description: AI Project Lead and AI Developer in St. John's, NL. Applied AI, business analysis, data and cloud delivery.
+description: AI Project Lead and AI Project Engineer in St. John's, NL. Applied AI, business analysis, data and cloud delivery.
 url: https://mrw-soumik.github.io
 baseurl: ""
 lang: en_CA
