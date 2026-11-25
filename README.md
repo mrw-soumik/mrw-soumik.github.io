@@ -1,6 +1,6 @@
 # mrw-soumik.github.io
 
-Source for the portfolio of **Mostafa Rafiur Wasib**, AI Project Lead and AI Engineer in St. John's, Newfoundland and Labrador.
+Source for the portfolio of **Mostafa Rafiur Wasib**, AI Project Lead and AI Developer in St. John's, Newfoundland and Labrador.
 
 **Live site:** https://mrw-soumik.github.io
 
